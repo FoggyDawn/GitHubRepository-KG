@@ -1,0 +1,80 @@
+[
+  {
+    "name": "cnSchema:CreativeWork",
+    "nameZh": "cnSchema:创作",
+    "subClassOf": "",
+    "source": "cnSchema"
+  },
+  {
+    "name": "GitHubRepository",
+    "nameZh": "GitHub仓库",
+    "subClassOf": "cnSchema:创作",
+    "source": "extension"
+  },
+  {
+    "name": "cnSchema:DigitalDocument",
+    "nameZh": "cnSchema:数字文档",
+    "subClassOf": "cnSchema:创作",
+    "source": "cnSchema"
+  },
+  {
+    "name": "cnSchema:TextDigitalDocument",
+    "nameZh": "cnSchema:文本型数字文档",
+    "subClassOf": "cnSchema:数字文档",
+    "source": "cnSchema"
+  },
+  {
+    "name": "OpenSourceLicense",
+    "nameZh": "开源许可证",
+    "subClassOf": "cnSchema:文本型数字文档",
+    "source": "extension"
+  },
+  {
+    "name": "cnSchema:Person",
+    "nameZh": "cnSchema:人物",
+    "subClassOf": "",
+    "source": "cnSchema"
+  },
+  {
+    "name": "cnSchema:Organization",
+    "nameZh": "cnSchema:组织",
+    "subClassOf": "",
+    "source": "cnSchema"
+  },
+  {
+    "name":"",
+    "nameZh": "cnSchema:其他",
+    "subClassOf": "",
+    "source": "cnSchema"
+  },
+  {
+    "name": "cnSchema:ComputerLanguage",
+    "nameZh": "cnSchema:计算机语言",
+    "subClassOf": "cnSchema:其他",
+    "source": "cnSchema"
+  },
+  {
+    "name": "Enumeration",
+    "nameZh": "可枚举的值",
+    "subClassOf": "cnSchema:其他",
+    "source": "cnSchema"
+  },
+  {
+    "name": "Tag",
+    "nameZh": "标签",
+    "subClassOf": "cnSchema:可枚举的值",
+    "source": "extension"
+  },
+  {
+    "name": "cnSchema:Event",
+    "nameZh": "cnSchema:事件",
+    "subClassOf": "",
+    "source": "cnSchema"
+  },
+  {
+    "name": "Release",
+    "nameZh": "版本发布",
+    "subClassOf": "cnSchema:事件",
+    "source": "extension"
+  }
+]

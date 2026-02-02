@@ -1,0 +1,83 @@
+[
+  {
+    "name": "cnSchema:name",
+    "nameZh": "cnschema:名称",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "",
+    "descriptionZh": "条目的名称。",
+    "source": "cnSchema"
+  },
+  {
+    "name": "cnSchema:description",
+    "nameZh": "cnschema:描述",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "",
+    "descriptionZh": "该实体的一个简单描述。",
+    "source": "cnSchema"
+  },
+  {
+    "name": "stars",
+    "nameZh": "星标数",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "",
+    "descriptionZh": "GitHub star 数",
+    "source": "extension"
+  },
+  {
+    "name": "cnschema:url",
+    "nameZh": "cnschema:链接",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "",
+    "descriptionZh": "链接",
+    "source": "cnSchema"
+  },
+  {
+    "name": "developedBy",
+    "nameZh": "开发者",
+    "equivalentProperty": "cnSchema:创作者",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "cnSchema:Person|cnSchema:Organization",
+    "descriptionZh": "由谁开发、维护该仓库",
+    "source": "extension"
+  },
+  {
+    "name": "writtenIn",
+    "nameZh": "使用语言",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "cnSchema:ComputerLanguage",
+    "descriptionZh": "使用的主要语言",
+    "source": "extension"
+  },
+  {
+    "name": "relatedRepository",
+    "nameZh": "相关仓库",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "kg:GitHub仓库",
+    "descriptionZh": "相关仓库",
+    "source": "extension"
+  },
+  {
+    "name": "License",
+    "nameZh": "开源许可证",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "kg:开源许可证",
+    "descriptionZh": "包含的开源许可证种类",
+    "source": "extension"
+  },
+  {
+    "name": "hasLabel",
+    "nameZh": "包含标签",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "kg:标签",
+    "descriptionZh": "包含的标签",
+    "source": "extension"
+  },
+  {
+    "name": "hasRelease",
+    "nameZh": "包含版本发布",
+    "domainIncludes": "kg:GitHub仓库",
+    "rangeIncludes": "kg:版本发布",
+    "descriptionZh": "包含的版本发布",
+    "source": "extension"
+  }
+]
