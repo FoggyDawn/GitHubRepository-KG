@@ -1,0 +1,39 @@
+{
+    "name": "system-design-101",
+<<<<<<< Updated upstream
+    "stars": 79336,
+=======
+    "stars": 79337,
+>>>>>>> Stashed changes
+    "contributors": [
+        "slam",
+        "LombardiDaniel",
+        "kamranahmedse",
+        "alastairp",
+        "BolajiOlajide",
+        "fmajorcminor",
+        "dev-scripts",
+        "haoger1012",
+        "liweiyi88",
+        "lucasberti",
+        "regchiu",
+        "Stephanvs",
+        "umutbozdag",
+        "wingkwong",
+        "isdaniel"
+    ],
+    "license": "Other",
+    "topics": [
+        "aws",
+        "cloud-computing",
+        "coding-interviews",
+        "computer-science",
+        "interview-questions",
+        "software-architecture",
+        "software-development",
+        "software-engineering",
+        "system-design",
+        "system-design-interview"
+    ],
+    "releases": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Python-100-Days",
+<<<<<<< Updated upstream
+    "stars": 178446,
+=======
+    "stars": 178453,
+>>>>>>> Stashed changes
+    "contributors": [
+        "jackfrued",
+        "MathDance",
+        "geekya215",
+        "JalanJiang",
+        "jankeromnes",
+        "LingrenKong",
+        "nasyxx",
+        "TinaryTree",
+        "leemamas",
+        "royaso",
+        "wjsvec",
+        "fanofxiaofeng"
+    ],
+    "license": null,
+    "topics": [],
+    "releases": []
+}

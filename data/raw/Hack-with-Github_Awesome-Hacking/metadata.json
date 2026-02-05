@@ -1,0 +1,48 @@
+{
+    "name": "Awesome-Hacking",
+<<<<<<< Updated upstream
+    "stars": 105941,
+=======
+    "stars": 105953,
+>>>>>>> Stashed changes
+    "contributors": [
+        "0xbadshah",
+        "sundowndev",
+        "teejayen",
+        "yeyintminthuhtut",
+        "rshipp",
+        "mihailotomic",
+        "bst04",
+        "bekicot",
+        "y-ates",
+        "TLC-10",
+        "sobolevn",
+        "sandrogauci",
+        "samanL33T",
+        "R3dy",
+        "rewanthtammana",
+        "ReadmeCritic",
+        "oorryy",
+        "madhuakula",
+        "schneiderl",
+        "LucEast",
+        "Kim-Hammar",
+        "Bornunique911",
+        "AnanthuAjay",
+        "amanjeev",
+        "tcode2k16"
+    ],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "topics": [
+        "android",
+        "awesome",
+        "bug-bounty",
+        "fuzzing",
+        "hacking",
+        "penetration-testing",
+        "pentesting-windows",
+        "reverse-engineering",
+        "security"
+    ],
+    "releases": []
+}

@@ -1,0 +1,21 @@
+{
+    "name": "llm-course",
+<<<<<<< Updated upstream
+    "stars": 74526,
+=======
+    "stars": 74532,
+>>>>>>> Stashed changes
+    "contributors": [
+        "mlabonne",
+        "pitmonticone"
+    ],
+    "license": "Apache License 2.0",
+    "topics": [
+        "course",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "roadmap"
+    ],
+    "releases": []
+}

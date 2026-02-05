@@ -1,0 +1,16 @@
+{
+    "name": "the-algorithm",
+<<<<<<< Updated upstream
+    "stars": 72507,
+=======
+    "stars": 72513,
+>>>>>>> Stashed changes
+    "contributors": [
+        "dzhao",
+        "pouriya",
+        "anqueue"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "topics": [],
+    "releases": []
+}

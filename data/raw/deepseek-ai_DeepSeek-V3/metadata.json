@@ -1,0 +1,38 @@
+{
+    "name": "DeepSeek-V3",
+<<<<<<< Updated upstream
+    "stars": 101435,
+=======
+    "stars": 101436,
+>>>>>>> Stashed changes
+    "contributors": [
+        "GeeeekExplorer",
+        "mowentian",
+        "DeepSeekDDM",
+        "enochkan",
+        "Konano",
+        "zhyncs",
+        "shihaobai",
+        "youkaichao",
+        "Dhie-boop",
+        "simon-mo",
+        "haswelliris",
+        "stack-heap-overflow",
+        "yixing1992",
+        "WSL0809",
+        "wangfuchun-fc",
+        "codinglover222",
+        "luislh-dev",
+        "kutt",
+        "YangWang92",
+        "spenserblack",
+        "KPCOFGS",
+        "jacksonpradolima",
+        "eltociear"
+    ],
+    "license": "MIT License",
+    "topics": [],
+    "releases": [
+        "v1.0.0"
+    ]
+}

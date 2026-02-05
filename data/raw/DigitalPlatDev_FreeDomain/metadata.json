@@ -1,0 +1,23 @@
+{
+    "name": "FreeDomain",
+<<<<<<< Updated upstream
+    "stars": 145704,
+=======
+    "stars": 145744,
+>>>>>>> Stashed changes
+    "contributors": [
+        "EdwardLab",
+        "AnkitKrYadav"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "topics": [
+        "digitalplat",
+        "domain",
+        "domain-platform",
+        "domainname",
+        "domains",
+        "free",
+        "freedomain"
+    ],
+    "releases": []
+}

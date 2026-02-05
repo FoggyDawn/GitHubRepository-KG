@@ -1,0 +1,31 @@
+{
+    "name": "mall",
+    "stars": 82854,
+    "contributors": [
+        "macrozheng"
+    ],
+    "license": "Apache License 2.0",
+    "topics": [
+        "docker",
+        "elasticsearch",
+        "elk",
+        "java",
+        "mongodb",
+        "mybatis",
+        "mysql",
+        "rabbitmq",
+        "redis",
+        "spring",
+        "spring-boot",
+        "spring-cloud",
+        "spring-security",
+        "springboot",
+        "springcloud",
+        "swagger-ui"
+    ],
+    "releases": [
+        "v1.0.3",
+        "v1.0.2",
+        "v1.0.1"
+    ]
+}

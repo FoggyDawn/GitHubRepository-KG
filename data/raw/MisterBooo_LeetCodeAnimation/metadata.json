@@ -1,0 +1,34 @@
+{
+    "name": "LeetCodeAnimation",
+<<<<<<< Updated upstream
+    "stars": 76705,
+=======
+    "stars": 76707,
+>>>>>>> Stashed changes
+    "contributors": [
+        "MisterBooo",
+        "xiaoshuai96",
+        "peteryuhang",
+        "anomot",
+        "ztianming",
+        "chilimyan",
+        "zzilcc",
+        "nettee",
+        "WAcry",
+        "zjming",
+        "luzhzhsoft",
+        "XiangSshou",
+        "mickeyouyou",
+        "douysu",
+        "underspirit"
+    ],
+    "license": null,
+    "topics": [
+        "animation",
+        "leetcode",
+        "leetcode-c",
+        "leetcode-java",
+        "leetcode-solutions"
+    ],
+    "releases": []
+}

@@ -1,0 +1,20 @@
+{
+    "name": "stable-diffusion",
+<<<<<<< Updated upstream
+    "stars": 72329,
+=======
+    "stars": 72331,
+>>>>>>> Stashed changes
+    "contributors": [
+        "rromb",
+        "pesser",
+        "patrickvonplaten",
+        "LuChengTHU",
+        "owenvincent",
+        "apolinario",
+        "cpacker"
+    ],
+    "license": "Other",
+    "topics": [],
+    "releases": []
+}
