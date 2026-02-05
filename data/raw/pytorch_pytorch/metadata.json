@@ -1,10 +1,6 @@
 {
     "name": "pytorch",
-<<<<<<< Updated upstream
-    "stars": 97143,
-=======
-    "stars": 97149,
->>>>>>> Stashed changes
+    "stars": 97171,
     "contributors": [
         "pytorchmergebot",
         "ezyang",
@@ -21,8 +17,8 @@
         "Chillee",
         "zdevito",
         "janeyx99",
-        "rohan-varma",
         "albanD",
+        "rohan-varma",
         "swolchok",
         "jansel",
         "colesbury",
@@ -33,13 +29,8 @@
         "eellison",
         "bdhirsh",
         "kshitij12345",
-<<<<<<< Updated upstream
         "vkuzo",
         "mlazos",
-=======
-        "mlazos",
-        "vkuzo",
->>>>>>> Stashed changes
         "Yangqing",
         "williamwen42",
         "wanchaol",
@@ -49,8 +40,8 @@
         "pytorchupdatebot",
         "BowenBao",
         "eqy",
-        "zasdfgbnm",
         "atalman",
+        "zasdfgbnm",
         "drisspg",
         "XuehaiPan",
         "tugsbayasgalan",
@@ -79,8 +70,8 @@
         "IvanKobzarev",
         "guilhermeleobas",
         "laithsakka",
-        "lw",
         "onnxbot",
+        "lw",
         "guangyey",
         "justinchuby",
         "fegin",
@@ -164,8 +155,8 @@
         "Aidyn-A",
         "jon-chuang",
         "ngimel",
-        "PaliC",
         "chuanqi129",
+        "PaliC",
         "AlekseiNikiforovIBM",
         "lukeyeager",
         "jianyuh",
@@ -200,15 +191,9 @@
         "kittipatv",
         "muchulee8",
         "andrewor14",
-<<<<<<< Updated upstream
-        "Valentine233",
-        "fmassa",
-        "Lucaskabela",
-=======
         "Lucaskabela",
         "Valentine233",
         "fmassa",
->>>>>>> Stashed changes
         "nmacchioni",
         "tinglvv",
         "syed-ahmed",
@@ -267,15 +252,6 @@
         "sjeaugey",
         "coconutruben",
         "alexsamardzic",
-<<<<<<< Updated upstream
-        "vspenubarthi",
-        "krshrimali",
-        "ankitageorge",
-        "jcaip",
-        "jfix71",
-        "duc0",
-        "kundaMwiza",
-=======
         "krshrimali",
         "vspenubarthi",
         "ankitageorge",
@@ -283,29 +259,12 @@
         "jfix71",
         "kundaMwiza",
         "duc0",
->>>>>>> Stashed changes
         "lly-zero-one",
         "maggiemoss",
         "csummersea",
         "svekars",
         "zxiiro",
         "andyanwang",
-<<<<<<< Updated upstream
-        "aivanou",
-        "izaitsevfb",
-        "msaroufim",
-        "dependabot[bot]",
-        "ChunliF",
-        "pragupta",
-        "fritzo",
-        "Fuzzkatt",
-        "chocjy",
-        "rgommers",
-        "Freey0",
-        "mruberry",
-        "dagitses",
-        "xinyazhang",
-=======
         "ChunliF",
         "izaitsevfb",
         "msaroufim",
@@ -320,7 +279,6 @@
         "dagitses",
         "Freey0",
         "mruberry",
->>>>>>> Stashed changes
         "tianyu-l",
         "jhcross",
         "alykhantejani",

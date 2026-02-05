@@ -1,10 +1,6 @@
 {
     "name": "angular",
-<<<<<<< Updated upstream
-    "stars": 99803,
-=======
-    "stars": 99802,
->>>>>>> Stashed changes
+    "stars": 99804,
     "contributors": [
         "gkalpak",
         "petebacondarwin",
@@ -38,10 +34,10 @@
         "SkyZeroZx",
         "mmalerba",
         "arturovt",
+        "dgp1130",
         "cexbrayat",
         "jbogarthyde",
         "ocombe",
-        "dgp1130",
         "jasonaden",
         "JiaLiPassion",
         "hawkgs",
@@ -217,8 +213,9 @@
         "GavinMK",
         "realtomaszkula",
         "TrevorKarjanis",
-        "alefra86",
         "wbreakell",
+        "alefra86",
+        "amishne",
         "abergquist",
         "fisker",
         "Teamop",
@@ -231,7 +228,6 @@
         "waterplea",
         "vyom1611",
         "yjaaidi",
-        "amishne",
         "damingerdai",
         "literalpie",
         "bob-watson",
@@ -399,6 +395,8 @@
         "web-performance"
     ],
     "releases": [
+        "v21.2.0-next.2",
+        "v21.1.3",
         "v21.2.0-next.1",
         "v21.1.2",
         "v21.2.0-next.0",

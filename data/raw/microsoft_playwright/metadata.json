@@ -1,10 +1,6 @@
 {
     "name": "playwright",
-<<<<<<< Updated upstream
-    "stars": 82115,
-=======
-    "stars": 82126,
->>>>>>> Stashed changes
+    "stars": 82168,
     "contributors": [
         "pavelfeldman",
         "dgozman",
@@ -115,17 +111,10 @@
         "GeneratorX16",
         "ghost91-",
         "estruyf",
-<<<<<<< Updated upstream
-        "ValorHeart",
-        "adrien-fichet",
-        "alisterscott",
-        "Honyii",
-=======
         "alisterscott",
         "Honyii",
         "adrien-fichet",
         "ValorHeart",
->>>>>>> Stashed changes
         "BorisOsipov",
         "Tyriar",
         "davidgilbertson",
@@ -138,17 +127,10 @@
         "jperl",
         "JustasMonkev",
         "ReaZzy",
-<<<<<<< Updated upstream
-        "pahan35",
-        "RenderMichael",
-        "RenanGreca",
-        "pengx17",
-=======
         "pengx17",
         "pahan35",
         "RenderMichael",
         "RenanGreca",
->>>>>>> Stashed changes
         "matthewpango",
         "mattiasw",
         "marshmn",
@@ -160,10 +142,7 @@
         "kasbah",
         "karlhorky",
         "karanshah-browserstack",
-<<<<<<< Updated upstream
-=======
         "jleedev",
->>>>>>> Stashed changes
         "jsoref",
         "j2ghz",
         "jozefizso",
@@ -172,13 +151,7 @@
         "julianalmandos",
         "304NotModified",
         "Jkat",
-<<<<<<< Updated upstream
-        "rueyaa332266",
-        "patrik-csak",
-        "jleedev",
-=======
         "PatrickShaw",
->>>>>>> Stashed changes
         "joshkel",
         "joshbwlng",
         "jvidalv",
@@ -188,11 +161,7 @@
         "jongwooo",
         "jonathanberger",
         "jonatasemidio",
-<<<<<<< Updated upstream
-        "LarsDenBakker",
-=======
         "jonasclaes",
->>>>>>> Stashed changes
         "flensrocker",
         "yeskunall",
         "favefan",
@@ -213,11 +182,7 @@
         "kaangokdemir",
         "jozsi",
         "kapouer",
-<<<<<<< Updated upstream
-        "janlelis",
-=======
         "rueyaa332266",
->>>>>>> Stashed changes
         "jamieweavis",
         "js850",
         "JacksonLei123",
@@ -237,11 +202,7 @@
         "hugomrdias",
         "himanshugarg",
         "henrikstorck",
-<<<<<<< Updated upstream
-        "jonasclaes",
-=======
         "nygrenh",
->>>>>>> Stashed changes
         "unikitty37",
         "johnhawkinson",
         "johnharringt0n",
@@ -261,11 +222,7 @@
         "jharwig",
         "Darkensses",
         "jan-molak",
-<<<<<<< Updated upstream
-        "niklashaa",
-=======
         "janlelis",
->>>>>>> Stashed changes
         "KuSh",
         "nicojs",
         "netcoding87",
@@ -286,11 +243,7 @@
         "palotas",
         "michaelglass",
         "DavertMik",
-<<<<<<< Updated upstream
-        "PatrickShaw",
-=======
         "michael-siek",
->>>>>>> Stashed changes
         "pkerschbaum",
         "patricktree",
         "Puneet-2005",
@@ -311,11 +264,7 @@
         "nirkruter",
         "nil1511",
         "nilgaar",
-<<<<<<< Updated upstream
-        "manuel-delverme",
-=======
         "niklashaa",
->>>>>>> Stashed changes
         "chambo-e",
         "Zemotacqy",
         "sadym-chromium",
@@ -336,11 +285,7 @@
         "Leon0824",
         "tolluset",
         "lauthieb",
-<<<<<<< Updated upstream
-        "michael-siek",
-=======
         "LarsDenBakker",
->>>>>>> Stashed changes
         "bymeisam",
         "MeiK2333",
         "arcanis",
@@ -361,10 +306,7 @@
         "madacol",
         "merapi",
         "marcusNumminen",
-<<<<<<< Updated upstream
-=======
         "manuel-delverme",
->>>>>>> Stashed changes
         "mrginglymus",
         "BillBrower-Shopify",
         "bennycode",
@@ -386,11 +328,7 @@
         "anxsec",
         "anthonyvdotbe",
         "anthonycr0",
-<<<<<<< Updated upstream
-        "gabrielfeo",
-=======
         "martinfrancois",
->>>>>>> Stashed changes
         "chrisbolin",
         "chrisalley",
         "TerrorJack",
@@ -453,10 +391,6 @@
         "alirezamirian",
         "naqvis",
         "ggguser",
-<<<<<<< Updated upstream
-        "martinfrancois",
-=======
->>>>>>> Stashed changes
         "francdore",
         "FokkeZB",
         "beckerei",
@@ -476,11 +410,7 @@
         "ElijahPepe",
         "eliassorensen",
         "Ekwinder",
-<<<<<<< Updated upstream
-        "nygrenh",
-=======
         "aryzing",
->>>>>>> Stashed changes
         "trotzig",
         "hemang-rajyaguru",
         "hargup",
@@ -501,11 +431,7 @@
         "Georgegriff",
         "GauBen",
         "mcdn7gj",
-<<<<<<< Updated upstream
-        "shairozan",
-=======
         "gabrielfeo",
->>>>>>> Stashed changes
         "dmonaldo",
         "daniloakamine",
         "DanielRosenwasser",
@@ -517,10 +443,7 @@
         "danawoodman",
         "topaxi",
         "daenamkim",
-<<<<<<< Updated upstream
-=======
         "ditingdapeng",
->>>>>>> Stashed changes
         "cnishina",
         "corneliusroemer",
         "colinharris05",
@@ -530,10 +453,6 @@
         "Az8th",
         "cclauss",
         "codfish",
-<<<<<<< Updated upstream
-        "aryzing",
-=======
->>>>>>> Stashed changes
         "ERYoung11",
         "psybuzz",
         "millerdrew",
@@ -553,12 +472,8 @@
         "dsm23",
         "davidizac",
         "Aghassi",
-<<<<<<< Updated upstream
-        "daguar"
-=======
         "daguar",
         "shairozan"
->>>>>>> Stashed changes
     ],
     "license": "Apache License 2.0",
     "topics": [

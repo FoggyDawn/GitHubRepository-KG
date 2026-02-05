@@ -1,10 +1,6 @@
 {
     "name": "superset",
-<<<<<<< Updated upstream
-    "stars": 70433,
-=======
-    "stars": 70432,
->>>>>>> Stashed changes
+    "stars": 70439,
     "contributors": [
         "mistercrunch",
         "dependabot[bot]",
@@ -36,8 +32,8 @@
         "michellethomas",
         "msyavuz",
         "lyndsiWilliams",
-        "diegomedina248",
         "hainenber",
+        "diegomedina248",
         "timifasubaa",
         "simcha90",
         "xrmx",
@@ -72,8 +68,8 @@
         "fisjac",
         "LevisNgigi",
         "sebastianliebscher",
-        "x4base",
         "richardfogaca",
+        "x4base",
         "mayurnewase",
         "fabianmenges",
         "rebenitez1802",
@@ -115,13 +111,8 @@
         "Usiel",
         "bolkedebruin",
         "xiaohanyu",
-<<<<<<< Updated upstream
-        "asdf2014",
-        "DiggidyDave",
-=======
         "DiggidyDave",
         "asdf2014",
->>>>>>> Stashed changes
         "dnskr",
         "gnought",
         "Quatters",
@@ -133,17 +124,6 @@
         "enricoberti",
         "LuisSanchez",
         "dungdm93",
-<<<<<<< Updated upstream
-        "iercan",
-        "Khrol",
-        "fardin-developer",
-        "dkrat7",
-        "cccs-jc",
-        "andrewhn",
-        "kim-pham-airbnb",
-        "BradBaker",
-        "massucattoj",
-=======
         "fardin-developer",
         "Khrol",
         "iercan",
@@ -153,7 +133,6 @@
         "dkrat7",
         "andrewhn",
         "cccs-jc",
->>>>>>> Stashed changes
         "xiangfu0",
         "wiktor2200",
         "maltoze",
@@ -163,47 +142,20 @@
         "sumedhsakdeo",
         "sid88in",
         "sinhashubham95",
-<<<<<<< Updated upstream
-        "dmigo",
-        "dennybiasiolli",
-        "agl-developer",
-=======
         "agl-developer",
         "dennybiasiolli",
         "dmigo",
->>>>>>> Stashed changes
         "kasiazjc",
         "luizotavio32",
         "martyngigg",
         "mvoitko",
-<<<<<<< Updated upstream
-=======
         "exemplary-citizen",
         "zhaorui2022",
         "garden-of-delete",
->>>>>>> Stashed changes
         "smacker",
         "patrickleotardif",
         "mighty-phoenix",
         "ramiroaquinoromero",
-<<<<<<< Updated upstream
-        "garden-of-delete",
-        "zhaorui2022",
-        "exemplary-citizen",
-        "christophlingg",
-        "aehanno",
-        "cccs-RyanK",
-        "chuancyzhang",
-        "krsnik93",
-        "leakingoxide",
-        "mapledan",
-        "nisheldo",
-        "stevetracvc",
-        "xavier-GitHub76",
-        "EBoisseauSierra",
-        "artofcomputing",
-        "reidab",
-=======
         "EBoisseauSierra",
         "xavier-GitHub76",
         "stevetracvc",
@@ -218,7 +170,6 @@
         "reidab",
         "VanessaGiannoni",
         "christophlingg",
->>>>>>> Stashed changes
         "yolken",
         "soboko",
         "CorbinBullard",
@@ -242,18 +193,11 @@
         "xiaoyugit",
         "YousufFFFF",
         "zhouyao1994",
-<<<<<<< Updated upstream
-        "VanessaGiannoni",
-=======
->>>>>>> Stashed changes
         "ved-kashyap-samsung",
         "sujiplr",
         "US579",
         "songyanho",
-<<<<<<< Updated upstream
-=======
         "SkinnyPigeon",
->>>>>>> Stashed changes
         "kamalkeshavani-aiinside",
         "lodu",
         "mattitoo",
@@ -279,10 +223,7 @@
         "gforien",
         "jpchev",
         "harikirank",
-<<<<<<< Updated upstream
-=======
         "JCelento",
->>>>>>> Stashed changes
         "hantmac",
         "flametest",
         "kakoni",
@@ -294,10 +235,6 @@
         "qleroy",
         "rahul-rahul-sp",
         "RichRadics",
-<<<<<<< Updated upstream
-        "SkinnyPigeon",
-=======
->>>>>>> Stashed changes
         "rjurney",
         "ysinghc",
         "AkashBoora",
@@ -313,11 +250,7 @@
         "bluemalkin",
         "cdmikechen",
         "tanmaylaud",
-<<<<<<< Updated upstream
-        "shkr",
-=======
         "yejianye",
->>>>>>> Stashed changes
         "soniagtm",
         "aljones",
         "yileic",
@@ -334,12 +267,7 @@
         "cwegener",
         "anamitraadhikari",
         "cscainiao",
-<<<<<<< Updated upstream
-        "reynoldmorel",
-        "JCelento",
-=======
         "JamshedRahman",
->>>>>>> Stashed changes
         "ddxv",
         "jagamts1",
         "itajaja",
@@ -355,18 +283,11 @@
         "Abhishek-kumar-ISM",
         "a5net",
         "andy-clapson",
-<<<<<<< Updated upstream
-        "yejianye",
-        "passren",
-        "bestlong",
-        "rdubois",
-=======
         "rdubois",
         "reynoldmorel",
         "shkr",
         "bestlong",
         "passren",
->>>>>>> Stashed changes
         "paulo-eduardo",
         "PMExtra",
         "natalierue",
@@ -378,10 +299,6 @@
         "joshbrooks",
         "paulinjo",
         "jbat",
-<<<<<<< Updated upstream
-        "JamshedRahman",
-=======
->>>>>>> Stashed changes
         "NickLarsenNZ",
         "Narcissus7",
         "Musa10",

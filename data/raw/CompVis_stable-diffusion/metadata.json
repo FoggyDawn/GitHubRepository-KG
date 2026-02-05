@@ -1,10 +1,6 @@
 {
     "name": "stable-diffusion",
-<<<<<<< Updated upstream
-    "stars": 72329,
-=======
-    "stars": 72331,
->>>>>>> Stashed changes
+    "stars": 72340,
     "contributors": [
         "rromb",
         "pesser",

@@ -1,10 +1,6 @@
 {
     "name": "d3",
-<<<<<<< Updated upstream
-    "stars": 112256,
-=======
-    "stars": 112257,
->>>>>>> Stashed changes
+    "stars": 112260,
     "contributors": [
         "mbostock",
         "jasondavies",

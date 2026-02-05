@@ -1,10 +1,6 @@
 {
     "name": "flutter",
-<<<<<<< Updated upstream
-    "stars": 174950,
-=======
-    "stars": 174954,
->>>>>>> Stashed changes
+    "stars": 174966,
     "contributors": [
         "skia-flutter-autoroll",
         "engine-flutter-autoroll",
@@ -248,19 +244,19 @@
         "JoseAlba",
         "JsouLiang",
         "keertip",
+        "nshahan",
         "shihaohong",
         "willlarche",
         "mikerreed",
-        "Yugue",
         "egdaniel",
-        "planetmarshall",
-        "nshahan",
+        "Yugue",
         "lrhn",
         "jimbeveridge",
         "jaeheon",
         "lin-erik",
         "Dimilkalathiya",
         "danw",
+        "planetmarshall",
         "pennzht",
         "nbayati",
         "walley892",

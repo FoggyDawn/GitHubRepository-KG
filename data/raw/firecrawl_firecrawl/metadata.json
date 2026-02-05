@@ -1,10 +1,6 @@
 {
     "name": "firecrawl",
-<<<<<<< Updated upstream
-    "stars": 79533,
-=======
-    "stars": 79566,
->>>>>>> Stashed changes
+    "stars": 79734,
     "contributors": [
         "nickscamara",
         "mogery",
@@ -16,9 +12,9 @@
         "ericciarla",
         "delong3",
         "tomkosm",
+        "firecrawl-spring[bot]",
         "calebpeffer",
         "mattjoyce",
-        "firecrawl-spring[bot]",
         "Chadha93",
         "micahstairs",
         "Sanix-Darker",

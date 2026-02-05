@@ -1,10 +1,6 @@
 {
     "name": "core",
-<<<<<<< Updated upstream
-    "stars": 84574,
-=======
-    "stars": 84579,
->>>>>>> Stashed changes
+    "stars": 84601,
     "contributors": [
         "bdraco",
         "balloob",
@@ -74,21 +70,16 @@
         "Diegorro98",
         "uvjustin",
         "autinerd",
-        "rytilahti",
         "astrandb",
-<<<<<<< Updated upstream
-        "rikroe",
-        "TheJulianJES",
-=======
+        "rytilahti",
         "TheJulianJES",
         "rikroe",
->>>>>>> Stashed changes
         "StevenLooman",
         "Shutgun",
-        "AngellusMortis",
-        "basnijholt",
-        "kellerza",
         "zxdavb",
+        "basnijholt",
+        "AngellusMortis",
+        "kellerza",
         "OttoWinter",
         "andrewsayre",
         "Petro31",
@@ -104,8 +95,8 @@
         "klaasnicolaas",
         "andrey-git",
         "alengwenus",
-        "jesserockz",
         "natekspencer",
+        "jesserockz",
         "Shulyaka",
         "syssi",
         "cgarwood",
@@ -114,8 +105,8 @@
         "pnbruckner",
         "catsmanac",
         "SukramJ",
-        "exxamalte",
         "OnFreund",
+        "exxamalte",
         "PeteRager",
         "lboue",
         "teharris1",
@@ -123,8 +114,8 @@
         "RaHehl",
         "ollo69",
         "noahhusby",
-        "dknowles2",
         "karwosts",
+        "dknowles2",
         "rappenze",
         "agners",
         "hunterjm",
@@ -247,18 +238,13 @@
         "HydrelioxGitHub",
         "jkeljo",
         "dotvav",
-<<<<<<< Updated upstream
         "mettolen",
         "XiaoLing-git",
-=======
-        "XiaoLing-git",
-        "mettolen",
         "mik-laj",
->>>>>>> Stashed changes
         "ViViDboarder",
-        "cmroche",
-        "brg468",
         "flz",
+        "brg468",
+        "cmroche",
         "cyberjunky",
         "andythigpen",
         "luca-angemi",
@@ -268,10 +254,6 @@
         "Anonym-tsk",
         "Michsior14",
         "mback2k",
-<<<<<<< Updated upstream
-        "mik-laj",
-=======
->>>>>>> Stashed changes
         "lellky",
         "javicalle",
         "flacjacket",
@@ -329,10 +311,7 @@
         "felipecrs",
         "andre-richter",
         "aturri",
-<<<<<<< Updated upstream
-=======
         "riokuu",
->>>>>>> Stashed changes
         "perosb",
         "filcole",
         "Sibgatulin",
@@ -340,69 +319,22 @@
         "mbo18",
         "oyvindwe",
         "jafar-atili",
-<<<<<<< Updated upstream
-        "riokuu",
-=======
         "kpine",
         "ol-iver",
->>>>>>> Stashed changes
         "Tho85",
         "vpathuis",
         "wmoss",
         "badele",
         "shred86",
-<<<<<<< Updated upstream
-        "kpine",
         "eliseomartelli",
         "jabesq",
         "pbalogh77",
-        "dupondje",
-=======
-        "eliseomartelli",
-        "jabesq",
-        "pbalogh77",
->>>>>>> Stashed changes
         "flyte",
         "VandeurenGlenn",
         "sairon",
         "jeroenterheerdt",
         "mjg59",
         "worm-ee",
-<<<<<<< Updated upstream
-        "ol-iver",
-        "ocalvo",
-        "djtimca",
-        "thomasloven",
-        "soldag",
-        "pree",
-        "ALERTua",
-        "RunC0deRun",
-        "vingerha",
-        "craigjmidwinter",
-        "miniconfig",
-        "Gyran",
-        "jawilson",
-        "JshWright",
-        "LennP",
-        "MisterWil",
-        "ReneNulschDE",
-        "majuss",
-        "fwestenberg",
-        "toddeye",
-        "DurgNomis-drol",
-        "snjoetw",
-        "jaminh",
-        "j4n-e4t",
-        "nielstron",
-        "uchagani",
-        "johanzander",
-        "DanNixon",
-        "robmarkcole",
-        "peternijssen",
-        "oncleben31",
-        "nyroDev",
-        "iprak",
-=======
         "ocalvo",
         "pree",
         "dupondje",
@@ -436,7 +368,6 @@
         "j4n-e4t",
         "jaminh",
         "snjoetw",
->>>>>>> Stashed changes
         "lunmay",
         "YogevBokobza",
         "SteveEasley",
@@ -506,6 +437,9 @@
         "raspberry-pi"
     ],
     "releases": [
+        "2026.2.0",
+        "2026.2.0b5",
+        "2026.2.0b4",
         "2026.2.0b3",
         "2026.2.0b2",
         "2026.2.0b1",

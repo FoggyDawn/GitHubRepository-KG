@@ -1,10 +1,6 @@
 {
     "name": "fzf",
-<<<<<<< Updated upstream
-    "stars": 77508,
-=======
-    "stars": 77513,
->>>>>>> Stashed changes
+    "stars": 77531,
     "contributors": [
         "junegunn",
         "dependabot[bot]",
@@ -77,7 +73,7 @@
         "sorairolake",
         "eigengrau",
         "srfraser",
-        "ss-raicangu",
+        "kimminss0",
         "eserte",
         "rumpelsepp",
         "StenAL",
@@ -184,6 +180,7 @@
         "kissge",
         "knutze",
         "lbesnard",
+        "ss-raicangu",
         "charemma",
         "yous",
         "ChengenH",
@@ -254,6 +251,7 @@
         "kuremu",
         "AceofSpades5757",
         "kyoh86",
+        "lalvarezt",
         "llllvvuu",
         "lloeki",
         "marlonrichert",
@@ -268,7 +266,6 @@
         "fazibear",
         "mikesmithgh",
         "mike-hearn",
-        "kimminss0",
         "henrebotha",
         "hexium310",
         "xuhdev",

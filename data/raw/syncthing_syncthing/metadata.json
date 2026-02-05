@@ -1,10 +1,6 @@
 {
     "name": "syncthing",
-<<<<<<< Updated upstream
-    "stars": 79599,
-=======
-    "stars": 79604,
->>>>>>> Stashed changes
+    "stars": 79635,
     "contributors": [
         "calmh",
         "AudriusButkevicius",
@@ -123,10 +119,10 @@
         "dzarda",
         "ilyabrin",
         "hazemKrimi",
-        "Juneezee",
         "gco",
         "fxgsell",
         "Nutomic",
+        "Juneezee",
         "tobifroe",
         "gtim",
         "timhowes",
@@ -152,7 +148,7 @@
         "wsgcsysadmin",
         "Xib1uvXi",
         "wrouesnel",
-        "cdata",
+        "gdlmx",
         "naveensrinivasan",
         "PrototypeNM1",
         "NickBusey",
@@ -234,6 +230,7 @@
         "jelly",
         "kylosus",
         "luchenhan",
+        "cdata",
         "ckujau",
         "christianprescott",
         "cromefire",
@@ -251,6 +248,7 @@
         "tgxn",
         "aylen384",
         "elliot-huffman",
+        "epifeny",
         "elesiuta",
         "Evan-sp",
         "facastagnini",
@@ -259,7 +257,6 @@
         "zhulik",
         "grahammiln",
         "Gusted",
-        "hboetes",
         "adelq",
         "popey",
         "trisk",
@@ -287,6 +284,7 @@
         "brendanlong",
         "Cathryne",
         "Choongkyu",
+        "kbdharun",
         "KapilSareen",
         "lkebin",
         "kewiha",
@@ -313,7 +311,7 @@
         "Rewt0r",
         "mrienstra",
         "boone",
-        "gdlmx",
+        "hboetes",
         "HansK-p",
         "harrisonhjones",
         "Smiley73",
@@ -339,8 +337,7 @@
         "jmdaweb",
         "jul13579",
         "Mic92",
-        "Yithis",
-        "kbdharun"
+        "Yithis"
     ],
     "license": "Mozilla Public License 2.0",
     "topics": [

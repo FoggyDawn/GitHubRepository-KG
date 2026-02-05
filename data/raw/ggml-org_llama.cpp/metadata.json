@@ -1,10 +1,6 @@
 {
     "name": "llama.cpp",
-<<<<<<< Updated upstream
-    "stars": 94330,
-=======
-    "stars": 94341,
->>>>>>> Stashed changes
+    "stars": 94411,
     "contributors": [
         "ggerganov",
         "ngxson",
@@ -456,10 +452,14 @@
         "ggml"
     ],
     "releases": [
-<<<<<<< Updated upstream
-=======
+        "b7942",
+        "b7941",
+        "b7940",
+        "b7938",
+        "b7936",
+        "b7935",
+        "b7933",
         "b7932",
->>>>>>> Stashed changes
         "b7931",
         "b7930",
         "b7929",

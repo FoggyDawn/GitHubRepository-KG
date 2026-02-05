@@ -1,10 +1,6 @@
 {
     "name": "redis",
-<<<<<<< Updated upstream
-    "stars": 72755,
-=======
-    "stars": 72756,
->>>>>>> Stashed changes
+    "stars": 72774,
     "contributors": [
         "antirez",
         "oranagra",
@@ -67,18 +63,18 @@
         "lyq2333",
         "AngusP",
         "roshkhatri",
-        "ncghost1",
-        "gabsow",
-        "Super-long",
-        "uriyage",
         "yongman",
+        "uriyage",
+        "Super-long",
+        "gabsow",
+        "ncghost1",
+        "LiorKogan",
         "catwell",
         "qetu3790",
         "menwenjun",
         "chendq8",
         "uvletter",
         "moshekaplan",
-        "LiorKogan",
         "eranhd",
         "eduardobr",
         "OhBonsai",

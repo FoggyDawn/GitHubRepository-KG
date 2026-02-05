@@ -10,12 +10,13 @@ from pathlib import Path
 import time
 from requests.exceptions import ConnectionError, Timeout
 
-# 获取 GitHub token
-try:
-    with open('../secrets/github_token.txt', 'r') as f:
-        GITHUB_TOKEN = f.read().strip()
-except FileNotFoundError:
-    raise ValueError("请确保 github_token.txt 文件存在并包含 GitHub token")
+# 获取 GitHub token（基于脚本目录计算相对路径，避免求绝对路径时出错）
+script_dir = os.path.dirname(os.path.abspath(__file__))
+token_path = os.path.normpath(os.path.join(script_dir, '..', 'secrets', 'github_token.txt'))
+if not os.path.isfile(token_path):
+    raise ValueError(f"请确保 {token_path} 文件存在并包含 GitHub token")
+with open(token_path, 'r') as f:
+    GITHUB_TOKEN = f.read().strip()
 
 if not GITHUB_TOKEN:
     raise ValueError("GitHub token 不能为空")
@@ -147,7 +148,9 @@ def get_repo_data(owner, repo):
     return metadata, readme_content
 
 def main():
-    raw_dir = Path('../data/raw')
+    # 使用脚本目录计算 data/raw 的路径，避免在某些环境下 Path.resolve 出错
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    raw_dir = Path(os.path.join(script_dir, '..', 'data', 'raw'))
     raw_dir.mkdir(parents=True, exist_ok=True)
     
     repos = get_top_repos()

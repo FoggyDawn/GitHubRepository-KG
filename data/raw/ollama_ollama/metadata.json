@@ -1,10 +1,6 @@
 {
     "name": "ollama",
-<<<<<<< Updated upstream
-    "stars": 161627,
-=======
-    "stars": 161643,
->>>>>>> Stashed changes
+    "stars": 161756,
     "contributors": [
         "mxyng",
         "jmorganca",
@@ -484,7 +480,7 @@
         "qwen"
     ],
     "releases": [
-        "v0.15.5-rc2",
+        "v0.15.5-rc3",
         "v0.15.4",
         "v0.15.3",
         "v0.15.2",

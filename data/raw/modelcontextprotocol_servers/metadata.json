@@ -1,10 +1,6 @@
 {
     "name": "servers",
-<<<<<<< Updated upstream
-    "stars": 77973,
-=======
-    "stars": 77984,
->>>>>>> Stashed changes
+    "stars": 78030,
     "contributors": [
         "olaservo",
         "tadasant",
@@ -49,6 +45,7 @@
         "stefanoamorelli",
         "ashwin-ant",
         "mikegehard",
+        "dependabot[bot]",
         "q3blend",
         "amaan-ai20",
         "JavieHush",
@@ -57,12 +54,11 @@
         "GarvanD",
         "anhuaxiang",
         "dtehan-td",
-        "dependabot[bot]",
+        "0xRaduan",
         "kone-net",
         "reading-plus-ai",
         "lloydzhou",
         "ajoslin103",
-        "0xRaduan",
         "sirkitree",
         "ycjcl868",
         "g-votte",
@@ -439,7 +435,7 @@
         "4kulia",
         "tarasyarema"
     ],
-    "license": "MIT License",
+    "license": "Other",
     "topics": [],
     "releases": [
         "2026.1.26",

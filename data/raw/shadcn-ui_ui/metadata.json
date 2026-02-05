@@ -1,10 +1,6 @@
 {
     "name": "ui",
-<<<<<<< Updated upstream
-    "stars": 106059,
-=======
-    "stars": 106069,
->>>>>>> Stashed changes
+    "stars": 106110,
     "contributors": [
         "shadcn",
         "github-actions[bot]",
@@ -452,6 +448,7 @@
         "ui"
     ],
     "releases": [
+        "shadcn@3.8.3",
         "shadcn@3.8.2",
         "shadcn@3.8.1",
         "shadcn@3.8.0",

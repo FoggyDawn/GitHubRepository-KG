@@ -1,10 +1,6 @@
 {
     "name": "react",
-<<<<<<< Updated upstream
-    "stars": 242763,
-=======
-    "stars": 242764,
->>>>>>> Stashed changes
+    "stars": 242798,
     "contributors": [
         "sebmarkbage",
         "zpao",
@@ -56,9 +52,9 @@
         "salazarm",
         "NE-SmallTown",
         "joshduck",
+        "jorge-cab",
         "SimenB",
         "EugeneChoi4",
-        "jorge-cab",
         "aickin",
         "philipp-spiess",
         "jquense",

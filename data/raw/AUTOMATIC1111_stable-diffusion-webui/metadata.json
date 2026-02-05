@@ -1,10 +1,6 @@
 {
     "name": "stable-diffusion-webui",
-<<<<<<< Updated upstream
-    "stars": 160420,
-=======
-    "stars": 160419,
->>>>>>> Stashed changes
+    "stars": 160427,
     "contributors": [
         "AUTOMATIC1111",
         "w-e-w",

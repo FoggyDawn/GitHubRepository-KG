@@ -1,10 +1,6 @@
 {
     "name": "hugo",
-<<<<<<< Updated upstream
-    "stars": 86398,
-=======
-    "stars": 86400,
->>>>>>> Stashed changes
+    "stars": 86417,
     "contributors": [
         "bep",
         "dependabot[bot]",

@@ -1,10 +1,6 @@
 {
     "name": "protobuf",
-<<<<<<< Updated upstream
-    "stars": 70634,
-=======
-    "stars": 70635,
->>>>>>> Stashed changes
+    "stars": 70636,
     "contributors": [
         "protobuf-github-bot",
         "haberman",
@@ -214,7 +210,7 @@
         "lukesandberg",
         "evalon32",
         "junekhan",
-        "jonaski",
+        "jhickson",
         "KindDragon",
         "tisonkun",
         "nreid260",
@@ -232,6 +228,7 @@
         "szakarias",
         "sfreilich",
         "rohitsakala",
+        "jonaski",
         "dws",
         "ccvca",
         "chrisdunelm",
@@ -249,7 +246,7 @@
         "th0br0",
         "jacobsa",
         "rxbynerd",
-        "jhickson",
+        "jonathan-albrecht-ibm",
         "jmillikin",
         "dsnet",
         "jmr",
@@ -287,13 +284,13 @@
         "joshkel",
         "slackito",
         "jonringer",
-        "jonathan-albrecht-ibm",
         "mrjoel",
         "swankjesse",
         "jquesnelle",
         "stickfigure",
         "chingor13",
         "janten",
+        "jamesdbrock",
         "chrusty",
         "sunpoet",
         "phallot",
@@ -321,7 +318,6 @@
         "Oppen",
         "Kernald",
         "mrpi",
-        "jamesdbrock",
         "chadlwilson",
         "camillol",
         "calder",
@@ -389,6 +385,7 @@
         "serialization"
     ],
     "releases": [
+        "v29.6",
         "v33.5",
         "v34.0-rc1.1",
         "v33.4",

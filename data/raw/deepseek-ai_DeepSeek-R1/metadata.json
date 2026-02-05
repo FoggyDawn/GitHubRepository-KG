@@ -1,0 +1,23 @@
+{
+    "name": "DeepSeek-R1",
+    "stars": 91828,
+    "contributors": [
+        "Konano",
+        "stack-heap-overflow",
+        "DeepSeekPH",
+        "mowentian",
+        "DeepSeekDDM",
+        "GeeeekExplorer",
+        "eladb",
+        "eltociear",
+        "aBurmeseDev",
+        "peti562",
+        "User670",
+        "zhyncs"
+    ],
+    "license": "MIT License",
+    "topics": [],
+    "releases": [
+        "v1.0.0"
+    ]
+}

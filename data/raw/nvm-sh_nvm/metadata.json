@@ -1,10 +1,6 @@
 {
     "name": "nvm",
-<<<<<<< Updated upstream
-    "stars": 91210,
-=======
-    "stars": 91212,
->>>>>>> Stashed changes
+    "stars": 91279,
     "contributors": [
         "ljharb",
         "PeterDaveHello",

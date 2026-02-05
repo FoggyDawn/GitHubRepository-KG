@@ -1,10 +1,6 @@
 {
     "name": "neovim",
-<<<<<<< Updated upstream
-    "stars": 96215,
-=======
-    "stars": 96219,
->>>>>>> Stashed changes
+    "stars": 96248,
     "contributors": [
         "zeertzjq",
         "justinmk",

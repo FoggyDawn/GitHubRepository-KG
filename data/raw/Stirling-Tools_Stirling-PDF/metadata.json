@@ -1,10 +1,6 @@
 {
     "name": "Stirling-PDF",
-<<<<<<< Updated upstream
-    "stars": 73765,
-=======
-    "stars": 73772,
->>>>>>> Stashed changes
+    "stars": 73798,
     "contributors": [
         "Frooodle",
         "Ludy87",
@@ -281,6 +277,7 @@
         "pdfmerger"
     ],
     "releases": [
+        "v2.4.4",
         "v2.4.3",
         "v2.4.2",
         "v2.4.1",
