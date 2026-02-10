@@ -1,151 +1,176 @@
-# deepseek_extract.py
-# 作用：把 README 里长句子交给 Deepseek，让模型提取目标关系（developedBy, writtenIn, usesTechnology, applicationDomain, relatedRepository, hasRelease）
+# llm_extract.py
+# 作用：把每个仓库的 README 交给 Deepseek，
+# 让模型提取目标关系（relatedRepository, description），
+# 每个仓库生成一段description，relatedRepository可以是一个或多个（如果有的话）
+# 存到/home/byx/projects/OpenKG-GitHubRepository-KG/data/triples/llm_extracted_triples.csv
+# 需要提前在 secrets 文件夹放置 deepseek_api_key.txt 和 deepseek_api_url.txt（如果没有则跳过）
 
-import os, requests, json, time
-from pathlib import Path
+import os
+import json
+import csv
+from typing import Optional, Dict
 from openai import OpenAI
-from openai.types.chat import ChatCompletionMessageParam
 
-# 从仓库内的 secrets 文件夹读取 deepseek 配置（文件名：deepseek_api_key.txt, deepseek_api_url.txt）
-script_dir = os.path.dirname(os.path.abspath(__file__))
-secrets_dir = os.path.normpath(os.path.join(script_dir, '..', 'secrets'))
-key_file = os.path.join(secrets_dir, 'deepseek_api_key.txt')
-url_file = os.path.join(secrets_dir, 'deepseek_api_url.txt')
-if not os.path.isfile(key_file) or not os.path.isfile(url_file):
-    print(f"Deepseek 未配置（缺少 {key_file} 或 {url_file}），跳过 LLM 提取")
-    exit(0)
-with open(key_file, 'r', encoding='utf-8') as f:
-    DEEPSEEK_API_KEY = f.read().strip()
-with open(url_file, 'r', encoding='utf-8') as f:
-    DEEPSEEK_API_URL = f.read().strip()
-if not (DEEPSEEK_API_KEY and DEEPSEEK_API_URL):
-    print("Deepseek 配置为空，跳过 LLM 提取")
-    exit(0)
 
-HEADERS = {"Authorization": f"Bearer {DEEPSEEK_API_KEY}", "Content-Type": "application/json"}
+class LLMExtractor:
+    """使用 LLM（Deepseek）从 README 提取关系信息"""
+    
+    def __init__(self, base_path: str = "/home/byx/projects/OpenKG-GitHubRepository-KG"):
+        self.base_path = base_path
+        self.raw_data_path = os.path.join(base_path, "data/raw")
+        self.triples_path = os.path.join(base_path, "data/triples")
+        self.secrets_path = os.path.join(base_path, "secrets")
+        
+        # 创建输出目录
+        os.makedirs(self.triples_path, exist_ok=True)
+        
+        # 尝试加载 API 配置
+        self.api_key = self._load_secret("deepseek_api_key.txt")
+        self.api_url = self._load_secret("deepseek_api_url.txt")
+        self.available = self.api_key and self.api_url
+        
+        # 初始化 OpenAI 兼容客户端
+        self.client = None
+        if self.available:
+            self.client = OpenAI(api_key=self.api_key, base_url=self.api_url)
+        
+        # 存储提取的三元组
+        self.extracted_triples = []
+    
+    def _load_secret(self, filename: str) -> Optional[str]:
+        """从 secrets 文件夹加载密钥或 URL"""
+        file_path = os.path.join(self.secrets_path, filename)
+        if os.path.exists(file_path):
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    return f.read().strip()
+            except Exception as e:
+                print(f"Error reading {filename}: {e}")
+        return None
+    
+    def _extract_with_llm(self, readme_content: str, repo_name: str) -> Dict:
+        """使用 LLM 从 README 提取 description 和 relatedRepository"""
+        if not self.available or not self.client:
+            print(f"Skipping {repo_name}: API credentials not available")
+            return {}
+        
+        prompt = f"""从以下 GitHub 仓库的 README 中提取以下信息，并以 JSON 格式返回：
+1. description: 对该项目的简短描述（1-2 句）
+2. relatedRepository: 如果 README 中提到的相关仓库，记录其url（列表，可以为空）
 
-# Prompt 模板（few-shot）
-PROMPT_TEMPLATE = """
-你是一个关系抽取器。目标关系集合：
-- developedBy(软件 -> 人/组织)
-- writtenIn(软件 -> 编程语言)
-- usesTechnology(软件 -> 技术/框架)
-- applicationDomain(软件 -> 应用领域)
-- relatedRepository(软件 -> 软件仓库)
-- hasRelease(软件 -> 版本号)
+README 内容：
+{readme_content[:100000]}  # 限制内容长度以避免 token 超限
 
-输入：一段 README 文本 和 仓库 名称。
-请以 JSON 输出，格式：
-[
-  {"predicate":"developedBy", "object":"OpenAI", "span":"...text span...", "confidence":0.9},
-  ...
-]
-
-示例：
-输入: repo=vllm, text="vLLM is an inference engine developed by OpenAI. It is written in Python and uses CUDA and Transformers."
-输出: [{"predicate":"developedBy","object":"OpenAI","span":"developed by OpenAI","confidence":0.98},
-         {"predicate":"writtenIn","object":"Python","span":"written in Python","confidence":0.96},
-         {"predicate":"usesTechnology","object":"CUDA","span":"uses CUDA","confidence":0.9},
-         {"predicate":"usesTechnology","object":"Transformers","span":"uses Transformers","confidence":0.9}
-        ]
-
-现在输入:
-repo={repo}
-text: \"\"\"{text}\"\"\"
-请仅返回 JSON 数组。
+请只返回 JSON，格式如下：
+{{
+    "description": "...",
+    "relatedRepository": ["url_repo1", "url_repo2"]
+}}
 """
-
-def call_deepseek(repo, text):
-    # 使用 OpenAI 官方客户端调用 deepseek 模型（要求已安装 openai 包）
-    prompt_text = PROMPT_TEMPLATE.format(repo=repo, text=text[:4000])
-    messages: list[ChatCompletionMessageParam] = [
-        {"role": "system", "content": "你是一个关系抽取器，接收用户输入并仅以 JSON 数组返回结果。"},
-        {"role": "user", "content": prompt_text}
-    ]
-
-    client = OpenAI(api_key=DEEPSEEK_API_KEY)
-    try:
-        resp = client.chat.completions.create(
-            model="deepseek-chat",
-            messages=messages,
-            max_tokens=800,
-            temperature=0.0
-        )
-    except Exception as e:
-        raise
-
-    # 兼容不同实现：优先从 chat response 中取 message content
-    content = None
-    try:
-        choices = resp.get('choices') if isinstance(resp, dict) else None
-        if not choices and hasattr(resp, 'choices'):
-            choices = getattr(resp, 'choices')
-        choices = choices or []
-        if choices and isinstance(choices, list):
-            first = choices[0]
-            # OpenAI Chat format
-            if isinstance(first, dict):
-                content = first.get('message', {}).get('content') if isinstance(first.get('message'), dict) else None
-                if content is None:
-                    content = first.get('text')
-            else:
-                # 可能是对象，尝试获取属性
-                content = getattr(first, 'message', None)
-                if content and isinstance(content, dict):
-                    content = content.get('content')
-                if content is None:
-                    content = getattr(first, 'text', None)
-    except Exception:
-        content = None
-
-    if content is None:
-        # 有的服务直接返回文本在 top-level 字段
-        if isinstance(resp, dict):
-            content = resp.get('output') or resp.get('text') or json.dumps(resp)
-        else:
-            # 尝试 str 转换
-            content = str(resp)
-
-    # 尝试将返回内容解析为 JSON 数组
-    try:
-        return json.loads(content)
-    except Exception:
-        # 容错：尝试从 content 中抽取第一个 JSON 数组片段
+        
         try:
-            start = content.index('[')
-            end = content.rindex(']')
-            candidate = content[start:end+1]
-            return json.loads(candidate)
+            response = self.client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.3
+            )
+            
+            content = response.choices[0].message.content
+            if not content:
+                print(f"Empty response content for {repo_name}")
+                return {}
+            
+            # 清理可能的 ```json ``` 包裹
+            content = content.strip()
+            if content.startswith("```json"):
+                content = content[7:]  # 删除 "```json"
+            if content.startswith("```"):
+                content = content[3:]  # 删除 "```"
+            if content.endswith("```"):
+                content = content[:-3]  # 删除结尾的 "```"
+            content = content.strip()
+            
+            try:
+                # 尝试解析 JSON
+                extracted = json.loads(content)
+                print(f"Content was: {content}...")
+                return extracted
+            except json.JSONDecodeError:
+                # 如果不是有效的 JSON，返回空字典
+                print(f"Failed to parse JSON response for {repo_name}")
+                return {}
+        
         except Exception as e:
-            raise ValueError(f"无法解析 deepseek 返回的内容为 JSON: {e}\nraw: {content}")
+            print(f"Error extracting from {repo_name}: {e}")
+            return {}
+    
+    def process_repositories(self):
+        """处理 raw 目录下所有仓库的 README"""
+        for repo_dir in os.listdir(self.raw_data_path):
+            repo_path = os.path.join(self.raw_data_path, repo_dir)
+            
+            if not os.path.isdir(repo_path):
+                continue
+            
+            # 读取 README
+            readme_file = os.path.join(repo_path, "README.md")
+            if not os.path.exists(readme_file):
+                print(f"Skipping {repo_dir}: no README.md found")
+                continue
+            
+            try:
+                with open(readme_file, 'r', encoding='utf-8') as f:
+                    readme_content = f.read()
+            except Exception as e:
+                print(f"Error reading README for {repo_dir}: {e}")
+                continue
+            
+            # 使用 LLM 提取信息
+            extracted = self._extract_with_llm(readme_content, repo_dir)
+            
+            # 生成三元组
+            if extracted:
+                description = extracted.get("description", "")
+                if description:
+                    self.extracted_triples.append((repo_dir, "has_description", description))
+                
+                related_repos = extracted.get("relatedRepository", [])
+                if isinstance(related_repos, list):
+                    for related_repo in related_repos:
+                        if related_repo:
+                            self.extracted_triples.append((repo_dir, "has_related_repository", related_repo))
+                
+                print(f"Processed {repo_dir}: {len(self.extracted_triples)} triples so far")
+            else:
+                print(f"No information extracted from {repo_dir}")
+    
+    def save_triples(self):
+        """保存提取的三元组到 CSV 文件"""
+        triples_file = os.path.join(self.triples_path, "llm_extracted_triples.csv")
+        with open(triples_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['subject', 'predicate', 'object'])
+            for triple in self.extracted_triples:
+                writer.writerow(triple)
+        print(f"Saved {len(self.extracted_triples)} LLM-extracted triples to {triples_file}")
+        print(f"Output file: {triples_file}")
+    
+    def run(self):
+        """运行完整的 LLM 提取流程"""
+        if not self.available:
+            print("Warning: Deepseek API credentials not found in secrets/. Skipping LLM extraction.")
+            return
+        
+        print("开始 LLM 提取...")
+        print(f"Using API endpoint: {self.api_url}")
+        self.process_repositories()
+        self.save_triples()
+        print("LLM 提取完成！")
+
 
 if __name__ == "__main__":
-    # 读取之前的 README（基于脚本目录构造路径）
-    raw = Path(os.path.join(script_dir, '..', 'data', 'raw'))
-    out_rows = []
-    for owner in raw.iterdir():
-        for repo_dir in owner.iterdir():
-            readme_path = repo_dir / "README.md"
-            meta_path = repo_dir / "meta.json"
-            if not meta_path.exists(): continue
-            repo_id = f"repo:{owner.name}/{repo_dir.name}"
-            text = readme_path.read_text(encoding="utf8") if readme_path.exists() else ""
-            if not text.strip(): continue
-            try:
-                res = call_deepseek(repo_id, text)
-            except Exception as e:
-                print("Deepseek 调用失败:", e)
-                continue
-            # 解析返回（这里按示例结构）
-            for item in res:
-                predicate = item.get("predicate")
-                obj = item.get("object")
-                conf = item.get("confidence", 0.8)
-                out_rows.append({"subject":repo_id, "predicate":predicate, "object":obj, "score":conf})
-            time.sleep(1)  # 慎用
-    # 保存
-    import pandas as pd
-    out_path = Path(os.path.join(script_dir, '..', 'data', 'candidates_from_deepseek.csv'))
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(out_rows).to_csv(out_path, index=False, encoding="utf8")
-    print("deepseek extraction saved")
+    extractor = LLMExtractor()
+    extractor.run()
+

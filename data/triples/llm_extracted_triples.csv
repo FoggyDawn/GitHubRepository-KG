@@ -1,0 +1,598 @@
+subject,predicate,object
+CyC2018_CS-Notes,has_description,这是一个全面的计算机科学学习笔记仓库，涵盖了算法、操作系统、网络、数据库、Java、系统设计等多个技术领域。
+CyC2018_CS-Notes,has_related_repository,https://github.com/sparanoid/chinese-copywriting-guidelines
+CyC2018_CS-Notes,has_related_repository,https://github.com/CyC2018/Text-Typesetting
+sdmg15_Best-websites-a-programmer-should-visit,has_description,"A curated list of useful websites for programmers, covering a wide range of topics including learning resources, coding practice, news, tools, interview preparation, and career development."
+sdmg15_Best-websites-a-programmer-should-visit,has_related_repository,https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh
+ggml-org_llama.cpp,has_description,llama.cpp 是一个用 C/C++ 实现的大语言模型推理项目，旨在以最少的设置在各种硬件上实现最先进的性能。它是 ggml 库新功能开发的主要平台。
+ggml-org_llama.cpp,has_related_repository,https://github.com/ggml-org/ggml
+louislam_uptime-kuma,has_description,Uptime Kuma 是一个易于使用的自托管监控工具，用于监控 HTTP(s)、TCP、Ping、DNS 等多种服务的运行状态，并提供通知功能。
+google-gemini_gemini-cli,has_description,Gemini CLI 是一个开源 AI 代理，将 Gemini 的强大功能直接带入终端，为用户提供从提示到模型的最直接路径。
+google-gemini_gemini-cli,has_related_repository,https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main/experiments/mcp-genmedia
+google-gemini_gemini-cli,has_related_repository,https://github.com/google-github-actions/run-gemini-cli
+python_cpython,has_description,这是 Python 3.15.0 alpha 5 版本的源代码仓库，包含 CPython 解释器的完整源代码和构建说明。
+freeCodeCamp_freeCodeCamp,has_description,freeCodeCamp.org 是一个友好的社区，提供免费的自学全栈 Web 开发和机器学习课程，包含数千个交互式编码挑战，旨在帮助忙碌的成年人转型进入科技行业。
+fastapi_fastapi,has_description,"FastAPI is a modern, high-performance web framework for building APIs with Python based on standard Python type hints. It is designed to be easy to learn, fast to code, and ready for production."
+fastapi_fastapi,has_related_repository,https://github.com/OAI/OpenAPI-Specification
+fastapi_fastapi,has_related_repository,https://github.com/swagger-api/swagger-ui
+fastapi_fastapi,has_related_repository,https://github.com/Rebilly/ReDoc
+fastapi_fastapi,has_related_repository,https://github.com/hugapi/hug
+fastapi_fastapi,has_related_repository,https://github.com/tiangolo/typer
+fastapi_fastapi,has_related_repository,https://github.com/encode/starlette
+fastapi_fastapi,has_related_repository,https://github.com/pydantic/pydantic
+fastapi_fastapi,has_related_repository,https://github.com/encode/uvicorn
+fastapi_fastapi,has_related_repository,https://github.com/strawberry-graphql/strawberry
+microsoft_terminal,has_description,该仓库包含 Windows Terminal、Windows Terminal Preview、Windows 控制台主机 (conhost.exe) 以及两者共享组件的源代码。Windows Terminal 是一款现代化、功能丰富的命令行终端应用程序，支持标签页、富文本、主题配置等特性。
+microsoft_terminal,has_related_repository,https://github.com/MicrosoftDocs/terminal
+microsoft_terminal,has_related_repository,https://github.com/MicrosoftDocs/Console-Docs
+microsoft_terminal,has_related_repository,https://github.com/Microsoft/Cascadia-Code
+vitejs_vite,has_description,"Vite is a next-generation frontend build tool that provides instant server start, lightning fast hot module replacement, and an optimized production build using Rollup."
+vitejs_vite,has_related_repository,https://rollupjs.org
+axios_axios,has_description,"Promise based HTTP client for the browser and node.js. It is a popular library for making HTTP requests with features like interceptors, request cancellation, and automatic JSON handling."
+x1xhlol_system-prompts-and-models-of-ai-tools,has_description,"一个包含超过30,000行代码的AI工具系统提示词和模型集合，旨在提供对其结构和功能的深入洞察。"
+ocornut_imgui,has_description,"Dear ImGui is a bloat-free graphical user interface library for C++ designed for fast iterations and empowering programmers to create content creation tools, visualization/debug tools, and integration in game engines and real-time 3D applications."
+ocornut_imgui,has_related_repository,https://github.com/ocornut/imgui_test_engine
+ocornut_imgui,has_related_repository,https://github.com/stripe2933/imgui-module
+ocornut_imgui,has_related_repository,https://github.com/cimgui/cimgui
+ocornut_imgui,has_related_repository,https://github.com/dearimgui/dear_bindings
+ocornut_imgui,has_related_repository,https://github.com/epezent/implot
+tailwindlabs_tailwindcss,has_description,A utility-first CSS framework for rapidly building custom user interfaces.
+n8n-io_n8n,has_description,"n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code, featuring 400+ integrations, native AI capabilities, and a fair-code license for full control over data and deployments."
+ripienaar_free-for-dev,has_description,"A curated list of software (SaaS, PaaS, IaaS, etc.) and other offerings that provide free tiers for developers and open source authors, specifically useful for infrastructure developers like System Administrators and DevOps Practitioners."
+ripienaar_free-for-dev,has_related_repository,https://github.com/ripienaar/free-for-dev
+oven-sh_bun,has_description,Bun 是一个用于 JavaScript 和 TypeScript 应用程序的一体化工具包，包含一个快速的 JavaScript 运行时（作为 Node.js 的直接替代品）、测试运行器、脚本运行器和包管理器。
+goldbergyoni_nodebestpractices,has_description,Node.js Best Practices 是一个总结和整理了 Node.js 最佳实践、风格指南和架构技巧的综合性资源库。它包含了超过 80 条最佳实践，涵盖了项目结构、错误处理、代码风格、测试、生产部署、安全和性能等多个方面，并持续更新。
+goldbergyoni_nodebestpractices,has_related_repository,https://github.com/practicajs/practica
+lobehub_lobehub,has_description,"LobeHub is a work-and-lifestyle space to find, build, and collaborate with agent teammates that grow with you. It's an open-source, extensible, high-performance chatbot framework supporting one-click deployment of private ChatGPT/LLM web applications."
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/lobe-chat-plugins
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/chat-plugin-template
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/chat-plugin-sdk
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/chat-plugins-gateway
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/lobe-chat-agents
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/lobe-ui
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/lobe-icons
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/lobe-tts
+lobehub_lobehub,has_related_repository,https://github.com/lobehub/lobe-lint
+elastic_elasticsearch,has_description,Elasticsearch 是一个分布式搜索和分析引擎，可扩展的数据存储和向量数据库，针对生产规模工作负载的速度和相关性进行了优化。它支持近实时搜索海量数据集、执行向量搜索、与生成式 AI 应用集成等功能。
+elastic_elasticsearch,has_related_repository,https://github.com/elastic/start-local
+elastic_elasticsearch,has_related_repository,https://github.com/elastic/elasticsearch-labs
+justjavac_free-programming-books-zh_CN,has_description,这是一个免费的编程中文书籍索引项目，旨在收集和整理各类编程相关的免费中文书籍资源，方便开发者学习和查阅。
+justjavac_free-programming-books-zh_CN,has_related_repository,https://github.com/vhf/free-programming-books/blob/master/free-programming-books-zh.md
+PKUFlyingPig_cs-self-learning,has_description,CS 自学指南是一个开源项目，旨在为自学计算机科学的学习者提供系统性的课程推荐、学习路径和优质资源，帮助他们在2-3年内成长为具备扎实基础和广泛技能的程序员。
+PKUFlyingPig_cs-self-learning,has_related_repository,https://github.com/sparanoid/chinese-copywriting-guidelines
+sveltejs_svelte,has_description,Svelte is a compiler-based framework for building web applications. It converts declarative components into efficient JavaScript that surgically updates the DOM.
+home-assistant_core,has_description,开源的家庭自动化系统，强调本地控制和隐私优先，由全球DIY爱好者社区驱动，适合在树莓派或本地服务器上运行。
+d2l-ai_d2l-zh,has_description,《动手学深度学习》是一个开源深度学习教材项目，旨在通过结合概念讲解、数学原理和可运行代码，帮助读者理解并实践深度学习。
+d2l-ai_d2l-zh,has_related_repository,https://github.com/d2l-ai/d2l-en
+d2l-ai_d2l-zh,has_related_repository,https://github.com/d2l-ai/berkeley-stat-157
+opencv_opencv,has_description,OpenCV 是一个开源的计算机视觉库，提供了丰富的图像处理和计算机视觉算法。
+opencv_opencv,has_related_repository,https://github.com/opencv/opencv_contrib
+ytdl-org_youtube-dl,has_description,youtube-dl 是一个命令行程序，用于从 YouTube.com 和其他一些视频平台下载视频。它需要 Python 解释器，可在 Unix、Windows 或 macOS 上运行。
+macrozheng_mall,has_description,mall项目是一套完整的电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现，采用Docker容器化部署。
+macrozheng_mall,has_related_repository,https://github.com/macrozheng/mall-learning
+macrozheng_mall,has_related_repository,https://github.com/macrozheng/mall-swarm
+macrozheng_mall,has_related_repository,https://github.com/macrozheng/mall-admin-web
+macrozheng_mall,has_related_repository,https://github.com/macrozheng/mall-app-web
+openai_whisper,has_description,Whisper 是一个通用语音识别模型，基于大规模多样化音频数据集训练，能够执行多语言语音识别、语音翻译和语言识别等多种任务。
+openai_whisper,has_related_repository,https://github.com/openai/tiktoken
+ventoy_Ventoy,has_description,"Ventoy is an open source tool to create bootable USB drives for ISO/WIM/IMG/VHD(x)/EFI files without needing to format the disk repeatedly. It allows copying multiple image files at once and provides a boot menu to select them, supporting various architectures and partition styles."
+pallets_flask,has_description,"Flask is a lightweight WSGI web application framework designed to make getting started quick and easy, with the ability to scale up to complex applications. It is one of the most popular Python web application frameworks."
+pallets_flask,has_related_repository,https://werkzeug.palletsprojects.com/
+pallets_flask,has_related_repository,https://jinja.palletsprojects.com/
+labuladong_fucking-algorithm,has_description,这是一个基于 LeetCode 题目的算法教程仓库，包含 60 多篇原创文章，旨在通过框架思维和通俗易懂的讲解，帮助读者掌握算法核心技巧，而非简单的代码堆砌。
+kubernetes_kubernetes,has_description,Kubernetes (K8s) 是一个用于跨多台主机管理容器化应用程序的开源系统，它提供了应用程序部署、维护和扩展的基本机制。
+kubernetes_kubernetes,has_related_repository,https://github.com/kubernetes/community
+kubernetes_kubernetes,has_related_repository,https://github.com/kubernetes/steering
+kubernetes_kubernetes,has_related_repository,https://github.com/kubernetes/enhancements
+supabase_supabase,has_description,Supabase is the Postgres development platform that builds the features of Firebase using enterprise-grade open source tools.
+supabase_supabase,has_related_repository,https://github.com/supabase/realtime
+supabase_supabase,has_related_repository,https://github.com/supabase/gotrue
+supabase_supabase,has_related_repository,https://github.com/supabase/storage-api
+supabase_supabase,has_related_repository,https://github.com/supabase/pg_graphql/
+supabase_supabase,has_related_repository,https://github.com/supabase/postgres-meta
+supabase_supabase,has_related_repository,https://github.com/Kong/kong
+supabase_supabase,has_related_repository,https://github.com/supabase/supabase-js
+supabase_supabase,has_related_repository,https://github.com/supabase/supabase-flutter
+supabase_supabase,has_related_repository,https://github.com/supabase/supabase-swift
+supabase_supabase,has_related_repository,https://github.com/supabase/supabase-py
+supabase_supabase,has_related_repository,https://github.com/supabase-community/supabase-csharp
+supabase_supabase,has_related_repository,https://github.com/supabase-community/supabase-kt
+supabase_supabase,has_related_repository,https://github.com/supabase-community/supabase-rb
+supabase_supabase,has_related_repository,https://github.com/supabase-community/godot-engine.supabase
+nodejs_node,has_description,"Node.js is an open-source, cross-platform JavaScript runtime environment. It provides a runtime for executing JavaScript code outside of a web browser."
+nodejs_node,has_related_repository,https://github.com/nodejs/Release
+nodejs_node,has_related_repository,https://github.com/nodejs/release-keys
+huggingface_transformers,has_description,Transformers 是一个用于最先进机器学习模型定义和使用的框架，支持文本、计算机视觉、音频、视频和多模态模型的推理和训练。它集中了模型定义，确保生态系统内的一致性，并与各种训练框架、推理引擎和建模库兼容。
+abi_screenshot-to-code,has_description,一个使用AI将截图、线框图和Figma设计转换为简洁、功能代码的简单工具，支持多种技术栈和AI模型。
+Comfy-Org_ComfyUI,has_description,"ComfyUI is a powerful and modular visual AI engine and application that allows users to design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface. It is available on Windows, Linux, and macOS."
+Comfy-Org_ComfyUI,has_related_repository,https://github.com/Comfy-Org/desktop
+Comfy-Org_ComfyUI,has_related_repository,https://github.com/Comfy-Org/ComfyUI_frontend
+Comfy-Org_ComfyUI,has_related_repository,https://github.com/Comfy-Org/ComfyUI-Manager/tree/manager-v4
+Comfy-Org_ComfyUI,has_related_repository,https://github.com/Comfy-Org/ComfyUI_legacy_frontend
+fighting41love_funNLP,has_description,该项目是一个几乎最全的中文NLP资源库，旨在收集和整理GitHub上各种有趣且实用的中文自然语言处理工具、数据集和模型，涵盖从入门到熟悉NLP过程中可能用到的各类资源。
+mlabonne_llm-course,has_description,这是一个关于大型语言模型（LLM）的免费课程，分为三个部分：LLM基础知识、LLM科学家（专注于构建最佳LLM）和LLM工程师（专注于创建和部署LLM应用）。
+mlabonne_llm-course,has_related_repository,https://github.com/mlabonne/llm-autoeval
+mlabonne_llm-course,has_related_repository,https://github.com/mlabonne/llm-datasets
+trekhleb_javascript-algorithms,has_description,"This repository contains JavaScript based examples of many popular algorithms and data structures, each with its own separate README and explanations."
+trekhleb_javascript-algorithms,has_related_repository,https://github.com/trekhleb/nano-neuron
+trekhleb_javascript-algorithms,has_related_repository,https://github.com/trekhleb/self-parking-car-evolution
+electron_electron,has_description,Electron 是一个使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序的框架。它基于 Node.js 和 Chromium，被 Visual Studio Code 等众多应用程序所使用。
+electron_electron,has_related_repository,https://github.com/electron/fiddle
+hacksider_Deep-Live-Cam,has_description,Deep-Live-Cam 是一个实时人脸交换和视频深度伪造软件，只需点击一次和一张图片即可实现。
+hacksider_Deep-Live-Cam,has_related_repository,https://github.com/deepinsight/insightface
+hacksider_Deep-Live-Cam,has_related_repository,https://github.com/s0md3v/roop
+FortAwesome_Font-Awesome,has_description,Font Awesome 是互联网的图标库和工具包，被数百万设计师、开发者和内容创作者使用。
+animate-css_animate.css,has_description,一个即插即用的 CSS 动画库，提供多种预设动画效果，支持通过 prefers-reduced-motion 媒体查询实现无障碍访问。
+neovim_neovim,has_description,"Neovim is a project that seeks to aggressively refactor Vim to simplify maintenance, enable advanced UIs, and maximize extensibility."
+neovim_neovim,has_related_repository,https://github.com/neovim/neovim/wiki/Related-projects#gui
+langgenius_dify,has_description,Dify 是一个开源的 LLM 应用开发平台，它通过直观的界面结合了智能体工作流、RAG 管道、代理能力、模型管理、可观测性等功能，让开发者能够快速从原型过渡到生产环境。
+torvalds_linux,has_description,Linux kernel 是 Linux 操作系统的核心，负责管理硬件、系统资源，并为所有其他软件提供基础服务。
+tensorflow_models,has_description,TensorFlow Model Garden 是一个包含多种最先进模型和建模解决方案实现的仓库，旨在展示 TensorFlow 的最佳实践，帮助用户充分利用 TensorFlow 进行研究与产品开发。
+CompVis_stable-diffusion,has_description,Stable Diffusion 是一个基于潜在扩散模型的文本到图像生成模型，它使用 CLIP ViT-L/14 文本编码器来根据文本提示生成图像。该模型相对轻量，可在至少 10GB VRAM 的 GPU 上运行。
+CompVis_stable-diffusion,has_related_repository,https://github.com/CompVis/latent-diffusion
+CompVis_stable-diffusion,has_related_repository,https://github.com/huggingface/diffusers
+CompVis_stable-diffusion,has_related_repository,https://github.com/CompVis/stable-diffusion/pull/36
+CompVis_stable-diffusion,has_related_repository,https://github.com/ShieldMnt/invisible-watermark
+CompVis_stable-diffusion,has_related_repository,https://github.com/openai/guided-diffusion
+CompVis_stable-diffusion,has_related_repository,https://github.com/lucidrains/denoising-diffusion-pytorch
+CompVis_stable-diffusion,has_related_repository,https://github.com/lucidrains/x-transformers
+storybookjs_storybook,has_description,"Storybook is a frontend workshop for building UI components and pages in isolation, used by thousands of teams for UI development, testing, and documentation."
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/react-native
+storybookjs_storybook,has_related_repository,https://github.com/literalpie/storybook-framework-qwik
+storybookjs_storybook,has_related_repository,https://github.com/solidjs-community/storybook
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/native
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/addon-cssresources
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/addon-design-assets
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/addon-events
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/addon-google-analytics
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/addon-graphql
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/addon-jest
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/addon-queryparams
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/brand
+storybookjs_storybook,has_related_repository,https://github.com/storybookjs/test-runner
+Snailclimb_JavaGuide,has_description,JavaGuide 是一个涵盖 Java 后端学习全路径的指南，包括 Java 核心知识、计算机基础、数据库、开发工具、系统设计、分布式、高性能和高可用等内容。它旨在帮助开发者构建完整的知识体系，并提供面试准备和实战项目参考。
+Snailclimb_JavaGuide,has_related_repository,https://github.com/Snailclimb/springboot-guide
+facebook_react,has_description,"React is a JavaScript library for building user interfaces. It enables developers to create declarative, component-based UIs that can be rendered on the web, server, and mobile platforms."
+facebook_react,has_related_repository,https://github.com/reactjs/react.dev
+kamranahmedse_developer-roadmap,has_description,"Community driven roadmaps, articles and resources for developers. Provides interactive roadmaps, best practices, and questions to help developers learn and test their knowledge."
+flutter_flutter,has_description,"Flutter is Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop from a single codebase. It is a free and open-source framework that works with existing code."
+vuejs_awesome-vue,has_description,"A curated list of awesome things related to Vue.js, including resources, projects, components, libraries, and more."
+vuejs_awesome-vue,has_related_repository,https://github.com/sindresorhus/awesome
+vuejs_awesome-vue,has_related_repository,https://github.com/vitejs/awesome-vite
+Developer-Y_cs-video-courses,has_description,这是一个收集了带有视频讲座的计算机科学课程的仓库，涵盖了从计算机科学导论、数据结构与算法到人工智能、机器学习等多个领域的大学水平课程资源。
+Developer-Y_cs-video-courses,has_related_repository,https://github.com/Developer-Y/cs-video-courses/blob/master/NOTES.md
+Developer-Y_cs-video-courses,has_related_repository,https://github.com/Developer-Y/cs-video-courses/blob/master/CONTRIBUTING.md
+mui_material-ui,has_description,Material UI is a comprehensive library of React components that implements Google's Material Design system. It's extended by MUI X for advanced use cases and also contains the experimental Joy UI component library.
+mui_material-ui,has_related_repository,https://github.com/mui/mui-x
+521xueweihan_HelloGitHub,has_description,HelloGitHub 是一个分享 GitHub 上有趣、入门级开源项目的月刊项目，旨在帮助用户发现开源的乐趣。
+521xueweihan_HelloGitHub,has_related_repository,https://github.com/OpenIMSDK/Open-IM-Server
+immich-app_immich,has_description,Immich is a high performance self-hosted photo and video management solution.
+DopplerHQ_awesome-interview-questions,has_description,一个精选的技术面试问题列表集合，涵盖了多种编程语言、框架、数据库、算法等主题。该项目已不再积极维护。
+DopplerHQ_awesome-interview-questions,has_related_repository,https://github.com/sindresorhus/awesome
+tauri-apps_tauri,has_description,Tauri 是一个用于为所有主流桌面平台构建小巧、极速二进制文件的框架。开发者可以集成任何能够编译为 HTML、JS 和 CSS 的前端框架来构建用户界面，应用的后端则是一个 Rust 二进制文件，前端可以通过 API 与之交互。
+tauri-apps_tauri,has_related_repository,https://github.com/tauri-apps/wry
+tauri-apps_tauri,has_related_repository,https://github.com/tauri-apps/create-tauri-app
+tauri-apps_tauri,has_related_repository,https://github.com/tauri-apps/tauri-docs
+MunGell_awesome-for-beginners,has_description,一个收集了带有 'first-timers-only' 或类似标签的开源项目的列表，旨在帮助新手找到适合首次贡献的开源项目。
+MunGell_awesome-for-beginners,has_related_repository,https://github.com/szabgab/awesome-for-non-programmers
+MunGell_awesome-for-beginners,has_related_repository,https://github.com/firstcontributions/first-contributions
+realworld-apps_realworld,has_description,RealWorld 是一个展示如何构建真实应用程序的示例项目，它提供了使用不同前端和后端技术栈构建的相同 Medium.com 克隆应用，所有实现都遵循相同的 API 规范。
+realworld-apps_realworld,has_related_repository,https://github.com/realworld-apps/angular-realworld-example-app
+ByteByteGoHq_system-design-101,has_description,System Design 101 是一个使用视觉图表和简单术语解释复杂系统设计的资源库。它旨在帮助用户准备系统设计面试，并理解各种系统的工作原理。
+bitcoin_bitcoin,has_description,Bitcoin Core 是比特币的官方节点软件，它连接到比特币点对点网络以下载和完全验证区块和交易，并包含一个可选的钱包和图形用户界面。
+bitcoin_bitcoin,has_related_repository,https://github.com/bitcoin-core/gui
+mtdvio_every-programmer-should-know,has_description,一个收集了每个软件开发人员都应该了解的（主要是）技术知识的资源库，包含算法、数据结构、系统设计、职业发展等多个主题的推荐资料。
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/kamranahmedse/developer-roadmap
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/kdeldycke/awesome-falsehood
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/donnemartin/system-design-primer
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/mr-mig/going-to-production
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/97-things/97-things-every-programmer-should-know
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/papers-we-love/papers-we-love
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/EbookFoundation/free-programming-books
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/ripienaar/free-for-dev
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/abhishekbanthia/Public-APIs
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/georgemandis/remote-working-list
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/lukasz-madon/awesome-remote-job
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/dreamingechoes/awesome-mental-health
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/kdn251/interviews
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/yangshun/tech-interview-handbook
+mtdvio_every-programmer-should-know,has_related_repository,https://github.com/jlevy/og-equity-compensation
+josephmisiti_awesome-machine-learning,has_description,"A curated list of awesome machine learning frameworks, libraries and software organized by programming language. Inspired by awesome-php."
+josephmisiti_awesome-machine-learning,has_related_repository,https://github.com/sindresorhus/awesome
+netdata_netdata,has_description,"Netdata is an open-source, real-time infrastructure monitoring platform that provides per-second metrics and visualizations with zero configuration. It offers ML-powered anomaly detection, efficient resource usage, and secure distributed monitoring across systems, containers, and applications."
+hakimel_reveal.js,has_description,reveal.js 是一个开源的 HTML 演示文稿框架，允许任何人使用网页浏览器免费创建精美的演示文稿。
+practical-tutorials_project-based-learning,has_description,一个编程教程列表，旨在帮助有抱负的软件开发人员学习如何从零开始构建应用程序。这些教程按主要编程语言分类，可能涉及多种技术和语言。
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/csharpfritz/CoreWiki
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/tuhdo/os01
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/cfenollosa/os-tutorial
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/ssloy/tinyrenderer
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/ssloy/tinyraytracer
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/ssloy/tinykaboom
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/ssloy/tinyraycaster
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/jamesroutley/write-a-hash-table
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/aliaksandr-s/prototyping-with-clojure
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/shaunlebron/t3tr0s-slides
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/dwyl/javascript-todo-list-tutorial
+practical-tutorials_project-based-learning,has_related_repository,https://github.com/SSYGEN/blog
+redis_redis,has_description,Redis 是一个高性能的内存数据结构存储系统，可作为缓存、数据库、消息代理和流处理引擎使用。它支持多种数据结构，包括字符串、哈希、列表、集合、有序集合、JSON、流等，并提供丰富的查询和搜索功能。
+redis_redis,has_related_repository,https://github.com/redis/redis-snap
+redis_redis,has_related_repository,https://github.com/redis/homebrew-redis
+redis_redis,has_related_repository,https://github.com/redis/redis-rpm
+redis_redis,has_related_repository,https://github.com/redis/redis-debian
+redis_redis,has_related_repository,https://github.com/redis-developer/redis-starter-python
+redis_redis,has_related_repository,https://github.com/redis-developer/redis-starter-csharp
+redis_redis,has_related_repository,https://github.com/redis-developer/redis-starter-go
+redis_redis,has_related_repository,https://github.com/redis-developer/redis-starter-js
+redis_redis,has_related_repository,https://github.com/redis-developer/redis-starter-java
+redis_redis,has_related_repository,https://github.com/RedisInsight/RedisInsight
+langchain-ai_langchain,has_description,"LangChain is a framework for building agents and LLM-powered applications, helping developers chain together interoperable components and third-party integrations to simplify AI application development."
+langchain-ai_langchain,has_related_repository,https://github.com/langchain-ai/langchainjs
+langchain-ai_langchain,has_related_repository,https://github.com/langchain-ai/deepagents
+django_django,has_description,Django 是一个高级 Python Web 框架，鼓励快速开发和简洁实用的设计。
+papers-we-love_papers-we-love,has_description,"Papers We Love (PWL) is a community built around reading, discussing, and learning about academic computer science papers. This repository serves as a directory of some of the best papers, bringing together documents scattered across the web."
+papers-we-love_papers-we-love,has_related_repository,https://github.com/papers-we-love/organizers
+papers-we-love_papers-we-love,has_related_repository,https://github.com/eugeneyan/applied-ml
+papers-we-love_papers-we-love,has_related_repository,https://github.com/mmcgrana/services-engineering
+Hack-with-Github_Awesome-Hacking,has_description,一个为黑客、渗透测试人员和安全研究人员收集的精选资源列表合集。
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/ashishb/android-security-awesome
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/paragonie/awesome-appsec
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/redhuntlabs/Awesome-Asset-Discovery
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/djadmin/awesome-bug-bounty
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/r3dy/capsulecorp-pentest
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/W00t3k/Awesome-Cellular-Hacking
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/apsdehal/awesome-ctf
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/joe-shenouda/awesome-cyber-skills
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/devsecops/awesome-devsecops
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/fkie-cad/awesome-embedded-and-iot-security
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/FabioBaroni/awesome-exploit-development
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/secfigo/Awesome-Fuzzing
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/carpedm20/awesome-hacking
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/vitalysim/Awesome-Hacking-Resources
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/paralax/awesome-honeypots
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/meirwah/awesome-incident-response
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/hslatman/awesome-industrial-control-system-security
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/onlurking/awesome-infosec
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/nebgnahz/awesome-iot-hacks
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/samanL33T/Awesome-Mainframe-Hacking
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/rshipp/awesome-malware-analysis
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/jivoi/awesome-osint
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/ashishb/osx-and-ios-security-awesome
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/caesar0301/awesome-pcaptools
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/enaqx/awesome-pentest
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/ziadoz/awesome-php#security
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/EnableSecurity/awesome-rtc-hacking
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/fdivrp/awesome-reversing
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/Limmen/awesome-rl-for-cybersecurity
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/PaulSec/awesome-sec-talks
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/danielmiessler/SecLists
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/sbilly/awesome-security
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/puresec/awesome-serverless-security/
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/v2-dev/awesome-social-engineering
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/mre/awesome-static-analysis
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/The-Art-of-Hacking/h4cker
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/hslatman/awesome-threat-intelligence
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/jaredthecoder/awesome-vehicle-security
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/re-pronin/awesome-vulnerability-research
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/infoslack/awesome-web-hacking
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/Anugrahsr/Awesome-web3-Security
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/yeyintminthuhtut/Awesome-Advanced-Windows-Exploitation-References
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/0x90/wifi-arsenal
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/InQuest/awesome-yara
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/sundowndev/hacker-roadmap
+Hack-with-Github_Awesome-Hacking,has_related_repository,https://github.com/brunoooost/cybersources
+facebook_create-react-app,has_description,Create React App 是一个用于快速创建 React 应用程序的工具，无需进行构建配置。它预置了 webpack、Babel 等工具，让开发者可以专注于编写代码。
+facebook_create-react-app,has_related_repository,https://github.com/expo/expo-cli
+deepseek-ai_DeepSeek-V3,has_description,DeepSeek-V3 是一个强大的混合专家（MoE）语言模型，拥有 6710 亿总参数，每个 token 激活 370 亿参数。它在多项基准测试中超越了其他开源模型，性能可与领先的闭源模型相媲美。
+deepseek-ai_DeepSeek-V3,has_related_repository,https://github.com/deepseek-ai/DeepSeek-V2
+twitter_the-algorithm,has_description,"X's Recommendation Algorithm is a set of services and jobs responsible for serving feeds of posts and content across X product surfaces like the For You Timeline, Search, Explore, and Notifications."
+twitter_the-algorithm,has_related_repository,https://github.com/twitter/the-algorithm-ml
+twitter_the-algorithm,has_related_repository,https://github.com/twitter/GraphJet
+twbs_bootstrap,has_description,"Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development."
+twbs_bootstrap,has_related_repository,https://github.com/twbs/bootstrap/tree/v4-dev
+awesome-selfhosted_awesome-selfhosted,has_description,"A curated list of Free Software network services and web applications which can be hosted on your own server(s). It covers a wide range of categories including analytics, automation, communication, content management, and more."
+awesome-selfhosted_awesome-selfhosted,has_related_repository,https://github.com/awesome-selfhosted/awesome-selfhosted-data
+awesome-selfhosted_awesome-selfhosted,has_related_repository,https://github.com/awesome-selfhosted/awesome-selfhosted
+microsoft_PowerToys,has_description,Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline everyday tasks.
+microsoft_PowerToys,has_related_repository,https://github.com/microsoft/winget-cli
+sindresorhus_awesome,has_description,这是一个精选的“Awesome”列表集合，涵盖了从编程语言、平台、前端/后端开发到计算机科学、大数据、安全、硬件、商业等多个技术领域的资源。它作为一个中心目录，链接到众多特定主题的Awesome列表，方便开发者发现高质量的学习资料、工具和项目。
+TheAlgorithms_Python,has_description,All algorithms implemented in Python for educational purposes. Implementations are for learning and may be less efficient than standard library versions.
+facebook_react-native,has_description,React Native 是一个使用 React 构建原生移动应用的框架，允许开发者使用 JavaScript 和 React 来开发 iOS 和 Android 应用，并实现代码复用。
+facebook_react-native,has_related_repository,https://github.com/facebook/react-native-website
+facebook_react-native,has_related_repository,https://github.com/react-native-community/discussions-and-proposals
+facebook_react-native,has_related_repository,https://github.com/react-native-community/react-native-releases
+ryanmcdermott_clean-code-javascript,has_description,将 Robert C. Martin 的《代码整洁之道》中的软件工程原则适配到 JavaScript 的指南。它旨在帮助开发者编写可读、可复用和可重构的 JavaScript 软件。
+ryanmcdermott_clean-code-javascript,has_related_repository,https://github.com/ryanmcdermott/3rs-of-software-architecture
+microsoft_generative-ai-for-beginners,has_description,这是一个由微软云倡导者提供的21课综合课程，教授构建生成式AI应用程序所需的基础知识。课程涵盖从大型语言模型基础到提示工程、聊天应用、图像生成等主题，并提供Python和TypeScript代码示例。
+microsoft_generative-ai-for-beginners,has_related_repository,https://github.com/microsoft/Generative-AI-for-beginners-dotnet
+Significant-Gravitas_AutoGPT,has_description,AutoGPT 是一个强大的平台，允许用户创建、部署和管理持续运行的 AI 代理，以自动化复杂的工作流程。
+Significant-Gravitas_AutoGPT,has_related_repository,https://github.com/Significant-Gravitas/gravitasml
+Significant-Gravitas_AutoGPT,has_related_repository,https://github.com/Significant-Gravitas/AutoGPT-Code-Ability
+github_gitignore,has_description,GitHub官方收集的.gitignore文件模板集合，用于在GitHub.com界面创建新仓库和文件时提供模板选择。
+ruanyf_weekly,has_description,这是一个记录每周值得分享的科技内容的周刊项目，每周五发布，涵盖科技趋势、行业动态、软件开发、创业思考等多个领域。
+fatedier_frp,has_description,frp 是一个快速的反向代理工具，允许你将位于 NAT 或防火墙后的本地服务器暴露到互联网。它支持 TCP、UDP、HTTP 和 HTTPS 协议，并能通过域名将请求转发到内部服务。
+fatedier_frp,has_related_repository,https://github.com/gofrp/plugin
+fatedier_frp,has_related_repository,https://github.com/gofrp/tiny-frpc
+mrdoob_three.js,has_description,three.js 是一个易于使用、轻量级、跨浏览器、通用的 JavaScript 3D 库。它主要包含 WebGL 和 WebGPU 渲染器，SVG 和 CSS3D 渲染器也可作为附加组件使用。
+langflow-ai_langflow,has_description,"Langflow is a powerful platform for building and deploying AI-powered agents and workflows, providing both a visual authoring experience and built-in API/MCP servers to integrate workflows into any application."
+ant-design_ant-design,has_description,Ant Design 是一个企业级的 UI 设计语言和 React UI 库，提供了一套高质量的开箱即用 React 组件。
+ant-design_ant-design,has_related_repository,https://github.com/umijs/dumi
+ant-design_ant-design,has_related_repository,https://react-component.github.io/
+public-apis_public-apis,has_description,"A community-curated repository containing an extensive list of public APIs from many domains, serving as a treasure trove of APIs for use in products."
+public-apis_public-apis,has_related_repository,https://github.com/davemachado/public-api
+syncthing_syncthing,has_description,Syncthing 是一个持续文件同步程序，用于在两台或多台计算机之间同步文件。它注重数据安全、易于使用和跨平台可用性。
+syncthing_syncthing,has_related_repository,https://github.com/syncthing/docs
+tensorflow_tensorflow,has_description,TensorFlow 是一个端到端的开源机器学习平台，拥有全面、灵活的工具、库和社区资源生态系统，让研究人员能够推动机器学习的前沿，开发者能够轻松构建和部署基于机器学习的应用程序。
+tensorflow_tensorflow,has_related_repository,https://github.com/tensorflow/models/tree/master/official
+tensorflow_tensorflow,has_related_repository,https://github.com/tensorflow/examples
+tensorflow_tensorflow,has_related_repository,https://github.com/tensorflow/tensorboard
+thedaviddias_Front-End-Checklist,has_description,The Front-End Checklist is an exhaustive list of all elements you need to have or test before launching your website or HTML page to production.
+thedaviddias_Front-End-Checklist,has_related_repository,https://github.com/thedaviddias/Front-End-Performance-Checklist
+thedaviddias_Front-End-Checklist,has_related_repository,https://github.com/thedaviddias/Front-End-Design-Checklist
+AUTOMATIC1111_stable-diffusion-webui,has_description,"A web interface for Stable Diffusion, implemented using Gradio library."
+AUTOMATIC1111_stable-diffusion-webui,has_related_repository,https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients
+AUTOMATIC1111_stable-diffusion-webui,has_related_repository,https://github.com/vicgalle/stable-diffusion-aesthetic-gradients
+AUTOMATIC1111_stable-diffusion-webui,has_related_repository,https://github.com/Stability-AI/stablediffusion
+AUTOMATIC1111_stable-diffusion-webui,has_related_repository,https://github.com/runwayml/stable-diffusion
+AUTOMATIC1111_stable-diffusion-webui,has_related_repository,https://github.com/yfszzx/stable-diffusion-webui-images-browser
+iluwatar_java-design-patterns,has_description,该项目是Java设计模式的实现集合，展示了由开源社区经验丰富的程序员和架构师开发的解决方案。它提供了设计模式的高层描述和源代码示例，可作为编程教程来学习如何实现特定模式。
+gohugoio_hugo,has_description,Hugo 是一个用 Go 语言编写的静态网站生成器，注重速度和灵活性。它具有高级模板系统和快速的资源处理管道，能在几秒内渲染完整的网站。
+gohugoio_hugo,has_related_repository,https://github.com/gohugoio/hugoDocs
+obsproject_obs-studio,has_description,OBS Studio 是一款用于高效捕获、合成、编码、录制和流式传输视频内容的软件。
+puppeteer_puppeteer,has_description,Puppeteer 是一个 JavaScript 库，它提供了一个高级 API 来通过 DevTools 协议或 WebDriver BiDi 控制 Chrome 或 Firefox。
+puppeteer_puppeteer,has_related_repository,https://github.com/ChromeDevTools/chrome-devtools-mcp
+zed-industries_zed,has_description,Zed 是一个由 Atom 和 Tree-sitter 的创建者开发的高性能、多人协作代码编辑器。
+zed-industries_zed,has_related_repository,https://github.com/atom/atom
+zed-industries_zed,has_related_repository,https://github.com/tree-sitter/tree-sitter
+firecrawl_firecrawl,has_description,"Firecrawl is an API that scrapes, crawls, and extracts structured data from any website, turning websites into LLM-ready data for AI agents and apps."
+firecrawl_firecrawl,has_related_repository,https://github.com/firecrawl/firecrawl-mcp-server
+jesseduffield_lazygit,has_description,"A simple terminal UI for git commands, providing an interactive interface for managing git repositories."
+infiniflow_ragflow,has_description,"RAGFlow is an open-source Retrieval-Augmented Generation (RAG) engine that combines RAG with Agent capabilities to create a context layer for LLMs, enabling developers to transform complex data into production-ready AI systems efficiently."
+infiniflow_ragflow,has_related_repository,https://github.com/infiniflow/infinity/
+vuejs_vue,has_description,Vue 2 是一个用于构建用户界面的渐进式 JavaScript 框架，现已停止维护。
+vuejs_vue,has_related_repository,https://github.com/vuejs/core
+astral-sh_uv,has_description,uv 是一个用 Rust 编写的极速 Python 包和项目管理器，旨在替代 pip、pip-tools、pipx、poetry 等多种工具。
+astral-sh_uv,has_related_repository,https://github.com/astral-sh/ruff
+astral-sh_uv,has_related_repository,https://github.com/astral-sh/ty
+anomalyco_opencode,has_description,"OpenCode is an open source AI coding agent that provides a terminal user interface and supports multiple AI providers including Claude, OpenAI, Google, and local models."
+enaqx_awesome-react,has_description,一个关于 React 生态系统的精选资源集合，涵盖了从教程、框架、组件库到状态管理、测试工具等各个方面。
+enaqx_awesome-react,has_related_repository,https://github.com/brillout/awesome-react-components
+modelcontextprotocol_servers,has_description,这是一个 Model Context Protocol (MCP) 参考服务器集合，展示了 MCP 如何为大型语言模型提供安全、受控的工具和数据源访问。
+modelcontextprotocol_servers,has_related_repository,https://github.com/modelcontextprotocol/servers-archived
+Chalarangelo_30-seconds-of-code,has_description,一个包含简短代码片段的项目，旨在帮助开发者提升编程技能，涵盖多种主题和语言。
+iptv-org_iptv,has_description,Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.
+iptv-org_iptv,has_related_repository,https://github.com/iptv-org/epg
+iptv-org_iptv,has_related_repository,https://github.com/iptv-org/database
+iptv-org_iptv,has_related_repository,https://github.com/iptv-org/api
+iptv-org_iptv,has_related_repository,https://github.com/iptv-org/awesome-iptv
+anuraghazra_github-readme-stats,has_description,GitHub Readme Stats 是一个用于在 GitHub README 文件中动态生成 GitHub 统计信息卡片的工具。
+bregman-arie_devops-exercises,has_description,"This repository contains a collection of questions and exercises on various technical topics, often related to DevOps and SRE, useful for interview preparation and learning concepts."
+bregman-arie_devops-exercises,has_related_repository,https://github.com/bregman-arie/python-exercises
+bregman-arie_devops-exercises,has_related_repository,https://github.com/bregman-arie/go-exercises
+yangshun_tech-interview-handbook,has_description,Tech Interview Handbook 是一个免费且精心策划的技术面试准备资料库，为忙碌的工程师提供从求职到面试再到薪资谈判的全流程实用指南。它包含算法问题、行为面试问题、简历指南等内容，旨在帮助求职者高效准备技术面试。
+yangshun_tech-interview-handbook,has_related_repository,https://github.com/yangshun/lago
+yangshun_tech-interview-handbook,has_related_repository,https://github.com/facebook/docusaurus
+PanJiaChen_vue-element-admin,has_description,vue-element-admin 是一个基于 Vue 和 Element UI 的生产就绪前端管理界面解决方案。它包含了企业级应用的典型模板和众多功能，帮助构建大型复杂的单页面应用程序。
+PanJiaChen_vue-element-admin,has_related_repository,https://github.com/vuejs/vue
+PanJiaChen_vue-element-admin,has_related_repository,https://github.com/ElemeFE/element
+PanJiaChen_vue-element-admin,has_related_repository,https://github.com/PanJiaChen/vue-admin-template
+PanJiaChen_vue-element-admin,has_related_repository,https://github.com/PanJiaChen/electron-vue-admin
+PanJiaChen_vue-element-admin,has_related_repository,https://github.com/Armour/vue-typescript-admin-template
+3b1b_manim,has_description,"Manim is an engine for precise programmatic animations, designed for creating explanatory math videos. This repository is the original version by 3Blue1Brown, also known as ManimGL."
+3b1b_manim,has_related_repository,https://github.com/3b1b/videos
+3b1b_manim,has_related_repository,https://github.com/ManimCommunity/manim/
+3b1b_manim,has_related_repository,https://github.com/manim-kindergarten/manim_sandbox
+nomic-ai_gpt4all,has_description,GPT4All 是一个能够在普通台式机和笔记本电脑上本地运行大型语言模型（LLM）的项目，无需API调用或GPU。
+nomic-ai_gpt4all,has_related_repository,https://github.com/ggerganov/llama.cpp
+DigitalPlatDev_FreeDomain,has_description,DigitalPlat FreeDomain 是一个提供免费域名注册的服务，旨在让每个人都能拥有数字身份，无需任何费用即可注册独特域名并使用喜欢的 DNS 提供商进行托管。
+nvbn_thefuck,has_description,The Fuck 是一个命令行工具，能够自动纠正之前控制台命令中的错误。它通过匹配错误命令与规则来生成并执行正确的命令。
+donnemartin_system-design-primer,has_description,这是一个帮助学习大规模系统设计的资源集合，旨在帮助工程师准备系统设计面试。它包含了系统设计原则、常见面试问题及解决方案、闪卡等多种学习材料。
+donnemartin_system-design-primer,has_related_repository,https://github.com/donnemartin/interactive-coding-challenges
+florinpop17_app-ideas,has_description,这是一个应用程序创意集合，旨在为开发者提供项目灵感，包含不同难度级别的详细项目描述，帮助开发者提升编码技能、尝试新技术并丰富作品集。
+doocs_advanced-java,has_description,互联网 Java 工程师进阶知识完全扫盲，内容涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识。
+doocs_advanced-java,has_related_repository,https://github.com/doocs/leetcode
+microsoft_ML-For-Beginners,has_description,"A 12-week, 26-lesson curriculum about classic machine learning, using primarily Scikit-learn. It covers topics like regression, classification, clustering, natural language processing, time series, and reinforcement learning through project-based lessons."
+microsoft_ML-For-Beginners,has_related_repository,https://aka.ms/ai4beginners
+microsoft_ML-For-Beginners,has_related_repository,https://aka.ms/ds4beginners
+rasbt_LLMs-from-scratch,has_description,该仓库是《Build a Large Language Model (From Scratch)》一书的官方代码库，提供了从零开始开发、预训练和微调类GPT大型语言模型的代码实现。
+rasbt_LLMs-from-scratch,has_related_repository,https://github.com/rasbt/reasoning-from-scratch
+openai_openai-cookbook,has_description,提供使用 OpenAI API 完成常见任务的示例代码和指南，主要使用 Python 编写。
+strapi_strapi,has_description,"Strapi Community Edition is a free and open-source headless CMS built with JavaScript/TypeScript, offering flexibility and full customization. It can be self-hosted or deployed to Strapi Cloud, providing a modern admin panel and support for multiple databases."
+strapi_strapi,has_related_repository,https://github.com/strapi/documentation
+pytorch_pytorch,has_description,PyTorch is a Python package that provides GPU-accelerated tensor computation and deep neural networks built on a tape-based autograd system.
+pytorch_pytorch,has_related_repository,https://github.com/pytorch/examples
+sherlock-project_sherlock,has_description,Sherlock 是一个通过用户名在 400 多个社交网络上查找社交媒体账户的工具。
+nestjs_nest,has_description,"Nest is a progressive Node.js framework for building efficient and scalable server-side applications. It uses TypeScript and combines elements of OOP, FP, and FRP."
+nestjs_nest,has_related_repository,https://github.com/fastify/fastify
+nestjs_nest,has_related_repository,https://github.com/facebook/react
+nestjs_nest,has_related_repository,https://github.com/vuejs/vue
+microsoft_vscode,has_description,这是 Visual Studio Code 的开源版本（Code - OSS），由 Microsoft 与社区共同开发。它是一个结合了代码编辑器简洁性和核心编辑-构建-调试周期所需功能的开发工具。
+microsoft_vscode,has_related_repository,https://github.com/microsoft/vscode-docs
+microsoft_vscode,has_related_repository,https://github.com/microsoft/vscode-node-debug
+microsoft_vscode,has_related_repository,https://github.com/microsoft/vscode-mono-debug
+browser-use_browser-use,has_description,Browser-Use 是一个 AI 浏览器代理，用于自动化浏览器任务，允许用户通过自然语言指令控制浏览器操作。
+shadcn-ui_ui,has_description,"A set of beautifully designed, customizable, and extensible open-source UI components for building your own component library."
+Stirling-Tools_Stirling-PDF,has_description,Stirling PDF 是一个强大的开源 PDF 编辑平台，可作为个人桌面应用程序、在浏览器中运行或部署在自有服务器上，提供编辑、签署、编校、转换和自动化处理 PDF 的功能。
+ossu_computer-science,has_description,OSSU 计算机科学课程是一个使用在线材料提供的完整的计算机科学教育，旨在为学习者提供全面的计算机科学基础，适合那些希望通过自学和全球社区支持获得正规教育的人。
+ossu_computer-science,has_related_repository,https://github.com/ossu/computer-science
+microsoft_markitdown,has_description,MarkItDown 是一个轻量级的 Python 工具，用于将各种文件转换为 Markdown 格式，以便与 LLM 和相关的文本分析管道一起使用。它专注于将重要的文档结构和内容（如标题、列表、表格、链接等）保留为 Markdown。
+microsoft_markitdown,has_related_repository,https://github.com/deanmalmgren/textract
+microsoft_markitdown,has_related_repository,https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp
+golang_go,has_description,"Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
+golang_go,has_related_repository,https://go.googlesource.com/go
+golang_go,has_related_repository,https://github.com/golang/go
+rust-lang_rust,has_description,这是 Rust 编程语言的主要源代码仓库，包含编译器、标准库和文档。Rust 是一种赋能所有人构建可靠且高效软件的语言。
+rust-lang_rust,has_related_repository,https://github.com/rust-lang/cargo
+rust-lang_rust,has_related_repository,https://github.com/rust-lang/rustfmt
+rust-lang_rust,has_related_repository,https://github.com/rust-lang/rust-clippy
+rust-lang_rust,has_related_repository,https://github.com/rust-lang/rust-analyzer
+yt-dlp_yt-dlp,has_description,yt-dlp is a feature-rich command-line audio/video downloader with support for thousands of sites. It is a fork of youtube-dl based on the now inactive youtube-dlc.
+yt-dlp_yt-dlp,has_related_repository,https://github.com/ytdl-org/youtube-dl
+yt-dlp_yt-dlp,has_related_repository,https://github.com/blackjack4494/yt-dlc
+unionlabs_union,has_description,"Union is a hyper-efficient zero-knowledge infrastructure layer for general message passing, asset transfers, NFTs, and DeFi, based on Consensus Verification with no dependencies on trusted third parties. It implements IBC for compatibility with Cosmos chains and connects to EVM chains like Ethereum, Berachain, and Arbitrum."
+unionlabs_union,has_related_repository,https://github.com/berachain/beacon-kit
+unionlabs_union,has_related_repository,https://github.com/unionlabs/cometbls
+unionlabs_union,has_related_repository,https://github.com/cosmos/ibc
+unionlabs_union,has_related_repository,https://github.com/OffchainLabs/arbitrum
+unionlabs_union,has_related_repository,https://github.com/ConsenSys/gnark
+avelino_awesome-go,has_description,"A curated list of awesome Go frameworks, libraries, and software, inspired by awesome-python. It serves as a comprehensive resource for Go developers."
+avelino_awesome-go,has_related_repository,https://github.com/vinta/awesome-python
+punkpeye_awesome-mcp-servers,has_description,一个精选的 Model Context Protocol (MCP) 服务器列表，这些服务器通过文件访问、数据库连接、API 集成和其他上下文服务来扩展 AI 能力。
+punkpeye_awesome-mcp-servers,has_related_repository,https://github.com/punkpeye/awesome-mcp-clients/
+2dust_v2rayN,has_description,"A GUI client for Windows, Linux and macOS that supports Xray, sing-box, and other cores."
+2dust_v2rayN,has_related_repository,https://github.com/XTLS/Xray-core
+2dust_v2rayN,has_related_repository,https://github.com/SagerNet/sing-box
+openclaw_openclaw,has_description,"OpenClaw is a personal AI assistant that runs on your own devices, answering on channels you already use (WhatsApp, Telegram, Slack, Discord, etc.) and providing features like voice wake, live canvas, and multi-agent routing."
+openclaw_openclaw,has_related_repository,https://github.com/openclaw/nix-openclaw
+spring-projects_spring-boot,has_description,"Spring Boot helps you to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need."
+ChatGPTNextWeb_NextChat,has_description,NextChat 是一个轻量且快速的 AI 助手应用，支持 Claude、DeepSeek、GPT4 和 Gemini Pro 等多种模型，提供 Web、桌面和移动端版本。
+ChatGPTNextWeb_NextChat,has_related_repository,https://github.com/ChatGPTNextWeb/NextChat-iOS
+ChatGPTNextWeb_NextChat,has_related_repository,https://github.com/ChatGPTNextWeb/NextChat-Awesome-Plugins
+mermaid-js_mermaid,has_description,Mermaid 是一个基于 JavaScript 的图表绘制工具，它使用类似 Markdown 的文本定义和渲染器来创建和修改复杂的图表。其主要目的是帮助文档跟上开发的步伐。
+mermaid-js_mermaid,has_related_repository,https://github.com/mermaid-js/mermaid-cli
+mermaid-js_mermaid,has_related_repository,https://github.com/mermaid-js/mermaid-live-editor
+mermaid-js_mermaid,has_related_repository,https://github.com/TomWright/mermaid-server
+jlevy_the-art-of-command-line,has_description,这是一个关于命令行使用技巧和最佳实践的精选指南，旨在帮助用户提高在 Linux 命令行环境下的灵活性和工作效率。它涵盖了从基础到高级的各种命令、工具和实用技巧。
+jlevy_the-art-of-command-line,has_related_repository,https://github.com/alebcay/awesome-shell
+jlevy_the-art-of-command-line,has_related_repository,https://github.com/herrbischoff/awesome-osx-command-line
+jlevy_the-art-of-command-line,has_related_repository,https://github.com/koalaman/shellcheck
+grafana_grafana,has_description,Grafana 是一个用于监控和可观测性的开源平台，允许用户查询、可视化、告警和理解存储在任何地方的指标。
+nvm-sh_nvm,has_description,nvm 是一个 Node.js 版本管理器，允许用户通过命令行快速安装和使用不同版本的 Node.js。它支持任何符合 POSIX 标准的 shell，可在 Unix、macOS 和 Windows WSL 上运行。
+nvm-sh_nvm,has_related_repository,https://github.com/nvm-sh/logos
+awesomedata_awesome-public-datasets,has_description,这是一个高质量、按主题分类的公共数据集列表，收集整理了来自博客、问答和用户反馈的各种公开数据源。该项目最初在上海交通大学OMNILab孵化，现已成为白玉兰开放AI社区的一部分。
+awesomedata_awesome-public-datasets,has_related_repository,https://github.com/awesomedata/apd-core
+awesomedata_awesome-public-datasets,has_related_repository,https://github.com/sindresorhus/awesome
+awesomedata_awesome-public-datasets,has_related_repository,https://github.com/OMNILab
+awesomedata_awesome-public-datasets,has_related_repository,https://github.com/Bai-Yu-Lan
+apache_superset,has_description,Superset 是一个现代化的、企业级的商业智能 Web 应用程序，它是一个用于数据探索和数据可视化的平台，可以替代或增强许多团队的专有商业智能工具。
+jackfrued_Python-100-Days,has_description,这是一个名为“Python - 100天从新手到大师”的教程项目，旨在通过100天的结构化学习路径，帮助学习者从Python基础入门逐步进阶到Web开发、数据分析、机器学习等领域的实战应用。
+krahets_hello-algo,has_description,一本开源免费、新手友好的数据结构与算法入门教程，采用动画图解和可一键运行的源代码，帮助初学者平滑学习。
+clash-verge-rev_clash-verge-rev,has_description,Clash Verge Rev 是基于 Tauri 框架开发的 Clash Meta 图形用户界面客户端，是原 Clash Verge 项目的延续。
+clash-verge-rev_clash-verge-rev,has_related_repository,https://github.com/zzzgydi/clash-verge
+clash-verge-rev_clash-verge-rev,has_related_repository,https://github.com/tauri-apps/tauri
+clash-verge-rev_clash-verge-rev,has_related_repository,https://github.com/MetaCubeX/mihomo
+clash-verge-rev_clash-verge-rev,has_related_repository,https://github.com/Dreamacro/clash
+clash-verge-rev_clash-verge-rev,has_related_repository,https://github.com/Fndroid/clash_for_windows_pkg
+clash-verge-rev_clash-verge-rev,has_related_repository,https://github.com/vitejs/vite
+moby_moby,has_description,Moby 是一个由 Docker 创建的开源项目，旨在实现和加速软件容器化。它提供了一套工具包组件、用于组装成基于容器的自定义系统的框架，以及供容器爱好者和专业人士实验和交流想法的平台。
+massgravel_Microsoft-Activation-Scripts,has_description,一个开源的 Windows 和 Office 激活工具，支持 HWID、Ohook、TSforge 和在线 KMS 等多种激活方法，并提供高级故障排除功能。
+jaywcjlove_awesome-mac,has_description,"Awesome Mac is a curated list of excellent macOS software organized into categories. It collects and categorizes awesome applications, tools, and resources for the macOS platform."
+jaywcjlove_awesome-mac,has_related_repository,https://github.com/sindresorhus/awesome
+laravel_laravel,has_description,Laravel 是一个具有优雅、富有表现力语法的 Web 应用程序框架，旨在让开发成为一种愉快且富有创造性的体验。它通过简化许多 Web 项目中常见的任务，使开发变得轻松，并提供了构建大型、健壮应用程序所需的工具。
+f_prompts.chat,has_description,"The world's largest open-source prompt library for AI, providing a curated collection of prompt examples that work with ChatGPT, Claude, Gemini, Llama, Mistral, and other modern AI assistants."
+denoland_deno,has_description,Deno 是一个基于 V8、Rust 和 Tokio 构建的 JavaScript、TypeScript 和 WebAssembly 运行时，具有安全的默认设置和出色的开发者体验。
+gin-gonic_gin,has_description,Gin 是一个用 Go 编写的高性能 HTTP Web 框架，旨在构建 REST API、Web 应用和微服务。它提供了类似 Martini 的 API，但性能显著更高（得益于 httprouter），并具有零分配路由、中间件支持和 JSON 验证等关键特性。
+gin-gonic_gin,has_related_repository,https://github.com/julienschmidt/httprouter
+gin-gonic_gin,has_related_repository,https://github.com/gin-gonic/examples
+gin-gonic_gin,has_related_repository,https://github.com/gin-contrib
+gin-gonic_gin,has_related_repository,https://github.com/gin-gonic/contrib
+rustdesk_rustdesk,has_description,RustDesk 是一个用 Rust 编写的远程桌面解决方案，开箱即用无需配置，用户可完全控制自己的数据，并支持使用自建服务器或自定义中继服务器。
+rustdesk_rustdesk,has_related_repository,https://github.com/rustdesk/rustdesk-server-demo
+rustdesk_rustdesk,has_related_repository,https://github.com/rustdesk/doc.rustdesk.com
+trimstray_the-book-of-secret-knowledge,has_description,"A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, CLI/web tools, and more for System and Network administrators, DevOps, Pentesters, and Security Researchers."
+typicode_json-server,has_description,JSON-Server 是一个基于 Node.js 的工具，可以快速通过 JSON 或 JSON5 文件创建完整的 REST API，用于前端开发和原型设计。
+typicode_json-server,has_related_repository,https://github.com/typicode/mistcss
+typicode_json-server,has_related_repository,https://github.com/json5/json5
+coder_code-server,has_description,"Run VS Code on any machine anywhere and access it in the browser, providing a consistent development environment on any device."
+coder_code-server,has_related_repository,https://github.com/Microsoft/vscode
+coder_code-server,has_related_repository,https://github.com/coder/code-server
+coder_code-server,has_related_repository,https://github.com/coder/deploy-code-server
+coder_code-server,has_related_repository,https://github.com/coder/devcontainer-features
+Shubhamsaboo_awesome-llm-apps,has_description,一个精选的 Awesome LLM 应用集合，展示了使用 RAG、AI Agents、多智能体团队、MCP、语音代理等技术构建的 LLM 应用。这些应用利用了 OpenAI、Anthropic、Google、xAI 以及 Qwen、Llama 等开源模型。
+Shubhamsaboo_awesome-llm-apps,has_related_repository,https://github.com/accomplish-ai/openwork
+Shubhamsaboo_awesome-llm-apps,has_related_repository,https://github.com/akshayaggarwal99/jarvis-ai-assistant
+swisskyrepo_PayloadsAllTheThings,has_description,一个用于Web应用安全的实用载荷和绕过技术列表，包含漏洞描述、利用方法及多种攻击载荷。
+swisskyrepo_PayloadsAllTheThings,has_related_repository,https://swisskyrepo.github.io/InternalAllTheThings/
+swisskyrepo_PayloadsAllTheThings,has_related_repository,https://swisskyrepo.github.io/HardwareAllTheThings/
+Genymobile_scrcpy,has_description,scrcpy 是一个用于通过 USB 或 TCP/IP 连接镜像和控制 Android 设备的应用程序，支持视频和音频传输，无需 root 权限。
+angular_angular,has_description,"Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. It is cross-platform, fast, scalable, and comes with powerful tooling."
+godotengine_godot,has_description,"Godot Engine is a feature-packed, cross-platform game engine for creating 2D and 3D games from a unified interface. It is free, open source under the MIT license, and community-driven."
+godotengine_godot,has_related_repository,https://github.com/godotengine/godot-docs
+godotengine_godot,has_related_repository,https://github.com/godotengine/godot-demo-projects
+godotengine_godot,has_related_repository,https://github.com/godotengine/awesome-godot
+PaddlePaddle_PaddleOCR,has_description,"PaddleOCR is an industry-leading, production-ready OCR and document AI engine offering end-to-end solutions from text extraction to intelligent document understanding."
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/PaddlePaddle/PaddleMIX
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/infiniflow/ragflow
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/pathwaycom/pathway
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/opendatalab/MinerU
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/hiroi-sora/Umi-OCR
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/CherryHQ/cherry-studio
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/microsoft/OmniParser
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/netease-youdao/QAnything
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/opendatalab/PDF-Extract-Kit
+PaddlePaddle_PaddleOCR,has_related_repository,https://github.com/PantsuDango/Dango-Translator
+airbnb_javascript,has_description,Airbnb JavaScript 风格指南，提供了一套在 JavaScript 编码中大部分情况下都较为合理的规范。它假设开发者使用 Babel 和相关的 polyfill/shim，并涵盖了从基础类型到现代 ES6+ 语法的广泛编码约定。
+airbnb_javascript,has_related_repository,https://github.com/airbnb/css
+airbnb_javascript,has_related_repository,https://github.com/airbnb/ruby
+jwasham_coding-interview-university,has_description,这是一个全面的多个月学习计划，旨在帮助学习者准备大型科技公司的软件工程师技术面试。它涵盖了从数据结构、算法到系统设计等计算机科学核心主题，并提供学习资源、编码练习和面试技巧。
+jwasham_coding-interview-university,has_related_repository,https://github.com/jwasham/computer-science-flash-cards
+jwasham_coding-interview-university,has_related_repository,https://github.com/jwasham/practice-c
+jwasham_coding-interview-university,has_related_repository,https://github.com/jwasham/practice-cpp
+jwasham_coding-interview-university,has_related_repository,https://github.com/jwasham/practice-python
+jwasham_coding-interview-university,has_related_repository,https://github.com/gardncl/elements-of-programming-interviews
+jwasham_coding-interview-university,has_related_repository,https://github.com/msambol/dsa
+getify_You-Dont-Know-JS,has_description,"This is the second edition of the 'You Don't Know JS Yet' book series, which dives deep into the core mechanisms of the JavaScript language."
+getify_You-Dont-Know-JS,has_related_repository,https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md
+microsoft_Web-Dev-For-Beginners,has_description,这是一个由 Microsoft Cloud Advocates 提供的为期 12 周的综合性课程，旨在教授 Web 开发基础知识。课程包含 24 节课，通过构建生态缸、浏览器扩展和太空游戏等项目，实践 JavaScript、CSS 和 HTML。
+microsoft_Web-Dev-For-Beginners,has_related_repository,https://github.com/Azure/co-op-translator
+ohmyzsh_ohmyzsh,has_description,"Oh My Zsh is an open source, community-driven framework for managing zsh configuration, providing hundreds of plugins and themes to enhance terminal experience."
+excalidraw_excalidraw,has_description,Excalidraw 是一个开源的虚拟手绘风格白板，支持协作和端到端加密。
+vinta_awesome-python,has_description,"An opinionated list of awesome Python frameworks, libraries, software and resources."
+vinta_awesome-python,has_related_repository,https://github.com/ziadoz/awesome-php
+protocolbuffers_protobuf,has_description,Protocol Buffers (protobuf) 是 Google 开发的一种语言中立、平台中立、可扩展的结构化数据序列化机制。它包含用于编译 .proto 文件的协议编译器和针对各种编程语言的运行时库。
+protocolbuffers_protobuf,has_related_repository,https://github.com/protocolbuffers/protobuf-go
+protocolbuffers_protobuf,has_related_repository,https://github.com/dart-lang/protobuf
+protocolbuffers_protobuf,has_related_repository,https://github.com/protocolbuffers/protobuf-javascript
+microsoft_TypeScript,has_description,"TypeScript is a language for application-scale JavaScript that adds optional types to JavaScript, supporting tools for large-scale JavaScript applications across any browser, host, or OS. It compiles to readable, standards-based JavaScript."
+GrowingGit_GitHub-Chinese-Top-Charts,has_description,GitHub中文排行榜是一个帮助用户发现优秀中文项目的榜单，旨在让用户无语言障碍地、更高效地吸收优秀经验成果。
+GrowingGit_GitHub-Chinese-Top-Charts,has_related_repository,https://github.com/kon9chunkit/GitHub-English-Top-Charts
+hoppscotch_hoppscotch,has_description,"Hoppscotch is an open source API development ecosystem that helps developers create requests faster, saving time on development. It supports various protocols like HTTP, WebSocket, GraphQL, and more with features like collections, environments, and team collaboration."
+hoppscotch_hoppscotch,has_related_repository,https://github.com/hoppscotch/proxyscotch
+hoppscotch_hoppscotch,has_related_repository,https://github.com/hoppscotch/hoppscotch-extension
+Anduin2017_HowToCook,has_description,这是一个由社区驱动的开源项目，旨在用清晰、精准、对程序员友好的形式语言（类似编程规范）来整理和呈现常见菜谱，方便程序员在家做饭。
+Anduin2017_HowToCook,has_related_repository,https://github.com/worryzyy/HowToCook-mcp
+Anduin2017_HowToCook,has_related_repository,https://github.com/DusKing1/howtocook-py-mcp
+Anduin2017_HowToCook,has_related_repository,https://github.com/ryanuo/whatToEat
+tonsky_FiraCode,has_description,Fira Code is a free monospaced font with programming ligatures that helps read and understand code faster by combining common multi-character sequences into single logical tokens.
+tonsky_FiraCode,has_related_repository,https://github.com/mozilla/Fira
+tonsky_FiraCode,has_related_repository,https://github.com/i-tu/Hasklig
+tonsky_FiraCode,has_related_repository,https://github.com/kika/fixedsys
+tonsky_FiraCode,has_related_repository,https://github.com/SSNikolaevich/DejaVuSansCode
+tonsky_FiraCode,has_related_repository,https://github.com/microsoft/cascadia-code
+tonsky_FiraCode,has_related_repository,https://github.com/JetBrains/JetBrainsMono
+junegunn_fzf,has_description,"fzf is a general-purpose command-line fuzzy finder that implements a fuzzy matching algorithm to quickly filter lists of items like files, command history, processes, and more."
+junegunn_fzf,has_related_repository,https://github.com/junegunn/fzf.vim
+junegunn_fzf,has_related_repository,https://github.com/ibhagwan/fzf-lua
+996icu_996.ICU,has_description,996.ICU 是一个由 IT 从业者发起的倡议项目，旨在揭露和反对中国科技行业中盛行的“996”工作制（即每周工作6天，从早9点到晚9点），这种工作制严重违反了劳动法并危害员工健康。项目通过收集证据、提供反996许可证等方式，倡导维护劳动者的合法权益。
+996icu_996.ICU,has_related_repository,https://github.com/formulahendry/955.WLB
+996icu_996.ICU,has_related_repository,https://github.com/fengT-T/996_list
+996icu_996.ICU,has_related_repository,https://github.com/boycott996/yaocl
+996icu_996.ICU,has_related_repository,https://github.com/623637646/996.Leave
+996icu_996.ICU,has_related_repository,https://github.com/xokctah/996.petition
+996icu_996.ICU,has_related_repository,https://github.com/996-icu-avengers/Natasha
+996icu_996.ICU,has_related_repository,https://github.com/zhouF96/996.OD
+996icu_996.ICU,has_related_repository,https://github.com/alexddhuang/996.Q
+996icu_996.ICU,has_related_repository,https://github.com/0594mazhiyuan/996.survey
+996icu_996.ICU,has_related_repository,https://github.com/msworkers/support.996.ICU
+996icu_996.ICU,has_related_repository,https://github.com/996BC/996.Blockchain
+996icu_996.ICU,has_related_repository,https://github.com/MagicLu550/996Error
+ollama_ollama,has_description,Ollama 是一个帮助用户快速上手和运行大型语言模型的工具，支持在 macOS、Windows、Linux 和 Docker 上本地部署和运行多种模型。
+ollama_ollama,has_related_repository,https://github.com/ollama/ollama-python
+ollama_ollama,has_related_repository,https://github.com/ollama/ollama-js
+MisterBooo_LeetCodeAnimation,has_description,该项目旨在用动画形式演示LeetCode上的所有题目，帮助用户更直观地理解算法。作者计划用3到4年时间完成，并提供《剑指Offer》系列题目的详细解析和动画视频。
+tesseract-ocr_tesseract,has_description,Tesseract OCR 是一个开源 OCR 引擎，包含 libtesseract 库和命令行程序 tesseract，支持 100 多种语言，能够识别多种图像格式并输出多种文本格式。
+tesseract-ocr_tesseract,has_related_repository,https://github.com/tesseract-ocr/tessdata
+tesseract-ocr_tesseract,has_related_repository,https://github.com/DanBloomberg/leptonica
+codecrafters-io_build-your-own-x,has_description,这是一个收集了各种技术从零开始构建的详细教程的仓库，涵盖了从数据库、操作系统到游戏、编程语言等多个领域，旨在通过实践来深入理解技术原理。
+vercel_next.js,has_description,Next.js 是一个用于 React 的服务器端渲染和静态生成框架，提供生产环境所需的所有功能，包括混合静态和服务器渲染、TypeScript 支持、智能打包、路由预取等。
+deepseek-ai_DeepSeek-R1,has_description,DeepSeek-R1 是 DeepSeek 推出的第一代推理模型系列，包括通过大规模强化学习（RL）训练的 DeepSeek-R1-Zero 和结合冷启动数据进一步优化的 DeepSeek-R1。该系列模型在数学、代码和推理任务上表现优异，并开源了多个基于 Llama 和 Qwen 的蒸馏模型。
+deepseek-ai_DeepSeek-R1,has_related_repository,https://github.com/deepseek-ai/DeepSeek-V3
+microsoft_playwright,has_description,"Playwright is a framework for Web Testing and Automation that allows testing Chromium, Firefox, and WebKit with a single API. It is built to enable cross-browser web automation that is ever-green, capable, reliable, and fast."
+localsend_localsend,has_description,LocalSend 是一个免费、开源的应用程序，允许您通过本地网络在附近设备之间安全地共享文件和消息，无需互联网连接。它是一个跨平台应用，使用 REST API 和 HTTPS 加密实现设备间的安全通信。
+localsend_localsend,has_related_repository,https://github.com/localsend/protocol
+localsend_localsend,has_related_repository,https://github.com/localsend/snap
+EbookFoundation_free-programming-books,has_description,这是一个收集多种编程语言免费学习资源的项目，包括书籍、课程、交互式教程等，由Free Ebook Foundation维护。
+EbookFoundation_free-programming-books,has_related_repository,https://github.com/sindresorhus/awesome
+d3_d3,has_description,D3 (D3.js) 是一个免费、开源的 JavaScript 库，用于数据可视化。它基于 Web 标准构建的低层方法，为创建动态的、数据驱动的图形提供了无与伦比的灵活性。
+open-webui_open-webui,has_description,"Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG."
+open-webui_open-webui,has_related_repository,https://github.com/open-webui/pipelines
