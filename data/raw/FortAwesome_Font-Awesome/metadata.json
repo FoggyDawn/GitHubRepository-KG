@@ -1,6 +1,6 @@
 {
     "name": "Font-Awesome",
-    "stars": 76294,
+    "stars": 76320,
     "contributors": [
         "sensibleworld",
         "fontawesome-github-bot",
@@ -9,6 +9,13 @@
         "rogerogers"
     ],
     "license": "Other",
+    "url": "https://github.com/FortAwesome/Font-Awesome",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "SCSS",
+        "CSS"
+    ],
     "topics": [
         "css",
         "font",

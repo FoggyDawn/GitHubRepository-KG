@@ -1,6 +1,6 @@
 {
     "name": "clean-code-javascript",
-    "stars": 94289,
+    "stars": 94292,
     "contributors": [
         "ryanmcdermott",
         "vsemozhetbyt",
@@ -108,6 +108,11 @@
         "MarcAragones"
     ],
     "license": "MIT License",
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript"
+    ],
     "topics": [
         "best-practices",
         "clean-architecture",

@@ -1,6 +1,6 @@
 {
     "name": "Best-websites-a-programmer-should-visit",
-    "stars": 75523,
+    "stars": 75630,
     "contributors": [
         "sdmg15",
         "ityler",
@@ -303,6 +303,9 @@
         "dzello"
     ],
     "license": "MIT License",
+    "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "books",
         "cs",

@@ -115,6 +115,19 @@ def get_repo_data(owner, repo):
     # 获取许可证
     license_type = repo_data.get('license', {}).get('name') if repo_data.get('license') else None
     
+    # 获取主语言和所有语言分布
+    primary_language = repo_data.get('language')
+    languages = []
+    languages_url = f'{base_url}/repos/{owner}/{repo}/languages'
+    try:
+        lang_resp = make_request(languages_url, headers)
+        if lang_resp and lang_resp.status_code == 200:
+            lang_json = lang_resp.json()
+            languages = list(lang_json.keys())
+    except Exception as e:
+        print(f"获取语言分布失败: {e}")
+        languages = []
+    
     # 获取标签（topics）
     topics = repo_data.get('topics', [])
     
@@ -141,6 +154,9 @@ def get_repo_data(owner, repo):
         'stars': repo_data['stargazers_count'],
         'contributors': contributors,
         'license': license_type,
+        'url': repo_data.get('html_url', f'https://github.com/{owner}/{repo}'),
+        'primary_language': primary_language,
+        'languages': languages,
         'topics': topics,
         'releases': releases
     }

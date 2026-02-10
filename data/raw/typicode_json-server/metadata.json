@@ -1,6 +1,6 @@
 {
     "name": "json-server",
-    "stars": 75623,
+    "stars": 75630,
     "contributors": [
         "typicode",
         "bahmutov",
@@ -85,6 +85,12 @@
         "jacobwardio"
     ],
     "license": "Other",
+    "url": "https://github.com/typicode/json-server",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "HTML"
+    ],
     "topics": [],
     "releases": [
         "v1.0.0-beta.5",

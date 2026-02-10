@@ -1,6 +1,6 @@
 {
     "name": "iptv",
-    "stars": 111064,
+    "stars": 111322,
     "contributors": [
         "freearhey",
         "BellezaEmporium",
@@ -346,6 +346,12 @@
         "jamescridland"
     ],
     "license": "The Unlicense",
+    "url": "https://github.com/iptv-org/iptv",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "JavaScript"
+    ],
     "topics": [
         "iptv",
         "m3u",

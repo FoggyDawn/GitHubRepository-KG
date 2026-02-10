@@ -1,6 +1,6 @@
 {
     "name": "frp",
-    "stars": 104199,
+    "stars": 104379,
     "contributors": [
         "fatedier",
         "bingtianbaihua",
@@ -126,6 +126,18 @@
         "Hyduan"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/fatedier/frp",
+    "primary_language": "Go",
+    "languages": [
+        "Go",
+        "Vue",
+        "TypeScript",
+        "CSS",
+        "Shell",
+        "Makefile",
+        "JavaScript",
+        "HTML"
+    ],
     "topics": [
         "expose",
         "firewall",

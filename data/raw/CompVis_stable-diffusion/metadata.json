@@ -1,6 +1,6 @@
 {
     "name": "stable-diffusion",
-    "stars": 72340,
+    "stars": 72364,
     "contributors": [
         "rromb",
         "pesser",
@@ -11,6 +11,13 @@
         "cpacker"
     ],
     "license": "Other",
+    "url": "https://github.com/CompVis/stable-diffusion",
+    "primary_language": "Jupyter Notebook",
+    "languages": [
+        "Jupyter Notebook",
+        "Python",
+        "Shell"
+    ],
     "topics": [],
     "releases": []
 }

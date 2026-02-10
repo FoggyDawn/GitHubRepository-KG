@@ -1,6 +1,6 @@
 {
     "name": "imgui",
-    "stars": 71154,
+    "stars": 71263,
     "contributors": [
         "ocornut",
         "rokups",
@@ -427,6 +427,18 @@
         "geertbleyen"
     ],
     "license": "MIT License",
+    "url": "https://github.com/ocornut/imgui",
+    "primary_language": "C++",
+    "languages": [
+        "C++",
+        "C",
+        "Objective-C++",
+        "Objective-C",
+        "Python",
+        "GLSL",
+        "GDB",
+        "Shell"
+    ],
     "topics": [
         "api",
         "cplusplus",

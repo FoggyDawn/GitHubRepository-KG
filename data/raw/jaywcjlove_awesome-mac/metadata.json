@@ -1,6 +1,6 @@
 {
     "name": "awesome-mac",
-    "stars": 98484,
+    "stars": 98670,
     "contributors": [
         "jaywcjlove",
         "alichtman",
@@ -189,7 +189,7 @@
         "jariz",
         "dz0ny",
         "janivo",
-        "dahlmo",
+        "jamieweavis",
         "SidhuK",
         "NullPointerDepressiveDisorder",
         "karan28598",
@@ -293,6 +293,7 @@
         "moklick",
         "hastalavistababy",
         "milanvarady",
+        "dahlmo",
         "GitBreezePaul",
         "bigbigking",
         "Better-Boy",
@@ -374,7 +375,7 @@
         "alexpasmantier",
         "topilski",
         "ksanderer",
-        "jamieweavis",
+        "jsj",
         "setanarut",
         "hasantayyar",
         "thisisharsh7",
@@ -395,9 +396,9 @@
         "fiteen",
         "ferologics",
         "felixfischer",
-        "jsj",
         "lenisko",
         "Slackadays",
+        "ThinkerJack",
         "JChips01",
         "xwxtwd",
         "ivmirx",
@@ -458,6 +459,12 @@
         "shensven"
     ],
     "license": "Creative Commons Zero v1.0 Universal",
+    "url": "https://github.com/jaywcjlove/awesome-mac",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "Dockerfile"
+    ],
     "topics": [
         "app",
         "apple",

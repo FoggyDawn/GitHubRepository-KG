@@ -1,6 +1,6 @@
 {
     "name": "996.ICU",
-    "stars": 275426,
+    "stars": 275468,
     "contributors": [
         "996icu",
         "ChangedenCZD",
@@ -400,6 +400,9 @@
         "miaohancheng"
     ],
     "license": "Other",
+    "url": "https://github.com/996icu/996.ICU",
+    "primary_language": null,
+    "languages": [],
     "topics": [],
     "releases": []
 }

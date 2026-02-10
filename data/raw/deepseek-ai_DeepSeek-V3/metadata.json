@@ -1,6 +1,6 @@
 {
     "name": "DeepSeek-V3",
-    "stars": 101445,
+    "stars": 101515,
     "contributors": [
         "GeeeekExplorer",
         "mowentian",
@@ -27,6 +27,11 @@
         "eltociear"
     ],
     "license": "MIT License",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "primary_language": "Python",
+    "languages": [
+        "Python"
+    ],
     "topics": [],
     "releases": [
         "v1.0.0"

@@ -1,6 +1,6 @@
 {
     "name": "cs-self-learning",
-    "stars": 71131,
+    "stars": 71230,
     "contributors": [
         "PKUFlyingPig",
         "smxm",
@@ -164,6 +164,11 @@
         "jaxvanyang"
     ],
     "license": "MIT License",
+    "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+    "primary_language": "HTML",
+    "languages": [
+        "HTML"
+    ],
     "topics": [],
     "releases": [
         "v1.2.0",

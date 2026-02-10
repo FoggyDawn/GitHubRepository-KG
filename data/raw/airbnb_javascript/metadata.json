@@ -1,6 +1,6 @@
 {
     "name": "javascript",
-    "stars": 148096,
+    "stars": 148102,
     "contributors": [
         "ljharb",
         "hshoff",
@@ -405,6 +405,11 @@
         "eistrati"
     ],
     "license": "MIT License",
+    "url": "https://github.com/airbnb/javascript",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript"
+    ],
     "topics": [
         "arrow-functions",
         "es2015",

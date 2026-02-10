@@ -1,6 +1,6 @@
 {
     "name": "d2l-zh",
-    "stars": 75439,
+    "stars": 75544,
     "contributors": [
         "astonzhang",
         "mli",
@@ -243,6 +243,14 @@
         "Sanzo00"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/d2l-ai/d2l-zh",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "HTML",
+        "TeX",
+        "Shell"
+    ],
     "topics": [
         "book",
         "chinese",

@@ -1,12 +1,12 @@
 {
     "name": "realworld",
-    "stars": 82788,
+    "stars": 82810,
     "contributors": [
         "EricSimons",
         "geromegrignon",
         "dependabot[bot]",
-        "anishkny",
         "c4ffein",
+        "anishkny",
         "mvila",
         "Cameron-C-Chapman",
         "abdusabri",
@@ -88,6 +88,13 @@
         "Necmttn"
     ],
     "license": "MIT License",
+    "url": "https://github.com/realworld-apps/realworld",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "Makefile",
+        "Shell"
+    ],
     "topics": [],
     "releases": []
 }

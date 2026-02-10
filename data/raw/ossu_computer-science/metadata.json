@@ -1,6 +1,6 @@
 {
     "name": "computer-science",
-    "stars": 201004,
+    "stars": 201174,
     "contributors": [
         "ericdouglas",
         "waciumawanjohi",
@@ -154,6 +154,11 @@
         "hq-jiang"
     ],
     "license": "MIT License",
+    "url": "https://github.com/ossu/computer-science",
+    "primary_language": "HTML",
+    "languages": [
+        "HTML"
+    ],
     "topics": [
         "awesome-list",
         "computer-science",

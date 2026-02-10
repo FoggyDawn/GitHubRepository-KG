@@ -1,6 +1,6 @@
 {
     "name": "generative-ai-for-beginners",
-    "stars": 106093,
+    "stars": 106256,
     "contributors": [
         "koreyspace",
         "skytin1004",
@@ -68,6 +68,7 @@
         "lapellaniz",
         "mwarden",
         "onurkanbakirci",
+        "ykoh42",
         "Saibernard",
         "roryp",
         "rohis06-aws",
@@ -87,12 +88,12 @@
         "ChromaticRanger",
         "marcelpetrick",
         "mbaiza27",
-        "ykoh42",
         "shiftpx",
         "ruyakubu",
         "qicz",
         "nachodieez",
         "moqimoqidea",
+        "Manisshh",
         "sxdleroy",
         "himanshulikhar55",
         "github-actions[bot]",
@@ -146,6 +147,18 @@
         "fhinkel"
     ],
     "license": "MIT License",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "primary_language": "Jupyter Notebook",
+    "languages": [
+        "Jupyter Notebook",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Shell",
+        "PowerShell",
+        "Batchfile",
+        "HTML"
+    ],
     "topics": [
         "ai",
         "azure",

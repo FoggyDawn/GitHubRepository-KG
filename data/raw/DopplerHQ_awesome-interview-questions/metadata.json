@@ -1,6 +1,6 @@
 {
     "name": "awesome-interview-questions",
-    "stars": 80740,
+    "stars": 80854,
     "contributors": [
         "MaksimAbramchuk",
         "ryan-blunden",
@@ -139,6 +139,9 @@
         "donnemartin"
     ],
     "license": null,
+    "url": "https://github.com/DopplerHQ/awesome-interview-questions",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "android-interview-questions",
         "angularjs-interview-questions",

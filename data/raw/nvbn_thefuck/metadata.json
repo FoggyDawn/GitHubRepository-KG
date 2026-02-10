@@ -1,6 +1,6 @@
 {
     "name": "thefuck",
-    "stars": 95403,
+    "stars": 95437,
     "contributors": [
         "nvbn",
         "scorphus",
@@ -170,6 +170,15 @@
         "yzgyyang"
     ],
     "license": "MIT License",
+    "url": "https://github.com/nvbn/thefuck",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Dockerfile",
+        "PowerShell",
+        "Shell",
+        "Batchfile"
+    ],
     "topics": [
         "python",
         "shell"

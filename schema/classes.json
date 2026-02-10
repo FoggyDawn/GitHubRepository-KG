@@ -64,17 +64,5 @@
     "nameZh": "标签",
     "subClassOf": "cnSchema:可枚举的值",
     "source": "extension"
-  },
-  {
-    "name": "cnSchema:Event",
-    "nameZh": "cnSchema:事件",
-    "subClassOf": "",
-    "source": "cnSchema"
-  },
-  {
-    "name": "Release",
-    "nameZh": "版本发布",
-    "subClassOf": "cnSchema:事件",
-    "source": "extension"
   }
 ]

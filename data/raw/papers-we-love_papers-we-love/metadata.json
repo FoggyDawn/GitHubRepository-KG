@@ -1,6 +1,6 @@
 {
     "name": "papers-we-love",
-    "stars": 102980,
+    "stars": 103153,
     "contributors": [
         "zeeshanlakhani",
         "DarrenN",
@@ -260,6 +260,11 @@
         "JoaoGFarias"
     ],
     "license": null,
+    "url": "https://github.com/papers-we-love/papers-we-love",
+    "primary_language": "Shell",
+    "languages": [
+        "Shell"
+    ],
     "topics": [
         "awesome",
         "computer-science",

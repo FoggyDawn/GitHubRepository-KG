@@ -1,6 +1,6 @@
 {
     "name": "DeepSeek-R1",
-    "stars": 91828,
+    "stars": 91838,
     "contributors": [
         "Konano",
         "stack-heap-overflow",
@@ -16,6 +16,9 @@
         "zhyncs"
     ],
     "license": "MIT License",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "primary_language": null,
+    "languages": [],
     "topics": [],
     "releases": [
         "v1.0.0"

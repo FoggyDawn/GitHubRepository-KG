@@ -1,6 +1,6 @@
 {
     "name": "system-design-101",
-    "stars": 79361,
+    "stars": 79453,
     "contributors": [
         "slam",
         "LombardiDaniel",
@@ -19,6 +19,9 @@
         "isdaniel"
     ],
     "license": "Other",
+    "url": "https://github.com/ByteByteGoHq/system-design-101",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "aws",
         "cloud-computing",

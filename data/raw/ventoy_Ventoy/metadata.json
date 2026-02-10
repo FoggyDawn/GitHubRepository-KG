@@ -1,6 +1,6 @@
 {
     "name": "Ventoy",
-    "stars": 74296,
+    "stars": 74396,
     "contributors": [
         "ventoy",
         "wiz64",
@@ -124,6 +124,27 @@
         "guillemglez"
     ],
     "license": "GNU General Public License v3.0",
+    "url": "https://github.com/ventoy/Ventoy",
+    "primary_language": "C",
+    "languages": [
+        "C",
+        "Shell",
+        "HTML",
+        "C++",
+        "CSS",
+        "Makefile",
+        "JavaScript",
+        "M4",
+        "Python",
+        "DenizenScript",
+        "Assembly",
+        "QMake",
+        "Perl",
+        "Roff",
+        "Linker Script",
+        "SCSS",
+        "Dockerfile"
+    ],
     "topics": [
         "arm64",
         "auto-install",

@@ -1,6 +1,6 @@
 {
     "name": "system-prompts-and-models-of-ai-tools",
-    "stars": 113312,
+    "stars": 113965,
     "contributors": [
         "x1xhlol",
         "pricisTrail",
@@ -31,6 +31,9 @@
         "amithpdn"
     ],
     "license": "GNU General Public License v3.0",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "ai",
         "bolt",

@@ -1,6 +1,6 @@
 {
     "name": "HelloGitHub",
-    "stars": 142218,
+    "stars": 142661,
     "contributors": [
         "521xueweihan",
         "daixiang0",
@@ -14,6 +14,11 @@
         "hey-sa"
     ],
     "license": null,
+    "url": "https://github.com/521xueweihan/HelloGitHub",
+    "primary_language": "Python",
+    "languages": [
+        "Python"
+    ],
     "topics": [
         "awesome",
         "github",

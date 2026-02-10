@@ -1,10 +1,17 @@
 {
     "name": "mall",
-    "stars": 82857,
+    "stars": 82887,
     "contributors": [
         "macrozheng"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/macrozheng/mall",
+    "primary_language": "Java",
+    "languages": [
+        "Java",
+        "Shell",
+        "Dockerfile"
+    ],
     "topics": [
         "docker",
         "elasticsearch",

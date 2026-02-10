@@ -1,6 +1,6 @@
 {
     "name": "union",
-    "stars": 74357,
+    "stars": 74336,
     "contributors": [
         "cor",
         "benluelo",
@@ -33,6 +33,26 @@
         "xiaoxiangirl"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/unionlabs/union",
+    "primary_language": "Rust",
+    "languages": [
+        "Rust",
+        "TypeScript",
+        "Svelte",
+        "Move",
+        "Solidity",
+        "Cairo",
+        "Nix",
+        "Go",
+        "Astro",
+        "PLpgSQL",
+        "CSS",
+        "JavaScript",
+        "Shell",
+        "HTML",
+        "WebAssembly",
+        "RenderScript"
+    ],
     "topics": [
         "astro",
         "blockchain",

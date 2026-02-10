@@ -1,6 +1,6 @@
 {
     "name": "vue-element-admin",
-    "stars": 90291,
+    "stars": 90305,
     "contributors": [
         "PanJiaChen",
         "mayunhai",
@@ -115,6 +115,16 @@
         "kerolloz"
     ],
     "license": "MIT License",
+    "url": "https://github.com/PanJiaChen/vue-element-admin",
+    "primary_language": "Vue",
+    "languages": [
+        "Vue",
+        "JavaScript",
+        "SCSS",
+        "CSS",
+        "Handlebars",
+        "HTML"
+    ],
     "topics": [
         "admin",
         "admin-dashboard",

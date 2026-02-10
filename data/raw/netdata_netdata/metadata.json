@@ -1,6 +1,6 @@
 {
     "name": "netdata",
-    "stars": 77644,
+    "stars": 77698,
     "contributors": [
         "ktsaou",
         "netdatabot",
@@ -408,6 +408,29 @@
         "dvdmuckle"
     ],
     "license": "GNU General Public License v3.0",
+    "url": "https://github.com/netdata/netdata",
+    "primary_language": "C",
+    "languages": [
+        "C",
+        "Go",
+        "Rust",
+        "JavaScript",
+        "Shell",
+        "Jupyter Notebook",
+        "Python",
+        "C++",
+        "HTML",
+        "CMake",
+        "CSS",
+        "Batchfile",
+        "Yacc",
+        "Rich Text Format",
+        "POV-Ray SDL",
+        "PowerShell",
+        "Dockerfile",
+        "Makefile",
+        "TSQL"
+    ],
     "topics": [
         "ai",
         "alerting",

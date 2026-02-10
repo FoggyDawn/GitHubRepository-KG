@@ -1,6 +1,6 @@
 {
     "name": "project-based-learning",
-    "stars": 257625,
+    "stars": 258035,
     "contributors": [
         "tuvtran",
         "sayands",
@@ -104,6 +104,9 @@
         "Dinesh101041"
     ],
     "license": "MIT License",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "beginner-project",
         "cpp",

@@ -1,6 +1,6 @@
 {
     "name": "system-design-primer",
-    "stars": 334449,
+    "stars": 334893,
     "contributors": [
         "donnemartin",
         "satob",
@@ -119,6 +119,12 @@
         "zanemayo"
     ],
     "license": "Other",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Shell"
+    ],
     "topics": [
         "design",
         "design-patterns",

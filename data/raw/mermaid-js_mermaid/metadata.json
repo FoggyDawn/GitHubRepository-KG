@@ -1,6 +1,6 @@
 {
     "name": "mermaid",
-    "stars": 85834,
+    "stars": 85934,
     "contributors": [
         "sidharthv96",
         "knsv",
@@ -376,6 +376,20 @@
         "sublimino"
     ],
     "license": "MIT License",
+    "url": "https://github.com/mermaid-js/mermaid",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "Yacc",
+        "Mermaid",
+        "Vue",
+        "Langium",
+        "Shell",
+        "CSS",
+        "Dockerfile"
+    ],
     "topics": [
         "diagrams",
         "diagrams-as-code",

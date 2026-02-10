@@ -1,6 +1,6 @@
 {
     "name": "github-readme-stats",
-    "stars": 78219,
+    "stars": 78301,
     "contributors": [
         "dependabot[bot]",
         "qwerty541",
@@ -43,7 +43,7 @@
         "mikebeaton",
         "mustafacagri",
         "rikeda71",
-        "k1nxx",
+        "ry444nn",
         "WIttyJudge",
         "Rongronggg9",
         "millette",
@@ -307,6 +307,12 @@
         "JoelZimmerman"
     ],
     "license": "MIT License",
+    "url": "https://github.com/anuraghazra/github-readme-stats",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "Shell"
+    ],
     "topics": [
         "dynamic",
         "profile-readme",

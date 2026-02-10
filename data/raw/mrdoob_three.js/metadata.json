@@ -1,6 +1,6 @@
 {
     "name": "three.js",
-    "stars": 110718,
+    "stars": 110812,
     "contributors": [
         "mrdoob",
         "Mugen87",
@@ -364,6 +364,14 @@
         "poof86"
     ],
     "license": "MIT License",
+    "url": "https://github.com/mrdoob/three.js",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "Roff",
+        "CSS"
+    ],
     "topics": [
         "3d",
         "augmented-reality",

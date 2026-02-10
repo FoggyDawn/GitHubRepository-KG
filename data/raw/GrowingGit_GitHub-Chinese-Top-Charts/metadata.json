@@ -1,10 +1,15 @@
 {
     "name": "GitHub-Chinese-Top-Charts",
-    "stars": 105993,
+    "stars": 106107,
     "contributors": [
         "GrowingGit"
     ],
     "license": "Other",
+    "url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
+    "primary_language": "Java",
+    "languages": [
+        "Java"
+    ],
     "topics": [],
     "releases": []
 }

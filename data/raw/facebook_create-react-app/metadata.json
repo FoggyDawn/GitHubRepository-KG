@@ -1,6 +1,6 @@
 {
     "name": "create-react-app",
-    "stars": 103955,
+    "stars": 103944,
     "contributors": [
         "gaearon",
         "Timer",
@@ -453,6 +453,18 @@
         "eip1599"
     ],
     "license": "MIT License",
+    "url": "https://github.com/facebook/create-react-app",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "Shell",
+        "CSS",
+        "HTML",
+        "AppleScript",
+        "TypeScript",
+        "SCSS",
+        "Sass"
+    ],
     "topics": [
         "build-tools",
         "react",

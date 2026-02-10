@@ -1,6 +1,6 @@
 {
     "name": "awesome-react",
-    "stars": 71857,
+    "stars": 71925,
     "contributors": [
         "enaqx",
         "browniefed",
@@ -434,6 +434,9 @@
         "dmitry"
     ],
     "license": null,
+    "url": "https://github.com/enaqx/awesome-react",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "awesome",
         "awesome-list",

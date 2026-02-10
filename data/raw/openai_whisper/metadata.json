@@ -1,6 +1,6 @@
 {
     "name": "whisper",
-    "stars": 94192,
+    "stars": 94399,
     "contributors": [
         "jongwook",
         "cclauss",
@@ -82,6 +82,11 @@
         "zefr0x"
     ],
     "license": "MIT License",
+    "url": "https://github.com/openai/whisper",
+    "primary_language": "Python",
+    "languages": [
+        "Python"
+    ],
     "topics": [],
     "releases": [
         "v20250625",

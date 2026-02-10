@@ -1,6 +1,6 @@
 {
     "name": "spring-boot",
-    "stars": 79839,
+    "stars": 79888,
     "contributors": [
         "wilkinsona",
         "snicoll",
@@ -15,8 +15,8 @@
         "nosan",
         "eddumelendez",
         "vpavic",
-        "cdupuis",
         "quaff",
+        "cdupuis",
         "dependabot[bot]",
         "garyrussell",
         "sdeleuze",
@@ -361,6 +361,25 @@
         "alexanderabramov"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/spring-projects/spring-boot",
+    "primary_language": "Java",
+    "languages": [
+        "Java",
+        "Kotlin",
+        "HTML",
+        "JavaScript",
+        "Groovy",
+        "Shell",
+        "Ruby",
+        "FreeMarker",
+        "Batchfile",
+        "Go Template",
+        "Smarty",
+        "Mustache",
+        "Dockerfile",
+        "Vim Snippet",
+        "CSS"
+    ],
     "topics": [
         "framework",
         "java",

@@ -1,6 +1,6 @@
 {
     "name": "excalidraw",
-    "stars": 116055,
+    "stars": 116373,
     "contributors": [
         "dwelle",
         "dependabot[bot]",
@@ -341,6 +341,18 @@
         "JRJurman"
     ],
     "license": "MIT License",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "SCSS",
+        "MDX",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Dockerfile",
+        "Shell"
+    ],
     "topics": [
         "canvas",
         "collaboration",

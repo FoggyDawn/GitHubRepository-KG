@@ -1,6 +1,6 @@
 {
     "name": "scrcpy",
-    "stars": 135182,
+    "stars": 135421,
     "contributors": [
         "rom1v",
         "npes87184",
@@ -151,6 +151,18 @@
         "skaldebane"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/Genymobile/scrcpy",
+    "primary_language": "C",
+    "languages": [
+        "C",
+        "Java",
+        "Roff",
+        "Shell",
+        "Meson",
+        "AIDL",
+        "VBScript",
+        "Batchfile"
+    ],
     "topics": [
         "android",
         "c",

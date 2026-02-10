@@ -1,6 +1,6 @@
 {
     "name": "ohmyzsh",
-    "stars": 184496,
+    "stars": 184598,
     "contributors": [
         "mcornella",
         "robbyrussell",
@@ -402,6 +402,13 @@
         "dlee"
     ],
     "license": "MIT License",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "primary_language": "Shell",
+    "languages": [
+        "Shell",
+        "Python",
+        "Makefile"
+    ],
     "topics": [
         "cli",
         "cli-app",

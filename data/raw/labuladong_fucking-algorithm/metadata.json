@@ -1,6 +1,6 @@
 {
     "name": "fucking-algorithm",
-    "stars": 132463,
+    "stars": 132524,
     "contributors": [
         "labuladong",
         "brucecat",
@@ -89,6 +89,11 @@
         "onmoonno"
     ],
     "license": null,
+    "url": "https://github.com/labuladong/fucking-algorithm",
+    "primary_language": "Markdown",
+    "languages": [
+        "Markdown"
+    ],
     "topics": [
         "algorithms",
         "computer-science",

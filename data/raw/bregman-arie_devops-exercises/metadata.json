@@ -1,6 +1,6 @@
 {
     "name": "devops-exercises",
-    "stars": 80861,
+    "stars": 80918,
     "contributors": [
         "surister",
         "austinsonger",
@@ -211,6 +211,15 @@
         "james-leatherman"
     ],
     "license": "Other",
+    "url": "https://github.com/bregman-arie/devops-exercises",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Shell",
+        "HCL",
+        "HTML",
+        "Groovy"
+    ],
     "topics": [
         "ansible",
         "aws",

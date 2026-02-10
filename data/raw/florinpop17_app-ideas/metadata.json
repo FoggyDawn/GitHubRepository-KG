@@ -1,6 +1,6 @@
 {
     "name": "app-ideas",
-    "stars": 90150,
+    "stars": 90243,
     "contributors": [
         "florinpop17",
         "jdmedlock",
@@ -66,6 +66,9 @@
         "jrubins"
     ],
     "license": "MIT License",
+    "url": "https://github.com/florinpop17/app-ideas",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "applications",
         "coding",

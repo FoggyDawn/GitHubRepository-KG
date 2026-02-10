@@ -1,6 +1,6 @@
 {
     "name": "bootstrap",
-    "stars": 173968,
+    "stars": 173982,
     "contributors": [
         "mdo",
         "cvrebert",
@@ -285,7 +285,7 @@
         "blankse",
         "SPodjasek",
         "protocarl",
-        "programcsharp",
+        "railapex",
         "PHLAK",
         "lamby",
         "ziogaschr",
@@ -361,6 +361,18 @@
         "TiGR"
     ],
     "license": "MIT License",
+    "url": "https://github.com/twbs/bootstrap",
+    "primary_language": "MDX",
+    "languages": [
+        "MDX",
+        "JavaScript",
+        "Astro",
+        "SCSS",
+        "CSS",
+        "HTML",
+        "TypeScript",
+        "Shell"
+    ],
     "topics": [
         "bootstrap",
         "css",

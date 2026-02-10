@@ -1,6 +1,6 @@
 {
     "name": "awesome-go",
-    "stars": 164283,
+    "stars": 164688,
     "contributors": [
         "avelino",
         "mholt",
@@ -433,6 +433,11 @@
         "chewxy"
     ],
     "license": "MIT License",
+    "url": "https://github.com/avelino/awesome-go",
+    "primary_language": "Go",
+    "languages": [
+        "Go"
+    ],
     "topics": [
         "awesome",
         "awesome-list",

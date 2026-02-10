@@ -1,6 +1,6 @@
 {
     "name": "Deep-Live-Cam",
-    "stars": 79245,
+    "stars": 79366,
     "contributors": [
         "hacksider",
         "KRSHH",
@@ -57,6 +57,12 @@
         "aic1x"
     ],
     "license": "GNU Affero General Public License v3.0",
+    "url": "https://github.com/hacksider/Deep-Live-Cam",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Batchfile"
+    ],
     "topics": [
         "ai",
         "ai-deep-fake",

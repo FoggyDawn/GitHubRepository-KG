@@ -1,6 +1,6 @@
 {
     "name": "awesome",
-    "stars": 435134,
+    "stars": 436367,
     "contributors": [
         "sindresorhus",
         "davisonio",
@@ -440,6 +440,9 @@
         "eric-hc"
     ],
     "license": "Creative Commons Zero v1.0 Universal",
+    "url": "https://github.com/sindresorhus/awesome",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "awesome",
         "awesome-list",

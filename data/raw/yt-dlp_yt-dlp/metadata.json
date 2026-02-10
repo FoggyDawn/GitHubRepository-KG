@@ -1,6 +1,6 @@
 {
     "name": "yt-dlp",
-    "stars": 145844,
+    "stars": 146515,
     "contributors": [
         "dstftw",
         "phihag",
@@ -384,6 +384,15 @@
         "AzartX47"
     ],
     "license": "The Unlicense",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Makefile",
+        "Shell",
+        "Dockerfile",
+        "Batchfile"
+    ],
     "topics": [
         "cli",
         "downloader",

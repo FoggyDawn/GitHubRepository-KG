@@ -1,6 +1,6 @@
 {
     "name": "Python-100-Days",
-    "stars": 178476,
+    "stars": 178600,
     "contributors": [
         "jackfrued",
         "MathDance",
@@ -16,6 +16,14 @@
         "fanofxiaofeng"
     ],
     "license": null,
+    "url": "https://github.com/jackfrued/Python-100-Days",
+    "primary_language": "Jupyter Notebook",
+    "languages": [
+        "Jupyter Notebook",
+        "Python",
+        "HTML",
+        "Java"
+    ],
     "topics": [],
     "releases": []
 }

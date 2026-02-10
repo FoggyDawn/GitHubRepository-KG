@@ -1,6 +1,6 @@
 {
     "name": "30-seconds-of-code",
-    "stars": 126674,
+    "stars": 126735,
     "contributors": [
         "Chalarangelo",
         "Trinityyi",
@@ -386,6 +386,16 @@
         "juanarbol"
     ],
     "license": "Creative Commons Attribution 4.0 International",
+    "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "SCSS",
+        "Astro",
+        "CSS",
+        "Shell",
+        "TypeScript"
+    ],
     "topics": [
         "astro",
         "awesome-list",

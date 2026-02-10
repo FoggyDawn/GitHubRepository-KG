@@ -1,6 +1,6 @@
 {
     "name": "weekly",
-    "stars": 83600,
+    "stars": 83833,
     "contributors": [
         "ruanyf",
         "keepwow",
@@ -68,6 +68,9 @@
         "cxhello"
     ],
     "license": null,
+    "url": "https://github.com/ruanyf/weekly",
+    "primary_language": null,
+    "languages": [],
     "topics": [],
     "releases": []
 }

@@ -1,6 +1,6 @@
 {
     "name": "free-programming-books-zh_CN",
-    "stars": 116286,
+    "stars": 116314,
     "contributors": [
         "justjavac",
         "spacewander",
@@ -122,6 +122,9 @@
         "JMbaozi"
     ],
     "license": "GNU General Public License v3.0",
+    "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "android",
         "angular",

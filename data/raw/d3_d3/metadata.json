@@ -1,6 +1,6 @@
 {
     "name": "d3",
-    "stars": 112260,
+    "stars": 112289,
     "contributors": [
         "mbostock",
         "jasondavies",
@@ -139,6 +139,12 @@
         "zanarmstrong"
     ],
     "license": "ISC License",
+    "url": "https://github.com/d3/d3",
+    "primary_language": "Shell",
+    "languages": [
+        "Shell",
+        "JavaScript"
+    ],
     "topics": [
         "chart",
         "charts",

@@ -1,6 +1,6 @@
 {
     "name": "funNLP",
-    "stars": 78851,
+    "stars": 78908,
     "contributors": [
         "fighting41love",
         "wainshine",
@@ -15,6 +15,11 @@
         "yunfei-shi"
     ],
     "license": null,
+    "url": "https://github.com/fighting41love/funNLP",
+    "primary_language": "Python",
+    "languages": [
+        "Python"
+    ],
     "topics": [],
     "releases": []
 }

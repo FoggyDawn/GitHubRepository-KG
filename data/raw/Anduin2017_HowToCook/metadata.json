@@ -1,6 +1,6 @@
 {
     "name": "HowToCook",
-    "stars": 97678,
+    "stars": 97846,
     "contributors": [
         "Anduin2017",
         "github-actions[bot]",
@@ -409,6 +409,11 @@
         "ShaoChenHeng"
     ],
     "license": "The Unlicense",
+    "url": "https://github.com/Anduin2017/HowToCook",
+    "primary_language": "Dockerfile",
+    "languages": [
+        "Dockerfile"
+    ],
     "topics": [
         "chinese",
         "cookbook",

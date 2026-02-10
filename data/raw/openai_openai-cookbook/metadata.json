@@ -1,6 +1,6 @@
 {
     "name": "openai-cookbook",
-    "stars": 71320,
+    "stars": 71397,
     "contributors": [
         "ted-at-openai",
         "simonpfish",
@@ -354,6 +354,12 @@
         "kevinv-openai"
     ],
     "license": "MIT License",
+    "url": "https://github.com/openai/openai-cookbook",
+    "primary_language": "Jupyter Notebook",
+    "languages": [
+        "Jupyter Notebook",
+        "MDX"
+    ],
     "topics": [
         "chatgpt",
         "gpt-4",

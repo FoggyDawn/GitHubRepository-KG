@@ -1,6 +1,6 @@
 {
     "name": "awesome-public-datasets",
-    "stars": 72614,
+    "stars": 72706,
     "contributors": [
         "caesar0301",
         "ReadmeCritic",
@@ -146,6 +146,9 @@
         "ridgewell"
     ],
     "license": "MIT License",
+    "url": "https://github.com/awesomedata/awesome-public-datasets",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "aaron-swartz",
         "awesome-public-datasets",

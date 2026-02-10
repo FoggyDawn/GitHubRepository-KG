@@ -1,6 +1,6 @@
 {
     "name": "coding-interview-university",
-    "stars": 336785,
+    "stars": 336910,
     "contributors": [
         "jwasham",
         "Anri-Lombard",
@@ -311,6 +311,9 @@
         "marcogonzalo"
     ],
     "license": "Creative Commons Attribution Share Alike 4.0 International",
+    "url": "https://github.com/jwasham/coding-interview-university",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "algorithm",
         "algorithms",

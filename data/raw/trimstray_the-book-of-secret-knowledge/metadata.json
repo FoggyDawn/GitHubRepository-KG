@@ -1,6 +1,6 @@
 {
     "name": "the-book-of-secret-knowledge",
-    "stars": 205129,
+    "stars": 205792,
     "contributors": [
         "trimstray",
         "lbonanomi",
@@ -102,6 +102,9 @@
         "jobintweets"
     ],
     "license": "MIT License",
+    "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "awesome",
         "awesome-list",

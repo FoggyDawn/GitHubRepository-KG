@@ -1,6 +1,6 @@
 {
     "name": "NextChat",
-    "stars": 87227,
+    "stars": 87262,
     "contributors": [
         "Yidadaa",
         "lloydzhou",
@@ -265,6 +265,16 @@
         "leviding"
     ],
     "license": "MIT License",
+    "url": "https://github.com/ChatGPTNextWeb/NextChat",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "SCSS",
+        "JavaScript",
+        "Rust",
+        "Shell",
+        "Dockerfile"
+    ],
     "topics": [
         "calclaude",
         "chatgpt",

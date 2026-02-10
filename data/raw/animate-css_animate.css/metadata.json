@@ -1,6 +1,6 @@
 {
     "name": "animate.css",
-    "stars": 82631,
+    "stars": 82637,
     "contributors": [
         "daneden",
         "dependabot[bot]",
@@ -120,6 +120,14 @@
         "Nifled"
     ],
     "license": "Other",
+    "url": "https://github.com/animate-css/animate.css",
+    "primary_language": "CSS",
+    "languages": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Shell"
+    ],
     "topics": [
         "animation",
         "css",

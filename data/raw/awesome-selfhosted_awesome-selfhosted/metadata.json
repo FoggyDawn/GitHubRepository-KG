@@ -1,6 +1,6 @@
 {
     "name": "awesome-selfhosted",
-    "stars": 271698,
+    "stars": 272498,
     "contributors": [
         "nodiscc",
         "Ki-er",
@@ -404,6 +404,9 @@
         "jaltek"
     ],
     "license": "Other",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "awesome",
         "awesome-list",

@@ -1,6 +1,6 @@
 {
     "name": "the-art-of-command-line",
-    "stars": 159743,
+    "stars": 159802,
     "contributors": [
         "jlevy",
         "petk",
@@ -153,6 +153,9 @@
         "jondot"
     ],
     "license": null,
+    "url": "https://github.com/jlevy/the-art-of-command-line",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "bash",
         "documentation",

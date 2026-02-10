@@ -1,6 +1,6 @@
 {
     "name": "gpt4all",
-    "stars": 77081,
+    "stars": 77127,
     "contributors": [
         "manyoso",
         "cebtenzzre",
@@ -119,6 +119,23 @@
         "Junior2Ran"
     ],
     "license": "MIT License",
+    "url": "https://github.com/nomic-ai/gpt4all",
+    "primary_language": "C++",
+    "languages": [
+        "C++",
+        "QML",
+        "Python",
+        "CMake",
+        "JavaScript",
+        "C",
+        "Qt Script",
+        "Shell",
+        "Makefile",
+        "Batchfile",
+        "PowerShell",
+        "Objective-C++",
+        "CSS"
+    ],
     "topics": [
         "ai-chat",
         "llm-inference"

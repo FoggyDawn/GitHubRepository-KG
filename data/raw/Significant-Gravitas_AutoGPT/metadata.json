@@ -1,6 +1,6 @@
 {
     "name": "AutoGPT",
-    "stars": 181694,
+    "stars": 181765,
     "contributors": [
         "Auto-GPT-Bot",
         "Pwuts",
@@ -437,6 +437,30 @@
         "DhruvAwasthi"
     ],
     "license": "Other",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "TypeScript",
+        "Dart",
+        "JavaScript",
+        "PLpgSQL",
+        "Jinja",
+        "C++",
+        "CMake",
+        "CSS",
+        "Shell",
+        "Dockerfile",
+        "HTML",
+        "Ruby",
+        "Batchfile",
+        "Swift",
+        "Makefile",
+        "C",
+        "Elixir",
+        "Kotlin",
+        "Objective-C"
+    ],
     "topics": [
         "ai",
         "artificial-intelligence",

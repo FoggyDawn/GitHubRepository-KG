@@ -1,6 +1,6 @@
 {
     "name": "deno",
-    "stars": 106066,
+    "stars": 106110,
     "contributors": [
         "bartlomieju",
         "dsherret",
@@ -435,6 +435,26 @@
         "ascandone"
     ],
     "license": "MIT License",
+    "url": "https://github.com/denoland/deno",
+    "primary_language": "Rust",
+    "languages": [
+        "Rust",
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "Nix",
+        "C",
+        "HTML",
+        "C++",
+        "WebAssembly",
+        "Mustache",
+        "Dockerfile",
+        "Python",
+        "Svelte",
+        "Astro",
+        "Vento",
+        "Nunjucks"
+    ],
     "topics": [
         "deno",
         "javascript",

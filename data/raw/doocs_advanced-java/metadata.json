@@ -1,6 +1,6 @@
 {
     "name": "advanced-java",
-    "stars": 78815,
+    "stars": 78826,
     "contributors": [
         "yanglbme",
         "ImgBotApp",
@@ -45,6 +45,11 @@
         "Alioth4J"
     ],
     "license": "Creative Commons Attribution Share Alike 4.0 International",
+    "url": "https://github.com/doocs/advanced-java",
+    "primary_language": "Java",
+    "languages": [
+        "Java"
+    ],
     "topics": [
         "advanced-java",
         "distributed-search-engine",

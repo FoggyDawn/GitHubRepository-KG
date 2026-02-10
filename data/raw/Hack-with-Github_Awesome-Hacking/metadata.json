@@ -1,6 +1,6 @@
 {
     "name": "Awesome-Hacking",
-    "stars": 105993,
+    "stars": 106314,
     "contributors": [
         "0xbadshah",
         "sundowndev",
@@ -29,6 +29,9 @@
         "tcode2k16"
     ],
     "license": "Creative Commons Zero v1.0 Universal",
+    "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "android",
         "awesome",

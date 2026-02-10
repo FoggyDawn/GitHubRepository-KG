@@ -1,6 +1,6 @@
 {
     "name": "laravel",
-    "stars": 83545,
+    "stars": 83600,
     "contributors": [
         "taylorotwell",
         "driesvints",
@@ -403,6 +403,14 @@
         "bradenkeith"
     ],
     "license": null,
+    "url": "https://github.com/laravel/laravel",
+    "primary_language": "Blade",
+    "languages": [
+        "Blade",
+        "PHP",
+        "JavaScript",
+        "CSS"
+    ],
     "topics": [
         "framework",
         "laravel",

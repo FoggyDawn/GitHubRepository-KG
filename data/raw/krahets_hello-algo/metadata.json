@@ -1,6 +1,6 @@
 {
     "name": "hello-algo",
-    "stars": 122118,
+    "stars": 122211,
     "contributors": [
         "krahets",
         "coderonion",
@@ -207,6 +207,19 @@
         "KawaiiAsh"
     ],
     "license": "Other",
+    "url": "https://github.com/krahets/hello-algo",
+    "primary_language": "Java",
+    "languages": [
+        "Java",
+        "C++",
+        "Python",
+        "Swift",
+        "JavaScript",
+        "Go",
+        "Ruby",
+        "CMake",
+        "Dockerfile"
+    ],
     "topics": [
         "algo",
         "algorithm",

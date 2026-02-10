@@ -1,6 +1,6 @@
 {
     "name": "syncthing",
-    "stars": 79635,
+    "stars": 79786,
     "contributors": [
         "calmh",
         "AudriusButkevicius",
@@ -340,6 +340,19 @@
         "Yithis"
     ],
     "license": "Mozilla Public License 2.0",
+    "url": "https://github.com/syncthing/syncthing",
+    "primary_language": "Go",
+    "languages": [
+        "Go",
+        "HTML",
+        "JavaScript",
+        "Shell",
+        "CSS",
+        "Dockerfile",
+        "Ruby",
+        "PowerShell",
+        "Batchfile"
+    ],
     "topics": [
         "go",
         "p2p",

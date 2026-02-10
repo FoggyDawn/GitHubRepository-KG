@@ -1,6 +1,6 @@
 {
     "name": "FiraCode",
-    "stars": 81118,
+    "stars": 81140,
     "contributors": [
         "tonsky",
         "thundernixon",
@@ -124,6 +124,18 @@
         "gjvnq"
     ],
     "license": "SIL Open Font License 1.1",
+    "url": "https://github.com/tonsky/FiraCode",
+    "primary_language": "Clojure",
+    "languages": [
+        "Clojure",
+        "Shell",
+        "Python",
+        "HTML",
+        "CSS",
+        "PureBasic",
+        "Dockerfile",
+        "Makefile"
+    ],
     "topics": [
         "font",
         "ligatures",

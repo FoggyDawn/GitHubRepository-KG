@@ -1,6 +1,6 @@
 {
     "name": "Microsoft-Activation-Scripts",
-    "stars": 164949,
+    "stars": 165468,
     "contributors": [
         "thecatontheceiling",
         "ave9858",
@@ -11,6 +11,12 @@
         "nekoppai"
     ],
     "license": "GNU General Public License v3.0",
+    "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+    "primary_language": "Batchfile",
+    "languages": [
+        "Batchfile",
+        "HTML"
+    ],
     "topics": [
         "activator",
         "hwid",

@@ -1,6 +1,6 @@
 {
     "name": "moby",
-    "stars": 71447,
+    "stars": 71458,
     "contributors": [
         "thaJeztah",
         "cpuguy83",
@@ -23,8 +23,8 @@
         "robmry",
         "mrjana",
         "icecrime",
-        "runcom",
         "corhere",
+        "runcom",
         "unclejack",
         "dnephin",
         "akerouanton",
@@ -135,11 +135,11 @@
         "vincentbernat",
         "riyazdf",
         "nalind",
+        "renovate-bot",
         "fabiokung",
         "bboehmke",
         "Djelibeybi",
         "AntaresS",
-        "renovate-bot",
         "keeb",
         "elezar",
         "SamWhited",
@@ -398,6 +398,21 @@
         "Abubacarr075"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/moby/moby",
+    "primary_language": "Go",
+    "languages": [
+        "Go",
+        "Shell",
+        "Dockerfile",
+        "PowerShell",
+        "Lua",
+        "Go Template",
+        "Makefile",
+        "Python",
+        "C",
+        "HCL",
+        "Assembly"
+    ],
     "topics": [
         "containers",
         "docker",

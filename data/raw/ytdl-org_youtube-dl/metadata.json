@@ -1,6 +1,6 @@
 {
     "name": "youtube-dl",
-    "stars": 139655,
+    "stars": 139643,
     "contributors": [
         "dstftw",
         "phihag",
@@ -392,6 +392,15 @@
         "alexhuot1"
     ],
     "license": "The Unlicense",
+    "url": "https://github.com/ytdl-org/youtube-dl",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Shell",
+        "Makefile",
+        "ActionScript",
+        "Batchfile"
+    ],
     "topics": [],
     "releases": [
         "2021.12.17",

@@ -1,6 +1,6 @@
 {
     "name": "tech-interview-handbook",
-    "stars": 137421,
+    "stars": 137539,
     "contributors": [
         "yangshun",
         "keanecjy",
@@ -173,6 +173,15 @@
         "fterh"
     ],
     "license": "MIT License",
+    "url": "https://github.com/yangshun/tech-interview-handbook",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "HTML",
+        "CSS"
+    ],
     "topics": [
         "algorithm",
         "algorithm-interview",

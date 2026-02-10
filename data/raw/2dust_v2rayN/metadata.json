@@ -1,6 +1,6 @@
 {
     "name": "v2rayN",
-    "stars": 96216,
+    "stars": 96534,
     "contributors": [
         "2dust",
         "yfdyh000",
@@ -99,6 +99,12 @@
         "DevSplash"
     ],
     "license": "GNU General Public License v3.0",
+    "url": "https://github.com/2dust/v2rayN",
+    "primary_language": "C#",
+    "languages": [
+        "C#",
+        "Shell"
+    ],
     "topics": [
         "proxy",
         "shadowsocks",

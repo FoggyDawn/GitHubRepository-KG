@@ -1,6 +1,6 @@
 {
     "name": "javascript-algorithms",
-    "stars": 195515,
+    "stars": 195538,
     "contributors": [
         "trekhleb",
         "m-maksyutin",
@@ -211,6 +211,12 @@
         "KushGabani"
     ],
     "license": "MIT License",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "Shell"
+    ],
     "topics": [
         "algorithm",
         "algorithms",

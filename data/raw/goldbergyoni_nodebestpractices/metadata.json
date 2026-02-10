@@ -1,6 +1,6 @@
 {
     "name": "nodebestpractices",
-    "stars": 105019,
+    "stars": 105091,
     "contributors": [
         "goldbergyoni",
         "allcontributors[bot]",
@@ -231,6 +231,12 @@
         "tkhadir"
     ],
     "license": "Creative Commons Attribution Share Alike 4.0 International",
+    "url": "https://github.com/goldbergyoni/nodebestpractices",
+    "primary_language": "Dockerfile",
+    "languages": [
+        "Dockerfile",
+        "TypeScript"
+    ],
     "topics": [
         "best-practices",
         "es6",

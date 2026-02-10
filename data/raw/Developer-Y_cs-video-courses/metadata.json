@@ -1,6 +1,6 @@
 {
     "name": "cs-video-courses",
-    "stars": 70677,
+    "stars": 70702,
     "contributors": [
         "Developer-Y",
         "butter1125",
@@ -113,6 +113,9 @@
         "hrithik254"
     ],
     "license": null,
+    "url": "https://github.com/Developer-Y/cs-video-courses",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "algorithms",
         "bioinformatics",

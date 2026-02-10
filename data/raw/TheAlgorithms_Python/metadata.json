@@ -1,6 +1,6 @@
 {
     "name": "Python",
-    "stars": 217485,
+    "stars": 217587,
     "contributors": [
         "harshildarji",
         "cclauss",
@@ -457,6 +457,13 @@
         "abhishekmulik"
     ],
     "license": "MIT License",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+    ],
     "topics": [
         "algorithm",
         "algorithm-competitions",

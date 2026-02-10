@@ -1,6 +1,6 @@
 {
     "name": "LLMs-from-scratch",
-    "stars": 84580,
+    "stars": 85008,
     "contributors": [
         "rasbt",
         "d-kleine",
@@ -61,6 +61,13 @@
         "talentJay-ux"
     ],
     "license": "Other",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "primary_language": "Jupyter Notebook",
+    "languages": [
+        "Jupyter Notebook",
+        "Python",
+        "Dockerfile"
+    ],
     "topics": [
         "ai",
         "artificial-intelligence",

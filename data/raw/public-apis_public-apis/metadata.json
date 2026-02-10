@@ -1,6 +1,6 @@
 {
     "name": "public-apis",
-    "stars": 395292,
+    "stars": 397374,
     "contributors": [
         "matheusfelipeog",
         "davemachado",
@@ -429,6 +429,12 @@
         "adrienjoly"
     ],
     "license": "MIT License",
+    "url": "https://github.com/public-apis/public-apis",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Shell"
+    ],
     "topics": [
         "api",
         "apis",

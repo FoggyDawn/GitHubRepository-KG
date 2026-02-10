@@ -1,6 +1,6 @@
 {
     "name": "nvm",
-    "stars": 91279,
+    "stars": 91603,
     "contributors": [
         "ljharb",
         "PeterDaveHello",
@@ -375,6 +375,14 @@
         "magicdrive"
     ],
     "license": "MIT License",
+    "url": "https://github.com/nvm-sh/nvm",
+    "primary_language": "Shell",
+    "languages": [
+        "Shell",
+        "Makefile",
+        "Dockerfile",
+        "JavaScript"
+    ],
     "topics": [
         "bash",
         "install",

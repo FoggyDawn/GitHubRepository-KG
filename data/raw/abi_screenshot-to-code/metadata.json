@@ -1,6 +1,6 @@
 {
     "name": "screenshot-to-code",
-    "stars": 71580,
+    "stars": 71617,
     "contributors": [
         "abi",
         "clean99",
@@ -30,6 +30,16 @@
         "guspan-tanadi"
     ],
     "license": "MIT License",
+    "url": "https://github.com/abi/screenshot-to-code",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Dockerfile"
+    ],
     "topics": [],
     "releases": []
 }

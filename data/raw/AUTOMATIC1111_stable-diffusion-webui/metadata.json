@@ -1,6 +1,6 @@
 {
     "name": "stable-diffusion-webui",
-    "stars": 160427,
+    "stars": 160480,
     "contributors": [
         "AUTOMATIC1111",
         "w-e-w",
@@ -432,6 +432,16 @@
         "clayne"
     ],
     "license": "GNU Affero General Public License v3.0",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Batchfile"
+    ],
     "topics": [
         "ai",
         "ai-art",

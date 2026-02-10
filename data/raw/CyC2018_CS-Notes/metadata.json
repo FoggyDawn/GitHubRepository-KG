@@ -1,6 +1,6 @@
 {
     "name": "CS-Notes",
-    "stars": 183608,
+    "stars": 183643,
     "contributors": [
         "CyC2018",
         "kwongtailau",
@@ -220,6 +220,9 @@
         "Vongfong"
     ],
     "license": null,
+    "url": "https://github.com/CyC2018/CS-Notes",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "algorithm",
         "computer-science",

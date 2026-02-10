@@ -1,6 +1,6 @@
 {
     "name": "markitdown",
-    "stars": 86423,
+    "stars": 86651,
     "contributors": [
         "afourney",
         "gagb",
@@ -79,6 +79,12 @@
         "SigireddyBalasai"
     ],
     "license": "MIT License",
+    "url": "https://github.com/microsoft/markitdown",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Dockerfile"
+    ],
     "topics": [
         "autogen",
         "autogen-extension",

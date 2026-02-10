@@ -1,6 +1,6 @@
 {
     "name": "LeetCodeAnimation",
-    "stars": 76705,
+    "stars": 76708,
     "contributors": [
         "MisterBooo",
         "xiaoshuai96",
@@ -19,6 +19,13 @@
         "underspirit"
     ],
     "license": null,
+    "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+    "primary_language": "Java",
+    "languages": [
+        "Java",
+        "Python",
+        "C++"
+    ],
     "topics": [
         "animation",
         "leetcode",

@@ -1,6 +1,6 @@
 {
     "name": "manim",
-    "stars": 84288,
+    "stars": 84375,
     "contributors": [
         "3b1b",
         "TonyCrane",
@@ -167,6 +167,12 @@
         "donno2048"
     ],
     "license": "MIT License",
+    "url": "https://github.com/3b1b/manim",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "GLSL"
+    ],
     "topics": [
         "3b1b-videos",
         "animation",

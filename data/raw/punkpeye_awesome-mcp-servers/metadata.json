@@ -1,6 +1,6 @@
 {
     "name": "awesome-mcp-servers",
-    "stars": 80340,
+    "stars": 80608,
     "contributors": [
         "punkpeye",
         "SecretiveShell",
@@ -211,7 +211,7 @@
         "lamemind",
         "maceip",
         "narumiruna",
-        "ndkasndakn",
+        "nodeblur",
         "nickpending",
         "nicksolarsoul",
         "domdomegg",
@@ -459,6 +459,9 @@
         "briandconnelly"
     ],
     "license": "MIT License",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "ai",
         "mcp"

@@ -1,6 +1,6 @@
 {
     "name": "every-programmer-should-know",
-    "stars": 97717,
+    "stars": 97754,
     "contributors": [
         "mr-mig",
         "YellowFoxH4XOR",
@@ -91,6 +91,9 @@
         "luankevinferreira"
     ],
     "license": "Creative Commons Attribution 4.0 International",
+    "url": "https://github.com/mtdvio/every-programmer-should-know",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "cc-by",
         "collection",

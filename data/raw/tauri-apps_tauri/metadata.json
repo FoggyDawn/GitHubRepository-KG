@@ -1,6 +1,6 @@
 {
     "name": "tauri",
-    "stars": 102305,
+    "stars": 102513,
     "contributors": [
         "lucasfernog",
         "renovate[bot]",
@@ -454,6 +454,28 @@
         "emhagman"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/tauri-apps/tauri",
+    "primary_language": "Rust",
+    "languages": [
+        "Rust",
+        "TypeScript",
+        "NSIS",
+        "Kotlin",
+        "Shell",
+        "JavaScript",
+        "Swift",
+        "Dockerfile",
+        "HTML",
+        "PowerShell",
+        "AppleScript",
+        "Svelte",
+        "CSS",
+        "Standard ML",
+        "Ruby",
+        "Objective-C",
+        "Objective-C++",
+        "C++"
+    ],
     "topics": [
         "desktop-app",
         "high-performance",

@@ -1,6 +1,6 @@
 {
     "name": "reveal.js",
-    "stars": 70515,
+    "stars": 70534,
     "contributors": [
         "hakimel",
         "VonC",
@@ -318,6 +318,14 @@
         "jmpp"
     ],
     "license": "MIT License",
+    "url": "https://github.com/hakimel/reveal.js",
+    "primary_language": "JavaScript",
+    "languages": [
+        "JavaScript",
+        "HTML",
+        "SCSS",
+        "CSS"
+    ],
     "topics": [
         "presentations",
         "slides",

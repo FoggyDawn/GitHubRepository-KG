@@ -1,6 +1,6 @@
 {
     "name": "ML-For-Beginners",
-    "stars": 83524,
+    "stars": 83639,
     "contributors": [
         "jlooper",
         "skytin1004",
@@ -12,8 +12,8 @@
         "girliemac",
         "feiyun0112",
         "BethanyJep",
-        "carlotta94c",
         "dependabot[bot]",
+        "carlotta94c",
         "jasleen101010",
         "ornelladotcom",
         "kenya-sk",
@@ -85,10 +85,10 @@
         "priyankkhanna",
         "pranavsambyal",
         "piyushmohan01",
+        "pgoslatara",
         "StrikerRUS",
         "NihadGurbanov",
         "mohitjaisal",
-        "abetpal",
         "Tanya-18",
         "tddschn",
         "vedantbahel",
@@ -104,6 +104,7 @@
         "greywillfade",
         "tinygrox",
         "Drincann",
+        "abetpal",
         "Authentic10",
         "alexgfaria",
         "videlalvaro",
@@ -136,6 +137,17 @@
         "encipher-mithun2003"
     ],
     "license": "MIT License",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "primary_language": "Jupyter Notebook",
+    "languages": [
+        "Jupyter Notebook",
+        "HTML",
+        "Python",
+        "Vue",
+        "JavaScript",
+        "Dockerfile",
+        "CSS"
+    ],
     "topics": [
         "data-science",
         "education",

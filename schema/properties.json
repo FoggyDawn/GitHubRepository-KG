@@ -71,13 +71,5 @@
     "rangeIncludes": "kg:标签",
     "descriptionZh": "包含的标签",
     "source": "extension"
-  },
-  {
-    "name": "hasRelease",
-    "nameZh": "包含版本发布",
-    "domainIncludes": "kg:GitHub仓库",
-    "rangeIncludes": "kg:版本发布",
-    "descriptionZh": "包含的版本发布",
-    "source": "extension"
   }
 ]

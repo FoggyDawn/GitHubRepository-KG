@@ -1,6 +1,6 @@
 {
     "name": "build-your-own-x",
-    "stars": 463717,
+    "stars": 464885,
     "contributors": [
         "danistefanovic",
         "rohitpaulk",
@@ -125,6 +125,11 @@
         "eimantas"
     ],
     "license": null,
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "primary_language": "Markdown",
+    "languages": [
+        "Markdown"
+    ],
     "topics": [
         "awesome-list",
         "free",

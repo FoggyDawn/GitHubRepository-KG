@@ -1,6 +1,6 @@
 {
     "name": "rustdesk",
-    "stars": 106914,
+    "stars": 107196,
     "contributors": [
         "rustdesk",
         "fufesou",
@@ -70,6 +70,7 @@
         "bilimiyorum",
         "jkh0kr",
         "summoner001",
+        "agarre",
         "rewrite0w0",
         "donald-2rm",
         "awalon",
@@ -80,7 +81,6 @@
         "vedantmgoyal9",
         "Onyx47",
         "jernejs",
-        "agarre",
         "rizlas",
         "phatterit",
         "alonginwind",
@@ -370,6 +370,26 @@
         "LucaBarbaLata"
     ],
     "license": "GNU Affero General Public License v3.0",
+    "url": "https://github.com/rustdesk/rustdesk",
+    "primary_language": "Rust",
+    "languages": [
+        "Rust",
+        "Dart",
+        "C++",
+        "Python",
+        "C",
+        "Kotlin",
+        "CMake",
+        "Objective-C++",
+        "Shell",
+        "CSS",
+        "Swift",
+        "HTML",
+        "Ruby",
+        "AppleScript",
+        "Dockerfile",
+        "Objective-C"
+    ],
     "topics": [
         "android",
         "anydesk",

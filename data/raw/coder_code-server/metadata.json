@@ -1,6 +1,6 @@
 {
     "name": "code-server",
-    "stars": 76124,
+    "stars": 76181,
     "contributors": [
         "code-asher",
         "jsjoeio",
@@ -96,7 +96,7 @@
         "Olexandr88",
         "onilton",
         "patrickcylai",
-        "RoyalIcing",
+        "royalicing",
         "WisniewskiP",
         "petarov",
         "MrPeacockNLB",
@@ -255,6 +255,19 @@
         "jpoehnelt"
     ],
     "license": "MIT License",
+    "url": "https://github.com/coder/code-server",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "Shell",
+        "HTML",
+        "CSS",
+        "HCL",
+        "JavaScript",
+        "Mustache",
+        "Dockerfile",
+        "Nix"
+    ],
     "topics": [
         "browser-ide",
         "dev-tools",

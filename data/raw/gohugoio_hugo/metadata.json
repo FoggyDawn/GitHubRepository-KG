@@ -1,6 +1,6 @@
 {
     "name": "hugo",
-    "stars": 86417,
+    "stars": 86489,
     "contributors": [
         "bep",
         "dependabot[bot]",
@@ -421,6 +421,19 @@
         "StarsoftAnalysis"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/gohugoio/hugo",
+    "primary_language": "Go",
+    "languages": [
+        "Go",
+        "JavaScript",
+        "C",
+        "HTML",
+        "Makefile",
+        "Shell",
+        "Dockerfile",
+        "Go Template",
+        "CSS"
+    ],
     "topics": [
         "blog-engine",
         "cms",
@@ -431,6 +444,7 @@
         "static-site-generator"
     ],
     "releases": [
+        "v0.155.3",
         "v0.155.2",
         "v0.155.1",
         "v0.155.0",

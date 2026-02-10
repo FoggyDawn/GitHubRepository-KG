@@ -1,6 +1,6 @@
 {
     "name": "awesome-for-beginners",
-    "stars": 82344,
+    "stars": 82522,
     "contributors": [
         "sammyhori",
         "MunGell",
@@ -319,6 +319,9 @@
         "chrox"
     ],
     "license": null,
+    "url": "https://github.com/MunGell/awesome-for-beginners",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "awesome",
         "awesome-list",

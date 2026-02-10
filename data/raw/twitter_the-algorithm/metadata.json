@@ -1,12 +1,28 @@
 {
     "name": "the-algorithm",
-    "stars": 72552,
+    "stars": 72679,
     "contributors": [
         "dzhao",
         "pouriya",
         "anqueue"
     ],
     "license": "GNU Affero General Public License v3.0",
+    "url": "https://github.com/twitter/the-algorithm",
+    "primary_language": "Scala",
+    "languages": [
+        "Scala",
+        "Java",
+        "Starlark",
+        "Python",
+        "Thrift",
+        "C++",
+        "Rust",
+        "C",
+        "HCL",
+        "Shell",
+        "CMake",
+        "Dockerfile"
+    ],
     "topics": [],
     "releases": []
 }

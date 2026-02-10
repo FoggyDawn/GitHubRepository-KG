@@ -1,6 +1,6 @@
 {
     "name": "vue",
-    "stars": 209899,
+    "stars": 209902,
     "contributors": [
         "yyx990803",
         "vue-bot",
@@ -358,6 +358,15 @@
         "saraedum"
     ],
     "license": "MIT License",
+    "url": "https://github.com/vuejs/vue",
+    "primary_language": "TypeScript",
+    "languages": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Shell"
+    ],
     "topics": [
         "framework",
         "frontend",

@@ -1,6 +1,6 @@
 {
     "name": "Front-End-Checklist",
-    "stars": 72109,
+    "stars": 72133,
     "contributors": [
         "thedaviddias",
         "greenkeeper[bot]",
@@ -112,6 +112,9 @@
         "mfranzke"
     ],
     "license": "Creative Commons Zero v1.0 Universal",
+    "url": "https://github.com/thedaviddias/Front-End-Checklist",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "checklist",
         "css",

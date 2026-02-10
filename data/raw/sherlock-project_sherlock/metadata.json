@@ -1,6 +1,6 @@
 {
     "name": "sherlock",
-    "stars": 72452,
+    "stars": 72587,
     "contributors": [
         "sdushantha",
         "hoadlck",
@@ -273,6 +273,13 @@
         "heggrik"
     ],
     "license": "MIT License",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Dockerfile",
+        "Shell"
+    ],
     "topics": [
         "cli",
         "cti",

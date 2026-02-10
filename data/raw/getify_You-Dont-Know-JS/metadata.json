@@ -1,6 +1,6 @@
 {
     "name": "You-Dont-Know-JS",
-    "stars": 184357,
+    "stars": 184397,
     "contributors": [
         "getify",
         "machineloop",
@@ -182,6 +182,9 @@
         "KittyGiraudel"
     ],
     "license": "Other",
+    "url": "https://github.com/getify/You-Dont-Know-JS",
+    "primary_language": null,
+    "languages": [],
     "topics": [
         "async",
         "book",

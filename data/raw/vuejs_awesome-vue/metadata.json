@@ -1,6 +1,6 @@
 {
     "name": "awesome-vue",
-    "stars": 73634,
+    "stars": 73643,
     "contributors": [
         "Scrum",
         "yyx990803",
@@ -220,7 +220,6 @@
         "tugsanunlu",
         "officert",
         "ittus",
-        "oguzhaninan",
         "HC200ok",
         "GoodManWEN",
         "vedovelli",
@@ -250,10 +249,10 @@
         "AlanMorel",
         "airyland",
         "adi-works",
+        "oguzhaninan",
         "ndelvalle",
         "msjaber",
         "mbj36",
-        "Mehdi-Hp",
         "Seokky",
         "marveluck",
         "yangwao",
@@ -442,6 +441,9 @@
         "darrynten"
     ],
     "license": "MIT License",
+    "url": "https://github.com/vuejs/awesome-vue",
+    "primary_language": null,
+    "languages": [],
     "topics": [],
     "releases": []
 }

@@ -1,6 +1,6 @@
 {
     "name": "JavaGuide",
-    "stars": 153734,
+    "stars": 153788,
     "contributors": [
         "Snailclimb",
         "paigeman",
@@ -419,6 +419,13 @@
         "unw9527"
     ],
     "license": "Apache License 2.0",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "primary_language": "Java",
+    "languages": [
+        "Java",
+        "Python",
+        "JavaScript"
+    ],
     "topics": [
         "algorithms",
         "distributed-systems",

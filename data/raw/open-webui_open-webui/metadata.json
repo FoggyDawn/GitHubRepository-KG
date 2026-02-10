@@ -1,6 +1,6 @@
 {
     "name": "open-webui",
-    "stars": 122964,
+    "stars": 123453,
     "contributors": [
         "tjbck",
         "Classic298",
@@ -395,6 +395,21 @@
         "BLACKTHOMAS"
     ],
     "license": "Other",
+    "url": "https://github.com/open-webui/open-webui",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Svelte",
+        "JavaScript",
+        "TypeScript",
+        "CSS",
+        "Shell",
+        "Dockerfile",
+        "HTML",
+        "Batchfile",
+        "Mako",
+        "Makefile"
+    ],
     "topics": [
         "ai",
         "llm",

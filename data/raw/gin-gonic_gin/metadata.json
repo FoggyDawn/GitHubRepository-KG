@@ -1,6 +1,6 @@
 {
     "name": "gin",
-    "stars": 87900,
+    "stars": 87944,
     "contributors": [
         "manucorporat",
         "javierprovecho",
@@ -446,6 +446,12 @@
         "el3ctro-"
     ],
     "license": "MIT License",
+    "url": "https://github.com/gin-gonic/gin",
+    "primary_language": "Go",
+    "languages": [
+        "Go",
+        "Makefile"
+    ],
     "topics": [
         "framework",
         "gin",

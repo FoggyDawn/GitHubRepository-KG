@@ -1,6 +1,6 @@
 {
     "name": "PayloadsAllTheThings",
-    "stars": 74939,
+    "stars": 75072,
     "contributors": [
         "swisskyrepo",
         "p0dalirius",
@@ -296,6 +296,22 @@
         "maxrodrigo"
     ],
     "license": "MIT License",
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "primary_language": "Python",
+    "languages": [
+        "Python",
+        "Ruby",
+        "ASP.NET",
+        "XSLT",
+        "Classic ASP",
+        "PHP",
+        "Jupyter Notebook",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Shell",
+        "Hack"
+    ],
     "topics": [
         "bounty",
         "bugbounty",
