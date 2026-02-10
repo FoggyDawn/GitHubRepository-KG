@@ -31,7 +31,8 @@ class RuleExtractor:
         self.licenses = set()
         self.languages = set()
         self.tags = set()
-        self.releases = set()
+        # releases 不再处理（按要求忽略 release 相关）
+        self.contributors = set()
         
         # 候选三元组列表
         self.candidate_triples = []
@@ -48,7 +49,9 @@ class RuleExtractor:
                 'contributors': metadata.get('contributors', []),
                 'license': metadata.get('license', ''),
                 'tags': metadata.get('topics', []),
-                'releases': metadata.get('releases', [])
+                # languages 在 fetch_repos.py 中已保存为列表
+                'languages': metadata.get('languages', []),
+                'url': metadata.get('url', '')
             }
             
             return entities
@@ -57,22 +60,9 @@ class RuleExtractor:
             return {}
     
     def extract_from_readme(self, readme_path: str) -> Dict:
-        """从README文件提取相关仓库和使用语言等信息"""
-        entities = {'tags': [], 'releases': []}
-        try:
-            with open(readme_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-            
-            # 简单的版本提取逻辑（可根据实际需求优化）
-            import re
-            version_pattern = r'v?\d+\.\d+\.\d+'
-            releases = re.findall(version_pattern, content)
-            entities['releases'] = list(set(releases))
-            
-        except Exception as e:
-            print(f"Error reading {readme_path}: {e}")
-        
-        return entities
+        """从README文件提取相关仓库信息（目前不提取额外实体）"""
+        # 保留接口以便未来扩展
+        return {}
     
     def process_repositories(self):
         """处理raw目录下的所有仓库"""
@@ -90,13 +80,32 @@ class RuleExtractor:
             if os.path.exists(metadata_file):
                 metadata_entities = self.extract_from_metadata(metadata_file, repo_dir)
                 self._collect_entities(metadata_entities)
-            
-            # 处理README
-            readme_file = os.path.join(repo_path, "README.md")
-            if os.path.exists(readme_file):
-                readme_entities = self.extract_from_readme(readme_file)
-                self.tags.update(readme_entities.get('tags', []))
-                self.releases.update(readme_entities.get('releases', []))
+                # 按仓库生成候选三元组（基于该仓库的实际信息），不做跨仓库笛卡尔积
+                for lang in metadata_entities.get('languages', []):
+                    if lang:
+                        self.candidate_triples.append((repo_dir, 'uses_language', lang))
+                lic = metadata_entities.get('license')
+                if lic:
+                    self.candidate_triples.append((repo_dir, 'has_license', lic))
+                for tag in metadata_entities.get('tags', []):
+                    if tag:
+                        self.candidate_triples.append((repo_dir, 'has_tag', tag))
+                # 星数三元组
+                stars = metadata_entities.get('stars')
+                if stars is not None:
+                    self.candidate_triples.append((repo_dir, 'has_stars', stars))
+                # 仓库链接三元组
+                url = metadata_entities.get('url')
+                if url:
+                    self.candidate_triples.append((repo_dir, 'has_url', url))
+                # 贡献者三元组
+                for contrib in metadata_entities.get('contributors', []):
+                    if contrib:
+                        self.candidate_triples.append((repo_dir, 'has_contributor', contrib))
+            # README 可选处理（目前不提取 releases）
+            # readme_file = os.path.join(repo_path, 'README.md')
+            # if os.path.exists(readme_file):
+            #     _ = self.extract_from_readme(readme_file)
     
     def _collect_entities(self, entities: Dict):
         """收集提取到的实体"""
@@ -105,7 +114,9 @@ class RuleExtractor:
         
         self.languages.update(entities.get('languages', []))
         self.tags.update(entities.get('tags', []))
-        self.releases.update(entities.get('releases', []))
+        # 不再收集 releases
+        # 收集贡献者为实体
+        self.contributors.update(entities.get('contributors', []))
     
     def save_entities(self):
         """保存实体表到CSV文件"""
@@ -114,7 +125,8 @@ class RuleExtractor:
             'licenses': self.licenses,
             'languages': self.languages,
             'tags': self.tags,
-            'releases': self.releases
+            'contributors': self.contributors,
+            # releases 已忽略
         }
         
         for entity_type, entities in entity_types.items():
@@ -127,36 +139,10 @@ class RuleExtractor:
                         writer.writerow([entity])
             print(f"Saved {len(entities)} {entity_type} to {file_path}")
     
-    def generate_candidate_triples(self, schema_path: Optional[str] = None):
+    def generate_candidate_triples(self):
         """生成候选三元组"""
-        # 加载属性定义（如果提供了schema_path）
-        properties = self._load_properties(schema_path)
-        
-        # 生成候选三元组
-        for repo in self.repositories:
-            for lang in self.languages:
-                self.candidate_triples.append((repo, 'uses_language', lang))
-            
-            for license in self.licenses:
-                self.candidate_triples.append((repo, 'has_license', license))
-            
-            for tag in self.tags:
-                self.candidate_triples.append((repo, 'has_tag', tag))
-            
-            for release in self.releases:
-                self.candidate_triples.append((repo, 'has_release', release))
-        
+        # 直接保存已生成的候选三元组（不再做跨仓库笛卡尔积，也不生成 release 相关三元组）
         self._save_triples()
-    
-    def _load_properties(self, schema_path: Optional[str] = None) -> Dict:
-        """加载属性定义"""
-        if schema_path and os.path.exists(schema_path):
-            try:
-                with open(schema_path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
-            except Exception as e:
-                print(f"Error loading schema: {e}")
-        return {}
     
     def _save_triples(self):
         """保存候选三元组到CSV文件"""
@@ -168,17 +154,15 @@ class RuleExtractor:
                 writer.writerow(triple)
         print(f"Saved {len(self.candidate_triples)} candidate triples to {triples_file}")
     
-    def run(self, schema_path: Optional[str] = None):
+    def run(self):
         """运行完整的抽取流程"""
         print("开始规则抽取...")
         self.process_repositories()
         self.save_entities()
-        self.generate_candidate_triples(schema_path)
+        self.generate_candidate_triples()
         print("规则抽取完成！")
 
 
 if __name__ == "__main__":
     extractor = RuleExtractor()
-    # 如果有schema文件，传入schema_path参数
-    schema_path = "/home/byx/projects/OpenKG-GitHubRepository-KG/schema/properties.json"
-    extractor.run(schema_path)
+    extractor.run()
